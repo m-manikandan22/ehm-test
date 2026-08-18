@@ -1,0 +1,201 @@
+{
+  "aggregate_sha256": "1ffe4b4f4a98ff1485e52405df22cec913f66f2792174c05297e9665211d58ea",
+  "experiment_a_status": "FROZEN \u2014 no modifications permitted",
+  "files": {
+    "paper_results/README.md": {
+      "bytes": 5488,
+      "sha256": "d6849b2add9bddbec650c65b71075a655c91bbea7382499d71102d0fa4692ffb"
+    },
+    "paper_results/experiment_manifest.json": {
+      "bytes": 9711,
+      "sha256": "d895ce1ef21b606686a142fe3503fd38b42e1509b88afef104bb7f926be6e5a2"
+    },
+    "paper_results/figures.pdf": {
+      "bytes": 1076072,
+      "sha256": "2c35e2bcdb2d3ad41c1001072b518032d1e22cd6a81f74668d107b4de4472025"
+    },
+    "paper_results/figures/ablation_ens_bar.pdf": {
+      "bytes": 13316,
+      "sha256": "ed7a861ee49e59165c869c63a139820ea52d0ae2d88c5fc24e63157a322fe6f7"
+    },
+    "paper_results/figures/ablation_ens_bar.png": {
+      "bytes": 31841,
+      "sha256": "8d7f10d17a374a0f0c3ad75c4de0ec0350c19c74eb9f226f07ea8cec7ca4a75b"
+    },
+    "paper_results/figures/ablation_saidi_bar.pdf": {
+      "bytes": 14486,
+      "sha256": "d654dca93060485a8e7986972d370fbb8c09da72b9994214013ba8ed658b35c2"
+    },
+    "paper_results/figures/ablation_saidi_bar.png": {
+      "bytes": 33973,
+      "sha256": "e34d8cf3d9105f61a1d9c4b3d8493951c2bb0cafc4768b2468830967917bfcec"
+    },
+    "paper_results/figures/actions_taken_by_controller.pdf": {
+      "bytes": 12839,
+      "sha256": "ff6cbedb44b2c8fafc0f9301f42f9a2ee0e8555966e9f52d848365533d510bc1"
+    },
+    "paper_results/figures/actions_taken_by_controller.png": {
+      "bytes": 41538,
+      "sha256": "e1b7fbf4ab4cd7c5def66435bd294699db08f4c55747a1ec76b7f084134bcb2c"
+    },
+    "paper_results/figures/baseline_runtime_bar.pdf": {
+      "bytes": 13467,
+      "sha256": "ca1734a089b86d6dbeb089a6cad45dc3fb89b398909430eb466a1e6361e6f042"
+    },
+    "paper_results/figures/baseline_runtime_bar.png": {
+      "bytes": 36651,
+      "sha256": "052045cf104af1174e8b40a0455b5989d300159a58640c37bd132d79de689d40"
+    },
+    "paper_results/figures/critical_load_restored_pct_by_controller.pdf": {
+      "bytes": 17996,
+      "sha256": "ec767b9d1e590af5d7464102ac66de7963723335b86b796330da7713b8406231"
+    },
+    "paper_results/figures/critical_load_restored_pct_by_controller.png": {
+      "bytes": 44973,
+      "sha256": "a93991765a443d79ebba59f1e88e56650cc7573fed021269826a80d08783849e"
+    },
+    "paper_results/figures/ens_by_controller.pdf": {
+      "bytes": 15767,
+      "sha256": "f8adbfc91855fffbfbe9c0e36cb559cd06fd5bc46e9651607026bf8892b3cf9b"
+    },
+    "paper_results/figures/ens_by_controller.png": {
+      "bytes": 43238,
+      "sha256": "7f4b2594a825e25b207d7bb055df4e9c626b30b4d13115d39133feb575f6ff64"
+    },
+    "paper_results/figures/number_of_islands_by_controller.pdf": {
+      "bytes": 14035,
+      "sha256": "03d15f4b94cd512ffebcc69c3a7ad4815212b973a26bdfda6f955137012317fb"
+    },
+    "paper_results/figures/number_of_islands_by_controller.png": {
+      "bytes": 39809,
+      "sha256": "12c3328b8f01773cbfa0588fd28b4a0ffcd9e98bcaa1565bfc8e397a3d1eded5"
+    },
+    "paper_results/figures/restoration_time_seconds_by_controller.pdf": {
+      "bytes": 14188,
+      "sha256": "c2858379b4e1a8b2f2f923766eb8a3ea054016d2df42de1ad111f08e91786db0"
+    },
+    "paper_results/figures/restoration_time_seconds_by_controller.png": {
+      "bytes": 41279,
+      "sha256": "8d9dbf6f68191b39dda1420fd3e50565e3dcc8b99d1cb5b5991081908e54d1e2"
+    },
+    "paper_results/figures/runtime_s_by_controller.pdf": {
+      "bytes": 15522,
+      "sha256": "51a9396c34f0bc498ce7d5fda2eaa0b967323a623549d702ef0338d6df0416de"
+    },
+    "paper_results/figures/runtime_s_by_controller.png": {
+      "bytes": 49011,
+      "sha256": "20d34ad2e9b544c4f818fa68481224d79fa59fbc74c812cc1818a98a3f5d6e3b"
+    },
+    "paper_results/figures/saidi_by_controller.pdf": {
+      "bytes": 14923,
+      "sha256": "8781b5486d800af25c360197e71776e68c4195ffcd3f5dcb85d9c504e4c2a620"
+    },
+    "paper_results/figures/saidi_by_controller.png": {
+      "bytes": 39265,
+      "sha256": "38599885dd57da56d2b7ee120afa3b9028b30b1f27c08ae4eaf3f2da949f073c"
+    },
+    "paper_results/figures/saifi_by_controller.pdf": {
+      "bytes": 16337,
+      "sha256": "9428c66b5436115c41bd77ba97272a3e3bc2fb234b9da1f58b6e53ed42c88882"
+    },
+    "paper_results/figures/saifi_by_controller.png": {
+      "bytes": 44193,
+      "sha256": "be4d6f3733aafe1888fd44dbe5c89e3aa0e9e30da6630e2045b5353fecea1e00"
+    },
+    "paper_results/figures/validity_summary.pdf": {
+      "bytes": 13157,
+      "sha256": "60dac04efe1c31a6ed8c83c2cebeacbde5abe8b92bc8b8ef6cccd941d5f5159b"
+    },
+    "paper_results/figures/validity_summary.png": {
+      "bytes": 43739,
+      "sha256": "b031ac04f0dc9f455d79c2462f0b01b1c128dbd59a96bf540ec2facebf7eaff6"
+    },
+    "paper_results/figures/voltage_violation_count_by_controller.pdf": {
+      "bytes": 16356,
+      "sha256": "4d2a4001b943d9e59a4e4e42f364b8d86ba03c58479319cf76213223dc8e2e47"
+    },
+    "paper_results/figures/voltage_violation_count_by_controller.png": {
+      "bytes": 52528,
+      "sha256": "24c03f1d56f3d3a538b8e5a43b9073966cec7206dce2edff6921fe04ee46073e"
+    },
+    "paper_results/final_experiment_config.json": {
+      "bytes": 2357,
+      "sha256": "c70111fa8aee001c84eccd51ca5affa8d8eb40b910f3b97a23a9bf996d0e0cd1"
+    },
+    "paper_results/raw/ablation_results.json": {
+      "bytes": 2709031,
+      "sha256": "3d06b015d6105bd2ce969fb5cc3b9361e591cd42b2db6578331ba301734a0a58"
+    },
+    "paper_results/raw/baseline_results.json": {
+      "bytes": 2252514,
+      "sha256": "bb7ea66d3b2f99773c60a5a5db25a6b7d2de0e323a175a3de3dd50827f68d347"
+    },
+    "paper_results/raw/manifest.json": {
+      "bytes": 84545,
+      "sha256": "89720c1ff754936c85e14b90a16c6784b654369eabff852c7bf1d54f76275d50"
+    },
+    "paper_results/raw/scenarios.json": {
+      "bytes": 73597,
+      "sha256": "56625cfdb66ddbea36dfa447d88d92cd1516a95dd9ccca7454a27c162eb1dff6"
+    },
+    "paper_results/raw/summary.json": {
+      "bytes": 1065,
+      "sha256": "dae592950a7527b448f1bda8d6d69da8b2275d5cd5ebb16e1d68eaa19b6bab93"
+    },
+    "paper_results/reports/FINAL_AUDIT_REPORT.md": {
+      "bytes": 8582,
+      "sha256": "7ca8917feaa406facf7e41033c3c7df4329dac3d62fffa211f4c23bdc1bd2061"
+    },
+    "paper_results/reports/FINAL_RESULTS_SUMMARY.md": {
+      "bytes": 19384,
+      "sha256": "6ae9c2114539f967b26ab60f3de1a2337b5f77f5772f2fe75209299a7864e3d0"
+    },
+    "paper_results/reports/PRE_FLIGHT_REPORT.md": {
+      "bytes": 5656,
+      "sha256": "b8738c69015f1b84e90e3433f8a6d6ccc41b2dab4a52492b26bde0bf2a452ec3"
+    },
+    "paper_results/tables/ablation_table.csv": {
+      "bytes": 46076,
+      "sha256": "60ca0c07a23f5aaa48750dff399390b82085f55472ec9be3bb7a485c6198eb0c"
+    },
+    "paper_results/tables/baseline_comparison.csv": {
+      "bytes": 37967,
+      "sha256": "a083faaced8116e458acc78f268b50dc8f038ae2b4b2d488f476cd5eece40827"
+    },
+    "paper_results/tables/runtime_summary.csv": {
+      "bytes": 385,
+      "sha256": "079e691801c874872069ffeb02674d4b4a8a83ced3062bfc17fcd3bef050f342"
+    },
+    "paper_results/tables/statistical_tests.csv": {
+      "bytes": 23280,
+      "sha256": "6ca5bc30073ce9b57e7ae6cc724312491ea19b2947052edeceb7c62f081dad5a"
+    },
+    "paper_results/tables/validity_summary.csv": {
+      "bytes": 302,
+      "sha256": "d7a44b442d9caa376d31f7701343303339acf5951aa83a01b1ad443ddee74d66"
+    },
+    "paper_results/validation/environment_report.json": {
+      "bytes": 840,
+      "sha256": "4442d29a8b67473e0d2105f166e7c3f69a6a5f2664cdabc8a4b3873ff62a82fa"
+    },
+    "paper_results/validation/ieee13_validation.json": {
+      "bytes": 4151,
+      "sha256": "f9bc4b012ef1f00a0172b1b81d78d3218aa99b062db6348c5deba82074433eb1"
+    },
+    "paper_results/validation/test_summary.json": {
+      "bytes": 1099,
+      "sha256": "9c890cb4a7910e2c4265f461d0b79fc3dca0c270a68a7f40358efbba5eb5e0bb"
+    }
+  },
+  "generated_at": "2026-08-04T07:45:59.533422+00:00",
+  "git_commit_at_protection": "67401988bc2a779daf682393f07911334ef716fc",
+  "n_files": 46,
+  "notes": [
+    "This file is the authoritative protection record. Any later modification to a file under paper_dir/ will cause its SHA-256 to drift from this record. Detect via PHASE0_verify_protection.py.",
+    "Experiment A is not overwritten, not retroactively modified, and not deleted by Experiment B.",
+    "Experiment A's null/saturation finding is a legitimate scientific result and is preserved as evidence of the need for the stress benchmark in Experiment B."
+  ],
+  "paper_dir": "paper_results",
+  "schema_version": "1.0",
+  "total_bytes": 7096529
+}

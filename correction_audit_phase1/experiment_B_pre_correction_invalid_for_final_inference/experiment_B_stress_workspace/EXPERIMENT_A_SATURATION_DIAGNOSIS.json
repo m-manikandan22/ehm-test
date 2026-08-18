@@ -1,0 +1,870 @@
+{
+  "action_outcome_diagnosis": {
+    "actions_taken": {
+      "max": 200.0,
+      "mean": 160.0,
+      "median": 200.0,
+      "min": 0.0,
+      "stdev": 80.08012020035063
+    },
+    "successful_restoration_count": {
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "stdev": 0.0
+    },
+    "unsuccessful_restoration_count": {
+      "max": 3.0,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "stdev": 0.0
+    }
+  },
+  "causes": [
+    {
+      "confidence": "HIGH",
+      "evidence": "Duration stats: min=1.0, max=3.0, mean=1.96, median=2.0",
+      "id": "C1_SHORT_FAULT_DURATION",
+      "impact": "Removes the temporal dimension required for controllers to differ.",
+      "summary": "Fault durations are 1\u20133 steps; FLISR can reroute before any controller decision matters."
+    },
+    {
+      "confidence": "HIGH",
+      "evidence": "Faults per run: min=3.0, max=3.0, mean=3.00; first-fault minimum step = 5.",
+      "id": "C2_LOW_CONCURRENCY",
+      "impact": "No multi-fault / N-2 style stress.",
+      "summary": "Only 3 faults per run, never overlapping."
+    },
+    {
+      "confidence": "HIGH",
+      "evidence": "{\n  \"saifi\": {\n    \"random\": 0.061224489795918366,\n    \"persistence\": 0.061224489795918366,\n    \"rule_based\": 0.061224489795918366,\n    \"dqn_core_only\": 0.061224489795918366,\n    \"full_stack\": 0.061224489795918366\n  },\n  \"saidi\": {\n    \"random\": 0.0,\n    \"persistence\": 0.0,\n    \"rule_based\": 0.0,\n    \"dqn_core_only\": 0.0,\n    \"full_stack\": 0.0\n  },\n  \"ens\": {\n    \"random\": 30.0,\n    \"persistence\": 30.0,\n    \"rule_based\": 30.0,\n    \"dqn_core_only\": 30.0,\n    \"full_stack\": 30.0\n  },\n  \"restoration_time_seconds\": {\n    \"random\": 0.0,\n    \"persistence\": 0.0,\n    \"rule_based\": 0.0,\n    \"dqn_core_only\": 0.0,\n    \"full_stack\": 0.0\n  },\n  \"critical_load_restored_pct\": {\n    \"random\": 100.0,\n    \"persistence\": 100.0,\n    \"rule_based\": 100.0,\n    \"dqn_core_only\": 100.0,\n    \"full_stack\": 100.0\n  },\n  \"voltage_violation_count\": {\n    \"random\": 12.87,\n    \"persistence\": 12.87,\n    \"rule_based\": 12.87,\n    \"dqn_core_only\": 12.87,\n    \"full_stack\": 12.87\n  },\n  \"switching_operations\": {\n    \"random\": 0.0,\n    \"persistence\": 0.0,\n    \"rule_based\": 0.0,\n    \"dqn_core_only\": 0.0,\n    \"full_stack\": 0.0\n  },\n  \"number_of_islands\": {\n    \"random\": 1.0,\n    \"persistence\": 1.0,\n    \"rule_based\": 1.0,\n    \"dqn_core_only\": 1.0,\n    \"full_stack\": 1.0\n  },\n  \"asai\": {\n    \"random\": -2.0,\n    \"persistence\": -2.0,\n    \"rule_based\": -2.0,\n    \"dqn_core_only\": -2.0,\n    \"full_stack\": -2.0\n  },\n  \"load_shedding_events\": {\n    \"random\": 0.0,\n    \"persistence\": 0.0,\n    \"rule_based\": 0.0,\n    \"dqn_core_only\": 0.0,\n    \"full_stack\": 0.0\n  },\n  \"successful_restoration_count\": {\n    \"random\": 0.0,\n    \"persistence\": 0.0,\n    \"rule_based\": 0.0,\n    \"dqn_core_only\": 0.0,\n    \"full_stack\": 0.0\n  }\n}",
+      "id": "C3_BASELINE_METRIC_SATURATION",
+      "impact": "No meaningful differentiation between controllers.",
+      "summary": "For metrics ['saifi', 'saidi', 'ens', 'restoration_time_seconds', 'critical_load_restored_pct', 'voltage_violation_count', 'switching_operations', 'number_of_islands', 'asai', 'load_shedding_events', 'successful_restoration_count'], all five baseline controllers produce identical aggregate values within 1e-9."
+    },
+    {
+      "confidence": "MEDIUM",
+      "evidence": "successful_restoration_count stats: {'min': 0.0, 'max': 0.0, 'mean': 0.0, 'stdev': 0.0, 'median': 0.0}; unsuccessful_restoration_count stats: {'min': 3.0, 'max': 3.0, 'mean': 3.0, 'stdev': 0.0, 'median': 3.0}.",
+      "id": "C4_RESTORATION_OUTCOME_NEAR_HARD_FLOOR",
+      "impact": "Restoration-time metrics hit a degenerate floor (None/NaN).",
+      "summary": "Most faults are never restored even though many actions are taken."
+    },
+    {
+      "confidence": "MEDIUM",
+      "evidence": "actions_taken stats: min=0.0, max=200.0, mean=160.00, stdev=80.08",
+      "id": "C5_ACTIONS_TAKEN_PER_TICK",
+      "impact": "Controller robustness is not under test; only 'did you act'.",
+      "summary": "controllers issue exactly one action per tick."
+    },
+    {
+      "confidence": "HIGH",
+      "evidence": "weather_modes = ['normal'] in baseline manifest.",
+      "id": "C6_SINGLE_WEATHER_MODE",
+      "impact": "Weather-dependent load/corruption stress is not exercised.",
+      "summary": "Only one weather mode used: 'normal'."
+    },
+    {
+      "confidence": "HIGH",
+      "evidence": "scenario.py make_scenario does not define tie-capacity, line-capacity, or generation-reserve factors.",
+      "id": "C7_NO_RESTORATION_CAPACITY_CONSTRAINT",
+      "impact": "Restoration is always feasible; no resource competition.",
+      "summary": "Restoration capacity is not constrained; tie switches are unlimited."
+    },
+    {
+      "confidence": "HIGH",
+      "evidence": "From headline_comparison: critical_load_restored_pct identical to 1e-9 across all baseline policies.",
+      "id": "C8_NO_CRITICAL_LOAD_COMPETITION",
+      "impact": "Critical-load prioritization cannot be benchmarked.",
+      "summary": "Total critical load restored is identical across all controllers."
+    }
+  ],
+  "experiment_a_manifest": "paper_results/experiment_manifest.json",
+  "generated_at": "2026-08-04T08:51:14.861121+00:00",
+  "metric_diagnosis": {
+    "headline_comparison": {
+      "actions_taken": {
+        "identical_within_tolerance": false,
+        "max_minus_min": 200.0,
+        "per_policy_mean": {
+          "dqn_core_only": 200.0,
+          "full_stack": 200.0,
+          "persistence": 0.0,
+          "random": 200.0,
+          "rule_based": 200.0
+        }
+      },
+      "asai": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": -2.0,
+          "full_stack": -2.0,
+          "persistence": -2.0,
+          "random": -2.0,
+          "rule_based": -2.0
+        }
+      },
+      "critical_load_restored_pct": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 100.0,
+          "full_stack": 100.0,
+          "persistence": 100.0,
+          "random": 100.0,
+          "rule_based": 100.0
+        }
+      },
+      "ens": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 30.0,
+          "full_stack": 30.0,
+          "persistence": 30.0,
+          "random": 30.0,
+          "rule_based": 30.0
+        }
+      },
+      "line_overload_count": {
+        "identical_within_tolerance": false,
+        "max_minus_min": 0.07000000000000028,
+        "per_policy_mean": {
+          "dqn_core_only": 5.54,
+          "full_stack": 5.54,
+          "persistence": 5.47,
+          "random": 5.47,
+          "rule_based": 5.47
+        }
+      },
+      "load_shedding_events": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.0,
+          "full_stack": 0.0,
+          "persistence": 0.0,
+          "random": 0.0,
+          "rule_based": 0.0
+        }
+      },
+      "number_of_islands": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 1.0,
+          "full_stack": 1.0,
+          "persistence": 1.0,
+          "random": 1.0,
+          "rule_based": 1.0
+        }
+      },
+      "restoration_time_seconds": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.0,
+          "full_stack": 0.0,
+          "persistence": 0.0,
+          "random": 0.0,
+          "rule_based": 0.0
+        }
+      },
+      "saidi": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.0,
+          "full_stack": 0.0,
+          "persistence": 0.0,
+          "random": 0.0,
+          "rule_based": 0.0
+        }
+      },
+      "saifi": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.061224489795918366,
+          "full_stack": 0.061224489795918366,
+          "persistence": 0.061224489795918366,
+          "random": 0.061224489795918366,
+          "rule_based": 0.061224489795918366
+        }
+      },
+      "successful_restoration_count": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.0,
+          "full_stack": 0.0,
+          "persistence": 0.0,
+          "random": 0.0,
+          "rule_based": 0.0
+        }
+      },
+      "switching_operations": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 0.0,
+          "full_stack": 0.0,
+          "persistence": 0.0,
+          "random": 0.0,
+          "rule_based": 0.0
+        }
+      },
+      "voltage_violation_count": {
+        "identical_within_tolerance": true,
+        "max_minus_min": 0.0,
+        "per_policy_mean": {
+          "dqn_core_only": 12.87,
+          "full_stack": 12.87,
+          "persistence": 12.87,
+          "random": 12.87,
+          "rule_based": 12.87
+        }
+      }
+    },
+    "per_policy": {
+      "dqn_core_only": {
+        "metrics": {
+          "actions_taken": {
+            "max": 200.0,
+            "mean": 200.0,
+            "median": 200.0,
+            "min": 200.0,
+            "stdev": 0.0
+          },
+          "asai": {
+            "max": -2.0,
+            "mean": -2.0,
+            "median": -2.0,
+            "min": -2.0,
+            "stdev": 0.0
+          },
+          "critical_load_restored_pct": {
+            "max": 100.00000000000001,
+            "mean": 100.0,
+            "median": 100.0,
+            "min": 99.99999999999999,
+            "stdev": 5.336362348791774e-15
+          },
+          "ens": {
+            "max": 30.0,
+            "mean": 30.0,
+            "median": 30.0,
+            "min": 30.0,
+            "stdev": 0.0
+          },
+          "line_overload_count": {
+            "max": 35.0,
+            "mean": 5.54,
+            "median": 4.0,
+            "min": 0.0,
+            "stdev": 6.428189182158235
+          },
+          "load_shedding_events": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "number_of_islands": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "stdev": 0.0
+          },
+          "restoration_time_seconds": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saidi": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saifi": {
+            "max": 0.061224489795918366,
+            "mean": 0.061224489795918366,
+            "median": 0.061224489795918366,
+            "min": 0.061224489795918366,
+            "stdev": 0.0
+          },
+          "successful_restoration_count": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "switching_operations": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "voltage_violation_count": {
+            "max": 184.0,
+            "mean": 12.87,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 41.130159250846575
+          }
+        },
+        "n_runs": 100,
+        "n_valid": 100
+      },
+      "full_stack": {
+        "metrics": {
+          "actions_taken": {
+            "max": 200.0,
+            "mean": 200.0,
+            "median": 200.0,
+            "min": 200.0,
+            "stdev": 0.0
+          },
+          "asai": {
+            "max": -2.0,
+            "mean": -2.0,
+            "median": -2.0,
+            "min": -2.0,
+            "stdev": 0.0
+          },
+          "critical_load_restored_pct": {
+            "max": 100.00000000000001,
+            "mean": 100.0,
+            "median": 100.0,
+            "min": 99.99999999999999,
+            "stdev": 5.336362348791774e-15
+          },
+          "ens": {
+            "max": 30.0,
+            "mean": 30.0,
+            "median": 30.0,
+            "min": 30.0,
+            "stdev": 0.0
+          },
+          "line_overload_count": {
+            "max": 35.0,
+            "mean": 5.54,
+            "median": 4.0,
+            "min": 0.0,
+            "stdev": 6.428189182158235
+          },
+          "load_shedding_events": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "number_of_islands": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "stdev": 0.0
+          },
+          "restoration_time_seconds": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saidi": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saifi": {
+            "max": 0.061224489795918366,
+            "mean": 0.061224489795918366,
+            "median": 0.061224489795918366,
+            "min": 0.061224489795918366,
+            "stdev": 0.0
+          },
+          "successful_restoration_count": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "switching_operations": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "voltage_violation_count": {
+            "max": 184.0,
+            "mean": 12.87,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 41.130159250846575
+          }
+        },
+        "n_runs": 100,
+        "n_valid": 100
+      },
+      "persistence": {
+        "metrics": {
+          "actions_taken": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "asai": {
+            "max": -2.0,
+            "mean": -2.0,
+            "median": -2.0,
+            "min": -2.0,
+            "stdev": 0.0
+          },
+          "critical_load_restored_pct": {
+            "max": 100.00000000000001,
+            "mean": 100.0,
+            "median": 100.0,
+            "min": 99.99999999999999,
+            "stdev": 6.3873041963162045e-15
+          },
+          "ens": {
+            "max": 30.0,
+            "mean": 30.0,
+            "median": 30.0,
+            "min": 30.0,
+            "stdev": 0.0
+          },
+          "line_overload_count": {
+            "max": 35.0,
+            "mean": 5.47,
+            "median": 4.0,
+            "min": 0.0,
+            "stdev": 6.322087303951748
+          },
+          "load_shedding_events": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "number_of_islands": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "stdev": 0.0
+          },
+          "restoration_time_seconds": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saidi": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saifi": {
+            "max": 0.061224489795918366,
+            "mean": 0.061224489795918366,
+            "median": 0.061224489795918366,
+            "min": 0.061224489795918366,
+            "stdev": 0.0
+          },
+          "successful_restoration_count": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "switching_operations": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "voltage_violation_count": {
+            "max": 184.0,
+            "mean": 12.87,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 41.130159250846575
+          }
+        },
+        "n_runs": 100,
+        "n_valid": 100
+      },
+      "random": {
+        "metrics": {
+          "actions_taken": {
+            "max": 200.0,
+            "mean": 200.0,
+            "median": 200.0,
+            "min": 200.0,
+            "stdev": 0.0
+          },
+          "asai": {
+            "max": -2.0,
+            "mean": -2.0,
+            "median": -2.0,
+            "min": -2.0,
+            "stdev": 0.0
+          },
+          "critical_load_restored_pct": {
+            "max": 100.00000000000001,
+            "mean": 100.0,
+            "median": 100.0,
+            "min": 99.99999999999999,
+            "stdev": 6.3873041963162045e-15
+          },
+          "ens": {
+            "max": 30.0,
+            "mean": 30.0,
+            "median": 30.0,
+            "min": 30.0,
+            "stdev": 0.0
+          },
+          "line_overload_count": {
+            "max": 35.0,
+            "mean": 5.47,
+            "median": 4.0,
+            "min": 0.0,
+            "stdev": 6.322087303951748
+          },
+          "load_shedding_events": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "number_of_islands": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "stdev": 0.0
+          },
+          "restoration_time_seconds": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saidi": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saifi": {
+            "max": 0.061224489795918366,
+            "mean": 0.061224489795918366,
+            "median": 0.061224489795918366,
+            "min": 0.061224489795918366,
+            "stdev": 0.0
+          },
+          "successful_restoration_count": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "switching_operations": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "voltage_violation_count": {
+            "max": 184.0,
+            "mean": 12.87,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 41.130159250846575
+          }
+        },
+        "n_runs": 100,
+        "n_valid": 100
+      },
+      "rule_based": {
+        "metrics": {
+          "actions_taken": {
+            "max": 200.0,
+            "mean": 200.0,
+            "median": 200.0,
+            "min": 200.0,
+            "stdev": 0.0
+          },
+          "asai": {
+            "max": -2.0,
+            "mean": -2.0,
+            "median": -2.0,
+            "min": -2.0,
+            "stdev": 0.0
+          },
+          "critical_load_restored_pct": {
+            "max": 100.00000000000001,
+            "mean": 100.0,
+            "median": 100.0,
+            "min": 99.99999999999999,
+            "stdev": 6.3873041963162045e-15
+          },
+          "ens": {
+            "max": 30.0,
+            "mean": 30.0,
+            "median": 30.0,
+            "min": 30.0,
+            "stdev": 0.0
+          },
+          "line_overload_count": {
+            "max": 35.0,
+            "mean": 5.47,
+            "median": 4.0,
+            "min": 0.0,
+            "stdev": 6.322087303951748
+          },
+          "load_shedding_events": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "number_of_islands": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "stdev": 0.0
+          },
+          "restoration_time_seconds": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saidi": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "saifi": {
+            "max": 0.061224489795918366,
+            "mean": 0.061224489795918366,
+            "median": 0.061224489795918366,
+            "min": 0.061224489795918366,
+            "stdev": 0.0
+          },
+          "successful_restoration_count": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "switching_operations": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 0.0
+          },
+          "voltage_violation_count": {
+            "max": 184.0,
+            "mean": 12.87,
+            "median": 0.0,
+            "min": 0.0,
+            "stdev": 41.130159250846575
+          }
+        },
+        "n_runs": 100,
+        "n_valid": 100
+      }
+    }
+  },
+  "scenario_diagnosis": {
+    "fault_duration_stats": {
+      "max": 3.0,
+      "mean": 1.9566666666666668,
+      "median": 2.0,
+      "min": 1.0,
+      "stdev": 0.8429059994855801
+    },
+    "fault_timestep_stats": {
+      "max": 198.0,
+      "mean": 105.16333333333333,
+      "median": 105.5,
+      "min": 7.0,
+      "stdev": 54.26982619904426
+    },
+    "most_common_targets": [
+      [
+        "H53",
+        9
+      ],
+      [
+        "H59",
+        7
+      ],
+      [
+        "H65",
+        7
+      ],
+      [
+        "H41",
+        7
+      ],
+      [
+        "H36",
+        7
+      ]
+    ],
+    "n_faults_per_run": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_faults_per_run_stats": {
+      "max": 3.0,
+      "mean": 3.0,
+      "median": 3.0,
+      "min": 3.0,
+      "stdev": 0.0
+    },
+    "n_scenarios": 100,
+    "total_steps": 200,
+    "unique_fault_targets": 96
+  },
+  "schema_version": "1.0"
+}

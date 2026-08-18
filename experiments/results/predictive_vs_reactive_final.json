@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "n_faults": 3,
+  "fault_targets": [
+    "H0",
+    "H9",
+    "H8"
+  ],
+  "reactive": {
+    "total_load": 14.57460221578014,
+    "served_load": 14.330558037423522,
+    "n_failed_assets": 3,
+    "mean_ens": 0.004067402972610286,
+    "restoration_rate": 0.9832555170464696
+  },
+  "predictive": {
+    "total_load": 15.004591711605464,
+    "served_load": 14.71422800351728,
+    "n_failed_assets": 2,
+    "mean_ens": 0.004839395134803078,
+    "restoration_rate": 0.9806483432759053
+  },
+  "delta": {
+    "mean_ens_diff": -0.0007719921621927922,
+    "restoration_rate_diff": -0.0026071737705642972
+  }
+}

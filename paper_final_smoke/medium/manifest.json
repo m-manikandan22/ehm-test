@@ -1,0 +1,27 @@
+{
+  "git_sha": "UNKNOWN",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seeds": 3,
+  "ticks": 30,
+  "faults_per_run": 4,
+  "weather_modes": [
+    "normal"
+  ],
+  "baseline_labels": [
+    "random",
+    "rule_based"
+  ],
+  "ablation_labels": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_reward",
+    "dqn_core_only",
+    "rule_based",
+    "random",
+    "persistence"
+  ],
+  "n_runs": 33
+}

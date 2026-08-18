@@ -1,0 +1,35 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\ELCOT\Music\EHM-simulation\backend
+configfile: pytest.ini
+plugins: anyio-4.14.2
+collected 330 items
+
+tests\test_ac_power_flow.py ...                                          [  0%]
+tests\test_advanced_rl.py ...............                                [  5%]
+tests\test_attack.py ....                                                [  6%]
+tests\test_autonomous.py .......                                         [  8%]
+tests\test_carbon_economic.py ..........                                 [ 11%]
+tests\test_city_layout.py ....                                           [ 13%]
+tests\test_city_profile.py ..........                                    [ 16%]
+tests\test_city_topology.py ............                                 [ 19%]
+tests\test_dc_power_flow.py ........                                     [ 22%]
+tests\test_di_container.py .........                                     [ 24%]
+tests\test_digital_twin.py ..............                                [ 29%]
+tests\test_dqn_state.py .....                                            [ 30%]
+tests\test_evaluator.py .....                                            [ 32%]
+tests\test_experiments_framework.py ........                             [ 34%]
+tests\test_grid.py ...                                                   [ 35%]
+tests\test_ieee13.py .......                                             [ 37%]
+tests\test_ieee13_validation.py ...                                      [ 38%]
+tests\test_ieee_1366.py ...............                                  [ 43%]
+tests\test_integration.py ....                                           [ 44%]
+tests\test_logging.py ........                                           [ 46%]
+tests\test_m5_integration.py .........                                   [ 49%]
+tests\test_metrics_registry.py ...............                           [ 53%]
+tests\test_metrics_store.py ..........                                   [ 56%]
+tests\test_microgrid.py ......                                           [ 58%]
+tests\test_paper_experiment.py .....                                     [ 60%]
+tests\test_planner.py .............                                      [ 64%]
+tests\test_policy_registry.py ...                                        [ 65%]
+tests\test_redesigner.py .

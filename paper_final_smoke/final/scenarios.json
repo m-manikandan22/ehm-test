@@ -1,0 +1,202 @@
+[
+  {
+    "total_steps": 50,
+    "faults": [
+      {
+        "timestep": 16,
+        "target": "P_C2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 18,
+        "target": "LA2_1",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 27,
+        "target": "LA0_2",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 33,
+        "target": "T_A",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 42,
+        "target": "LA0_1",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 50,
+    "faults": [
+      {
+        "timestep": 6,
+        "target": "LB1_DN",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 25,
+        "target": "P_C3",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 27,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 38,
+        "target": "LA1_2",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 46,
+        "target": "P_B2",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 1
+  },
+  {
+    "total_steps": 50,
+    "faults": [
+      {
+        "timestep": 9,
+        "target": "LB1_DN",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 16,
+        "target": "P_B1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 18,
+        "target": "LA1_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 23,
+        "target": "P_A2",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 41,
+        "target": "LB2_1",
+        "duration_steps": 3,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 2
+  },
+  {
+    "total_steps": 50,
+    "faults": [
+      {
+        "timestep": 8,
+        "target": "P_B1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 12,
+        "target": "LA0_1",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 12,
+        "target": "P_B3",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 15,
+        "target": "LA1_1",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 40,
+        "target": "LC1_UP_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 3,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 3
+  },
+  {
+    "total_steps": 50,
+    "faults": [
+      {
+        "timestep": 27,
+        "target": "P_A2",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 36,
+        "target": "P_C2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 43,
+        "target": "LB2_2",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 46,
+        "target": "LA0_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 46,
+        "target": "P_C3",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 4,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 4
+  }
+]

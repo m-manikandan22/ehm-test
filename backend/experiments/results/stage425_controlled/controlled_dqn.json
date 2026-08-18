@@ -1,0 +1,1303 @@
+{
+  "summaries": {
+    "random": {
+      "n": 10,
+      "ens_mean": 0.9376,
+      "ens_min": 0.2374,
+      "ens_max": 2.0888,
+      "ens_sd": 0.6572,
+      "action_share": {
+        "inc_gen": 0.184,
+        "use_batt": 0.19,
+        "use_scap": 0.212,
+        "shift_load": 0.189,
+        "reroute": 0.225
+      }
+    },
+    "rule_based": {
+      "n": 10,
+      "ens_mean": 1.3761,
+      "ens_min": 0.4133,
+      "ens_max": 2.512,
+      "ens_sd": 0.7047,
+      "action_share": {
+        "inc_gen": 0.0,
+        "use_batt": 1.0,
+        "use_scap": 0.0,
+        "shift_load": 0.0,
+        "reroute": 0.0
+      }
+    },
+    "dqn_core_only": {
+      "n": 10,
+      "ens_mean": 1.0618,
+      "ens_min": 0.2,
+      "ens_max": 1.8784,
+      "ens_sd": 0.6664,
+      "action_share": {
+        "inc_gen": 0.0,
+        "use_batt": 0.0,
+        "use_scap": 0.121,
+        "shift_load": 0.771,
+        "reroute": 0.107
+      }
+    },
+    "full_stack": {
+      "n": 10,
+      "ens_mean": 1.3527,
+      "ens_min": 0.2,
+      "ens_max": 2.2916,
+      "ens_sd": 0.7812,
+      "action_share": {
+        "inc_gen": 0.0,
+        "use_batt": 0.0,
+        "use_scap": 0.364,
+        "shift_load": 0.271,
+        "reroute": 0.365
+      }
+    },
+    "dqn_mask": {
+      "n": 10,
+      "ens_mean": 1.0623,
+      "ens_min": 0.2,
+      "ens_max": 1.8784,
+      "ens_sd": 0.6687,
+      "action_share": {
+        "inc_gen": 0.0,
+        "use_batt": 0.0,
+        "use_scap": 0.117,
+        "shift_load": 0.771,
+        "reroute": 0.111
+      }
+    },
+    "dqn_unmasked": {
+      "n": 10,
+      "ens_mean": 1.1461,
+      "ens_min": 0.269,
+      "ens_max": 1.9932,
+      "ens_sd": 0.6838,
+      "action_share": {
+        "inc_gen": 0.159,
+        "use_batt": 0.296,
+        "use_scap": 0.0,
+        "shift_load": 0.524,
+        "reroute": 0.021
+      }
+    }
+  },
+  "runs": [
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 14.245045556235754,
+        "energy_not_served_mwh": 0.2374174259372624,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "4": 18,
+          "3": 18,
+          "2": 16,
+          "1": 12,
+          "0": 16
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 125.32948301658413,
+        "energy_not_served_mwh": 2.0888247169430727,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 20,
+          "3": 13,
+          "4": 16,
+          "0": 15,
+          "1": 16
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 31.092870909842983,
+        "energy_not_served_mwh": 0.5182145151640499,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "4": 18,
+          "1": 16,
+          "0": 9,
+          "2": 22,
+          "3": 15
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 56.665593956901226,
+        "energy_not_served_mwh": 0.9444265659483535,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "4": 12,
+          "0": 16,
+          "1": 18,
+          "2": 14,
+          "3": 20
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 104.6152836954752,
+        "energy_not_served_mwh": 1.7435880615912558,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 11,
+          "4": 22,
+          "2": 22,
+          "0": 11,
+          "1": 14
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 21.412947553696057,
+        "energy_not_served_mwh": 0.35688245922826783,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 14,
+          "4": 16,
+          "0": 20,
+          "2": 11,
+          "1": 19
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 106.13343322669135,
+        "energy_not_served_mwh": 1.7688905537781912,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 22,
+          "1": 13,
+          "4": 16,
+          "3": 16,
+          "0": 13
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 31.50731316669555,
+        "energy_not_served_mwh": 0.5251218861115927,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "4": 21,
+          "3": 14,
+          "2": 17,
+          "1": 14,
+          "0": 14
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 56.868910017081184,
+        "energy_not_served_mwh": 0.9478151669513509,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 12,
+          "1": 21,
+          "4": 16,
+          "0": 18,
+          "2": 13
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 14.705002543656986,
+        "energy_not_served_mwh": 0.24508337572761665,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 13,
+          "4": 25,
+          "1": 9,
+          "0": 15,
+          "3": 18
+        }
+      }
+    },
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 32.66277501155068,
+        "energy_not_served_mwh": 0.544379583525846,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 150.71771176770284,
+        "energy_not_served_mwh": 2.511961862795051,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 91.76364431453632,
+        "energy_not_served_mwh": 1.5293940719089378,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 119.53094517168644,
+        "energy_not_served_mwh": 1.9921824195281101,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 109.522916230003,
+        "energy_not_served_mwh": 1.825381937166719,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 48.965608878067435,
+        "energy_not_served_mwh": 0.8160934813011239,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 131.36800294678827,
+        "energy_not_served_mwh": 2.18946671577981,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 41.968950798380774,
+        "energy_not_served_mwh": 0.6994825133063474,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 74.36479470985788,
+        "energy_not_served_mwh": 1.2394132451642956,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 24.799150923958504,
+        "energy_not_served_mwh": 0.4133191820659742,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      }
+    },
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 11.99936625812041,
+        "energy_not_served_mwh": 0.19998943763533975,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 112.70253751762579,
+        "energy_not_served_mwh": 1.8783756252937585,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 106.82261041404391,
+        "energy_not_served_mwh": 1.7803768402340676,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 14,
+          "4": 66
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 74.16743089241774,
+        "energy_not_served_mwh": 1.2361238482069614,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 77,
+          "2": 3
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 104.55567195832535,
+        "energy_not_served_mwh": 1.7425945326387564,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 18.69418628811021,
+        "energy_not_served_mwh": 0.3115697714685037,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 65,
+          "4": 15
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 95.07629401934572,
+        "energy_not_served_mwh": 1.5846049003224318,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 25.560230253259988,
+        "energy_not_served_mwh": 0.4260038375543328,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 75.4661464117936,
+        "energy_not_served_mwh": 1.2577691068632302,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 80
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 12.019708609709825,
+        "energy_not_served_mwh": 0.2003284768284972,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 0,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 75,
+          "4": 5
+        }
+      }
+    },
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 11.99936625812041,
+        "energy_not_served_mwh": 0.19998943763533975,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 136.29001284596225,
+        "energy_not_served_mwh": 2.2715002140993628,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "2": 40,
+          "4": 40
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 108.6226104140438,
+        "energy_not_served_mwh": 1.8103768402340683,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "2": 80
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 137.49412812729,
+        "energy_not_served_mwh": 2.291568802121505,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "2": 11,
+          "4": 69
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 122.27077457765795,
+        "energy_not_served_mwh": 2.0378462429609625,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "3": 58,
+          "4": 22
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 45.36249356801741,
+        "energy_not_served_mwh": 0.7560415594669578,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "3": 6,
+          "4": 74
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 118.579817221811,
+        "energy_not_served_mwh": 1.9763302870301853,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "3": 37,
+          "4": 43
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 35.18043795246206,
+        "energy_not_served_mwh": 0.5863406325410337,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "2": 80
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 75.4661464117936,
+        "energy_not_served_mwh": 1.2577691068632302,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "2": 80
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 20.33851465033161,
+        "energy_not_served_mwh": 0.33897524417219366,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 80,
+        "action_counts": {
+          "3": 36,
+          "4": 44
+        }
+      }
+    },
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 11.99936625812041,
+        "energy_not_served_mwh": 0.19998943763533975,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 112.70253751762579,
+        "energy_not_served_mwh": 1.8783756252937585,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 108.6226104140438,
+        "energy_not_served_mwh": 1.8103768402340683,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 13,
+          "4": 67
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 73.22658631615015,
+        "energy_not_served_mwh": 1.2204431052691684,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 74,
+          "2": 6
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 104.55567195832535,
+        "energy_not_served_mwh": 1.7425945326387564,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 18.829860881773943,
+        "energy_not_served_mwh": 0.3138310146962327,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 63,
+          "4": 17
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 95.07629401934572,
+        "energy_not_served_mwh": 1.5846049003224318,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 25.560230253259988,
+        "energy_not_served_mwh": 0.4260038375543328,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 74.7900955945635,
+        "energy_not_served_mwh": 1.2465015932427284,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "2": 75,
+          "3": 5
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 12.019708609709825,
+        "energy_not_served_mwh": 0.2003284768284972,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 75,
+          "4": 5
+        }
+      }
+    },
+    {
+      "0": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 16.1390651263777,
+        "energy_not_served_mwh": 0.26898441877296114,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "0": 60,
+          "3": 20
+        }
+      },
+      "1": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 112.88966461060792,
+        "energy_not_served_mwh": 1.8814944101767974,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 54,
+          "1": 26
+        }
+      },
+      "2": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 108.6226104140438,
+        "energy_not_served_mwh": 1.8103768402340683,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      },
+      "3": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 85.42617841191947,
+        "energy_not_served_mwh": 1.4237696401986588,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 63,
+          "0": 17
+        }
+      },
+      "4": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 5.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 119.59355046824847,
+        "energy_not_served_mwh": 1.9932258411374724,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 59,
+          "1": 21
+        }
+      },
+      "5": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 18.829860881773943,
+        "energy_not_served_mwh": 0.3138310146962327,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 63,
+          "4": 17
+        }
+      },
+      "6": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.333333333333333,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 95.07629401934572,
+        "energy_not_served_mwh": 1.5846049003224318,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "7": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 6.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 25.560230253259988,
+        "energy_not_served_mwh": 0.4260038375543328,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "3": 80
+        }
+      },
+      "8": {
+        "n_faults": 3,
+        "n_restored": 3,
+        "restoration_rate": 1.0,
+        "avg_restoration_steps": 4.666666666666667,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 85.19378053124231,
+        "energy_not_served_mwh": 1.419896342187376,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 30,
+          "0": 50
+        }
+      },
+      "9": {
+        "n_faults": 3,
+        "n_restored": 2,
+        "restoration_rate": 0.6666666666666666,
+        "avg_restoration_steps": 4.0,
+        "actions_taken": 80,
+        "illegal_actions_attempted": 0,
+        "voltage_violation_count": 0,
+        "critical_load_interruption_steps": 0,
+        "total_customer_minutes_interrupted": 20.33851465033161,
+        "energy_not_served_mwh": 0.33897524417219366,
+        "n_steps": 80,
+        "predictive_preparation_events": 0,
+        "ems_cycles": 80,
+        "lstm_forecast_samples": 0,
+        "action_counts": {
+          "1": 80
+        }
+      }
+    }
+  ]
+}

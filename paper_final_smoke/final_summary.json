@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "sizes": [
+    {
+      "seeds": 1,
+      "ticks": 10,
+      "faults_per_run": 2,
+      "wall_clock_s": 2.286541000001307,
+      "exit_code": 0,
+      "summary": {
+        "n_seeds": 1,
+        "n_total_runs": 11,
+        "n_valid_runs": 11,
+        "valid_rate": 1.0
+      },
+      "size": "smoke"
+    },
+    {
+      "seeds": 3,
+      "ticks": 30,
+      "faults_per_run": 4,
+      "wall_clock_s": 10.695881199999349,
+      "exit_code": 0,
+      "summary": {
+        "n_seeds": 3,
+        "n_total_runs": 33,
+        "n_valid_runs": 33,
+        "valid_rate": 1.0
+      },
+      "size": "medium"
+    },
+    {
+      "seeds": 5,
+      "ticks": 50,
+      "faults_per_run": 5,
+      "wall_clock_s": 25.538897200000065,
+      "exit_code": 0,
+      "summary": {
+        "n_seeds": 5,
+        "n_total_runs": 55,
+        "n_valid_runs": 55,
+        "valid_rate": 1.0
+      },
+      "size": "final"
+    }
+  ],
+  "all_passed": true
+}

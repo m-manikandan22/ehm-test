@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "seeds": 1,
+  "ticks": 10,
+  "faults_per_run": 2,
+  "dc_power_flow_avg_s": 0.0020133549999991375,
+  "flisr_9stage_avg_s": 0.0004143339999791351,
+  "dqn_act_avg_s": 4.769999941345305e-07,
+  "lstm_forward_avg_s": 1.244000013684854e-06,
+  "paper_experiment_total_s": 0.8513234999991255
+}

@@ -1,0 +1,1624 @@
+{
+  "pilot_seed_count": 10,
+  "pilot_ticks": 200,
+  "pilot_policies": [
+    "persistence",
+    "random",
+    "rule_based",
+    "dqn_core_only",
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_reward"
+  ],
+  "expected_runs": 180,
+  "n_total": 180,
+  "n_valid": 180,
+  "n_invalid": 0,
+  "elapsed_s": 484.923,
+  "per_policy_level_stats": {
+    "moderate/persistence": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 9.473903143468002e-15,
+          "min": 99.99999999999999,
+          "max": 100.00000000000001
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.3,
+          "stdev": 0.9486832980505138,
+          "min": 0,
+          "max": 3
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.229449107503735,
+          "stdev": 9.753618155589091,
+          "min": 0,
+          "max": 24.447677656773706
+        },
+        "resilience_loss_area": {
+          "mean": 38.932533790181786,
+          "stdev": 62.8813120706952,
+          "min": 0,
+          "max": 172.49373434563418
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/random": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 9.473903143468002e-15,
+          "min": 99.99999999999999,
+          "max": 100.00000000000001
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.3,
+          "stdev": 0.9486832980505138,
+          "min": 0,
+          "max": 3
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.229449107503735,
+          "stdev": 9.753618155589091,
+          "min": 0,
+          "max": 24.447677656773706
+        },
+        "resilience_loss_area": {
+          "mean": 38.932533790181786,
+          "stdev": 62.8813120706952,
+          "min": 0,
+          "max": 172.49373434563418
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/rule_based": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 9.473903143468002e-15,
+          "min": 99.99999999999999,
+          "max": 100.00000000000001
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.3,
+          "stdev": 0.9486832980505138,
+          "min": 0,
+          "max": 3
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.229449107503735,
+          "stdev": 9.753618155589091,
+          "min": 0,
+          "max": 24.447677656773706
+        },
+        "resilience_loss_area": {
+          "mean": 38.932533790181786,
+          "stdev": 62.8813120706952,
+          "min": 0,
+          "max": 172.49373434563418
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/dqn_core_only": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/full_stack": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/no_lstm": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/no_twin": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/no_predictive": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "moderate/no_reward": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 50.0,
+          "stdev": 0.0,
+          "min": 50.0,
+          "max": 50.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.10204081632653061,
+          "stdev": 0.0,
+          "min": 0.10204081632653061,
+          "max": 0.10204081632653061
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "voltage_violation_count": {
+          "mean": 42.4,
+          "stdev": 67.11880014819494,
+          "min": 0,
+          "max": 176
+        },
+        "line_overload_count": {
+          "mean": 0.1,
+          "stdev": 0.31622776601683794,
+          "min": 0,
+          "max": 1
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 7.274909426144077,
+          "stdev": 9.82340284653333,
+          "min": 0,
+          "max": 24.117982632965248
+        },
+        "resilience_loss_area": {
+          "mean": 36.80841937878998,
+          "stdev": 57.873172823991105,
+          "min": 0,
+          "max": 149.37633833634587
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/persistence": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5209.1,
+          "stdev": 82.49370346342266,
+          "min": 5110,
+          "max": 5321
+        },
+        "line_overload_count": {
+          "mean": 181.5,
+          "stdev": 4.648775226993784,
+          "min": 176,
+          "max": 190
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 5381.908364614644,
+          "stdev": 85.12533682728203,
+          "min": 5223.006443110402,
+          "max": 5508.886122939381
+        },
+        "resilience_loss_area": {
+          "mean": 170.35049835496005,
+          "stdev": 1.2841377716415905,
+          "min": 167.48558146388083,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/random": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5209.1,
+          "stdev": 82.49370346342266,
+          "min": 5110,
+          "max": 5321
+        },
+        "line_overload_count": {
+          "mean": 181.5,
+          "stdev": 4.648775226993784,
+          "min": 176,
+          "max": 190
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 5381.908364614644,
+          "stdev": 85.12533682728203,
+          "min": 5223.006443110402,
+          "max": 5508.886122939381
+        },
+        "resilience_loss_area": {
+          "mean": 170.35049835496005,
+          "stdev": 1.2841377716415905,
+          "min": 167.48558146388083,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/rule_based": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5209.1,
+          "stdev": 82.49370346342266,
+          "min": 5110,
+          "max": 5321
+        },
+        "line_overload_count": {
+          "mean": 181.5,
+          "stdev": 4.648775226993784,
+          "min": 176,
+          "max": 190
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 5381.908364614644,
+          "stdev": 85.12533682728203,
+          "min": 5223.006443110402,
+          "max": 5508.886122939381
+        },
+        "resilience_loss_area": {
+          "mean": 170.35049835496005,
+          "stdev": 1.2841377716415905,
+          "min": 167.48558146388083,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/dqn_core_only": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/full_stack": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/no_lstm": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/no_twin": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/no_predictive": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "severe/no_reward": {
+      "n_valid": 10,
+      "metrics": {
+        "ens": {
+          "mean": 80.0,
+          "stdev": 0.0,
+          "min": 80.0,
+          "max": 80.0
+        },
+        "saidi": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "saifi": {
+          "mean": 0.16326530612244897,
+          "stdev": 0.0,
+          "min": 0.16326530612244897,
+          "max": 0.16326530612244897
+        },
+        "restoration_time_seconds": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "critical_load_restored_pct": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "voltage_violation_count": {
+          "mean": 5571.2,
+          "stdev": 780.1432631966459,
+          "min": 5110,
+          "max": 7046
+        },
+        "line_overload_count": {
+          "mean": 154.1,
+          "stdev": 53.953580871790976,
+          "min": 49,
+          "max": 184
+        },
+        "number_of_islands": {
+          "mean": 1,
+          "stdev": 0.0,
+          "min": 1,
+          "max": 1
+        },
+        "stress_cumulative_unserved_energy": {
+          "mean": 6116.33188735796,
+          "stdev": 1606.5502731800286,
+          "min": 5186.154407300868,
+          "max": 9222.772320350809
+        },
+        "resilience_loss_area": {
+          "mean": 167.91945117110782,
+          "stdev": 4.906528196438878,
+          "min": 158.30018421869465,
+          "max": 171.5
+        },
+        "resilience_time_to_50pct_restoration": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_critical_load_restored_pct": {
+          "mean": 100.0,
+          "stdev": 0.0,
+          "min": 100.0,
+          "max": 100.0
+        },
+        "stress_cum_feasible_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        },
+        "stress_cum_unserved_restoration_mw": {
+          "mean": 0,
+          "stdev": 0.0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  }
+}

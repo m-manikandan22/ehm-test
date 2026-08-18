@@ -1,0 +1,104 @@
+[
+  {
+    "total_steps": 30,
+    "faults": [
+      {
+        "timestep": 11,
+        "target": "LB0_UP_1",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 17,
+        "target": "LA0_2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 20,
+        "target": "LA0_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 25,
+        "target": "T_C",
+        "duration_steps": 3,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 30,
+    "faults": [
+      {
+        "timestep": 16,
+        "target": "P_C1",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 17,
+        "target": "LA1_2",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 23,
+        "target": "T_B",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 27,
+        "target": "LA0_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 1
+  },
+  {
+    "total_steps": 30,
+    "faults": [
+      {
+        "timestep": 7,
+        "target": "LA1_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 11,
+        "target": "LB2_2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 12,
+        "target": "P_B3",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 25,
+        "target": "LB1_UP_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 2
+  }
+]

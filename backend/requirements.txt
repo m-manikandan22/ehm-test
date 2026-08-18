@@ -1,0 +1,22 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+numpy==1.26.4
+torch==2.2.2
+networkx==3.3
+scikit-learn==1.4.2
+pydantic==2.6.4
+python-multipart==0.0.9
+
+# EHM upgrade (M0+) — observability + DI plumbing.
+# These have no required hard version; pip will resolve a compatible
+# release.  Pin to a known-good major if reproducibility becomes an issue.
+pydantic-settings>=2.0
+PyYAML>=6.0
+orjson>=3.9
+python-dateutil>=2.8
+
+# Optional physics validator — pandapower for AC PF (Newton-Raphson)
+# and IEEE 13-bus reference comparison. Imported lazily with a
+# PANDAPOWER_AVAILABLE flag; AC PF endpoints return a clear "not
+# installed" status if this is missing.
+pandapower>=2.10,<3.0

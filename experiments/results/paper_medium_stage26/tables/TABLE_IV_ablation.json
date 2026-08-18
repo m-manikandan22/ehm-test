@@ -1,0 +1,222 @@
+{
+  "status": "real",
+  "schema_version": 1,
+  "seeds": 5,
+  "ticks": 40,
+  "faults_per_run": 2,
+  "labels": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_reward",
+    "dqn_core_only"
+  ],
+  "per_config": {
+    "full_stack": {
+      "active_modules": [
+        "digital_twin",
+        "dqn",
+        "ems",
+        "flisr",
+        "lstm",
+        "predictive_healing",
+        "reward_shaping",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [],
+      "metrics_summary": [
+        {
+          "controller_label": "full_stack",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.5371018542474977,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 32.22611125484986,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    },
+    "no_lstm": {
+      "active_modules": [
+        "digital_twin",
+        "dqn",
+        "ems",
+        "flisr",
+        "predictive_healing",
+        "reward_shaping",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "lstm"
+      ],
+      "metrics_summary": [
+        {
+          "controller_label": "no_lstm",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.612016851832249,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 36.721011109934906,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    },
+    "no_twin": {
+      "active_modules": [
+        "dqn",
+        "ems",
+        "flisr",
+        "lstm",
+        "predictive_healing",
+        "reward_shaping",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "digital_twin"
+      ],
+      "metrics_summary": [
+        {
+          "controller_label": "no_twin",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.5844544798208043,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 35.06726878924825,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    },
+    "no_predictive": {
+      "active_modules": [
+        "digital_twin",
+        "dqn",
+        "ems",
+        "flisr",
+        "lstm",
+        "reward_shaping",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "predictive_healing"
+      ],
+      "metrics_summary": [
+        {
+          "controller_label": "no_predictive",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.5633533425101932,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 33.801200550611554,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    },
+    "no_reward": {
+      "active_modules": [
+        "digital_twin",
+        "dqn",
+        "ems",
+        "flisr",
+        "lstm",
+        "predictive_healing",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "reward_shaping"
+      ],
+      "metrics_summary": [
+        {
+          "controller_label": "no_reward",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.52267759712324,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 31.360655827394407,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    },
+    "dqn_core_only": {
+      "active_modules": [
+        "dqn",
+        "flisr"
+      ],
+      "disabled_modules": [
+        "digital_twin",
+        "ems",
+        "lstm",
+        "predictive_healing",
+        "reward_shaping",
+        "storage",
+        "xai"
+      ],
+      "metrics_summary": [
+        {
+          "controller_label": "dqn_core_only",
+          "n_total_runs": 5,
+          "n_valid_runs": 5,
+          "actions_taken_mean": 40.0,
+          "critical_load_interruption_steps_mean": 0.6,
+          "energy_not_served_mwh_mean": 0.39971942566645846,
+          "illegal_actions_attempted_mean": 0.0,
+          "n_faults_mean": 2.0,
+          "n_restored_mean": 0.0,
+          "n_steps_mean": 40.0,
+          "restoration_rate_mean": 0.0,
+          "total_customer_minutes_interrupted_mean": 23.983165539987517,
+          "voltage_violation_count_mean": 0.0
+        }
+      ],
+      "n_total_runs": 5,
+      "n_valid_runs": 5
+    }
+  },
+  "n_total_runs": 30,
+  "n_valid_runs": 30
+}

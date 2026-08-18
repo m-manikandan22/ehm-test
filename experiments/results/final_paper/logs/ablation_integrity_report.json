@@ -1,0 +1,313 @@
+{
+  "adoption_summary": {
+    "dqn_core_only": "WARN: flisr flagged enabled but flisr_restore not called",
+    "full_stack": "WARN: flisr flagged enabled but flisr_restore not called",
+    "no_lstm": "WARN: flisr flagged enabled but flisr_restore not called",
+    "no_predictive": "WARN: flisr flagged enabled but flisr_restore not called",
+    "no_reward": "WARN: flisr flagged enabled but flisr_restore not called",
+    "no_twin": "WARN: flisr flagged enabled but flisr_restore not called",
+    "rule_based": "WARN: flisr flagged enabled but flisr_restore not called"
+  },
+  "per_config": [
+    {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 5,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 5,
+        "reward_shaping": 0,
+        "twin_sync": 5
+      },
+      "disabled_modules": [],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": true,
+      "expected_predictive_active": true,
+      "expected_twin_active": true,
+      "invalid_reason": null,
+      "label": "full_stack",
+      "runtime_s": 2.0885,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "dqn",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 10,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 5,
+        "reward_shaping": 0,
+        "twin_sync": 5
+      },
+      "disabled_modules": [
+        "lstm"
+      ],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": false,
+      "expected_predictive_active": true,
+      "expected_twin_active": true,
+      "invalid_reason": null,
+      "label": "no_lstm",
+      "runtime_s": 0.0563,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 15,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 5,
+        "reward_shaping": 0,
+        "twin_sync": 5
+      },
+      "disabled_modules": [
+        "digital_twin"
+      ],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": true,
+      "expected_predictive_active": true,
+      "expected_twin_active": false,
+      "invalid_reason": null,
+      "label": "no_twin",
+      "runtime_s": 0.05,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 20,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 0,
+        "reward_shaping": 0,
+        "twin_sync": 0
+      },
+      "disabled_modules": [
+        "predictive_healing"
+      ],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": true,
+      "expected_predictive_active": false,
+      "expected_twin_active": true,
+      "invalid_reason": null,
+      "label": "no_predictive",
+      "runtime_s": 0.0485,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 25,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 5,
+        "reward_shaping": 0,
+        "twin_sync": 5
+      },
+      "disabled_modules": [
+        "reward_shaping"
+      ],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": true,
+      "expected_predictive_active": true,
+      "expected_twin_active": true,
+      "invalid_reason": null,
+      "label": "no_reward",
+      "runtime_s": 0.0554,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "dqn",
+        "flisr"
+      ],
+      "controller_kind": "dqn",
+      "counters": {
+        "dqn_select_action": 30,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 0,
+        "reward_shaping": 0,
+        "twin_sync": 0
+      },
+      "disabled_modules": [
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "expected_dqn_active": true,
+      "expected_flisr_active": true,
+      "expected_lstm_active": false,
+      "expected_predictive_active": false,
+      "expected_twin_active": false,
+      "invalid_reason": null,
+      "label": "dqn_core_only",
+      "runtime_s": 0.0485,
+      "valid": true
+    },
+    {
+      "active_modules": [
+        "flisr"
+      ],
+      "controller_kind": "rule_based",
+      "counters": {
+        "dqn_select_action": 0,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 0,
+        "reward_shaping": 0,
+        "twin_sync": 0
+      },
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "expected_dqn_active": false,
+      "expected_flisr_active": true,
+      "expected_lstm_active": false,
+      "expected_predictive_active": false,
+      "expected_twin_active": false,
+      "invalid_reason": null,
+      "label": "rule_based",
+      "runtime_s": 0.0615,
+      "valid": true
+    },
+    {
+      "active_modules": [],
+      "controller_kind": "random",
+      "counters": {
+        "dqn_select_action": 0,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 0,
+        "reward_shaping": 0,
+        "twin_sync": 0
+      },
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "expected_dqn_active": false,
+      "expected_flisr_active": false,
+      "expected_lstm_active": false,
+      "expected_predictive_active": false,
+      "expected_twin_active": false,
+      "invalid_reason": null,
+      "label": "random",
+      "runtime_s": 0.039,
+      "valid": true
+    },
+    {
+      "active_modules": [],
+      "controller_kind": "persistence",
+      "counters": {
+        "dqn_select_action": 0,
+        "flisr_restore": 0,
+        "lstm_predict": 0,
+        "predictive_healer_run": 0,
+        "reward_shaping": 0,
+        "twin_sync": 0
+      },
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "expected_dqn_active": false,
+      "expected_flisr_active": false,
+      "expected_lstm_active": false,
+      "expected_predictive_active": false,
+      "expected_twin_active": false,
+      "invalid_reason": null,
+      "label": "persistence",
+      "runtime_s": 0.0418,
+      "valid": true
+    }
+  ],
+  "scenario": {
+    "faults": 1,
+    "seed": 0,
+    "ticks": 5
+  },
+  "schema_version": "1.0"
+}

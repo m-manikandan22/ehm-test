@@ -1,0 +1,96 @@
+{
+  "config": {
+    "enable_dqn": true,
+    "enable_lstm": false,
+    "enable_twin": false,
+    "enable_predictive_healing": false,
+    "enable_reward_shaping": false,
+    "enable_flisr": true,
+    "enable_ems": false,
+    "enable_storage": false,
+    "enable_xai": false,
+    "seed": 0,
+    "label": "dqn_core_only",
+    "active_modules": [
+      "dqn",
+      "flisr"
+    ],
+    "disabled_modules": [
+      "digital_twin",
+      "ems",
+      "lstm",
+      "predictive_healing",
+      "reward_shaping",
+      "storage",
+      "xai"
+    ]
+  },
+  "scenario": {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 56,
+        "target": "LB1_DN",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 57,
+        "target": "P_B3",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 73,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 15,
+    "label": ""
+  },
+  "validity": {
+    "valid": true,
+    "invalid_reason": null,
+    "timestamp_step": null,
+    "notes": {},
+    "details": {}
+  },
+  "metrics": {
+    "n_faults": 3,
+    "n_restored": 3,
+    "restoration_rate": 1.0,
+    "avg_restoration_steps": 6.333333333333333,
+    "actions_taken": 80,
+    "illegal_actions_attempted": 0,
+    "voltage_violation_count": 0,
+    "critical_load_interruption_steps": 3,
+    "total_customer_minutes_interrupted": 15.74503180281706,
+    "energy_not_served_mwh": 0.262417196713618,
+    "n_steps": 80
+  },
+  "controller_label": "dqn_core_only",
+  "active_modules": [
+    "dqn",
+    "flisr"
+  ],
+  "disabled_modules": [
+    "digital_twin",
+    "ems",
+    "lstm",
+    "predictive_healing",
+    "reward_shaping",
+    "storage",
+    "xai"
+  ],
+  "pf_diagnostic": {
+    "dc_converged": 1,
+    "dc_kcl_residual_max": 8.881784197001252e-16,
+    "dc_bus_count": 41
+  },
+  "seed": 15,
+  "seed_id": 15,
+  "weather_mode": "normal"
+}

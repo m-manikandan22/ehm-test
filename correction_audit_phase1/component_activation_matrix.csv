@@ -1,0 +1,10 @@
+policy,flisr_intended,flisr_calls,twin_intended,twin_updates,twin_queries,lstm_intended,model_calls,predictive_intended,predictions_generated,recommendations_generated,predictive_actions_dispatched,predictive_actions_applied,validation,notes
+dqn_core_only,True,200,False,0,0,False,0,False,0,0,0,0,PASS,
+full_stack,True,200,True,9800,9800,True,200,True,200,0,0,0,PASS,
+no_lstm,True,200,True,9800,9800,False,0,True,200,0,0,0,PASS,
+no_predictive,True,200,True,9800,0,True,200,False,0,0,0,0,PASS,
+no_reward,True,200,True,9800,9800,True,200,True,200,0,0,0,PASS,
+no_twin,True,200,False,0,0,True,200,True,200,0,0,0,PASS,
+persistence,False,0,False,0,0,False,0,False,0,0,0,0,PASS,
+random,False,0,False,0,0,False,0,False,0,0,0,0,PASS,
+rule_based,True,200,False,0,0,False,0,False,0,0,0,0,PASS,

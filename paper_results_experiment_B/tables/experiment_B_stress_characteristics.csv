@@ -1,0 +1,3 @@
+stress_level,fault_count,fault_duration_min,fault_duration_max,max_concurrent_faults,load_multiplier,generation_reserve_factor,tie_capacity_factor,line_capacity_factor,battery_soc_min,battery_soc_max,renewable_factor,weather_mode,critical_load_fraction,tie_capacity_mw,fault_inject_probability
+moderate,5,10,20,2,1.2,0.9,0.7,0.85,0.3,0.7,0.85,normal,0.7,5.6,0.85
+severe,8,25,50,3,1.5,0.7,0.4,0.7,0.2,0.5,0.6,storm,0.4,3.2,0.9

@@ -1,0 +1,36 @@
+{
+  "scenario_seed": 0,
+  "total_steps": 40,
+  "fault_count": 5,
+  "results": [
+    {
+      "policy": "hybrid",
+      "n_steps": 40,
+      "energy_not_served_mwh": 0.0,
+      "customer_minutes_interrupted": 0.0,
+      "n_recoveries": 0
+    },
+    {
+      "policy": "battery_only",
+      "n_steps": 40,
+      "energy_not_served_mwh": 0.0,
+      "customer_minutes_interrupted": 0.0,
+      "n_recoveries": 0
+    },
+    {
+      "policy": "supercap_only",
+      "n_steps": 40,
+      "energy_not_served_mwh": 0.0,
+      "customer_minutes_interrupted": 0.0,
+      "n_recoveries": 0
+    },
+    {
+      "policy": "none",
+      "n_steps": 40,
+      "energy_not_served_mwh": 0.0,
+      "customer_minutes_interrupted": 0.0,
+      "n_recoveries": 0
+    }
+  ],
+  "summary": "Hybrid-storage experiment (scenario_seed=0, total_steps=40, fault_count=5):\n           hybrid: ENS=0.0000 MWh, CMI=0.00, recoveries=0\n     battery_only: ENS=0.0000 MWh, CMI=0.00, recoveries=0\n    supercap_only: ENS=0.0000 MWh, CMI=0.00, recoveries=0\n             none: ENS=0.0000 MWh, CMI=0.00, recoveries=0"
+}

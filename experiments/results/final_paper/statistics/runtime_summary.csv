@@ -1,0 +1,10 @@
+policy,n,mean_runtime_s,std_runtime_s,median_runtime_s
+dqn_core_only,200,1.4884,0.1379,1.4747
+full_stack,200,1.5425,0.1168,1.5385
+no_lstm,100,1.5313,0.0819,1.5349
+no_predictive,100,1.3858,0.0931,1.3793
+no_reward,100,1.6656,0.1443,1.6828
+no_twin,100,1.5307,0.1010,1.5197
+persistence,100,1.1719,0.0834,1.1539
+random,100,1.1034,0.2118,1.0525
+rule_based,100,1.2002,0.0904,1.1909

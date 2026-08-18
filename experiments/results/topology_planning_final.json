@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "max_iterations": 8,
+  "n_nodes": 49,
+  "n_actions": 1,
+  "kpis_before": {
+    "avg_path_length": 6.2,
+    "mesh_index": 0.5510204081632653,
+    "redundancy_score": 1.0,
+    "articulation_count": 23
+  },
+  "kpis_after": {
+    "avg_path_length": 6.2,
+    "mesh_index": 0.5510204081632653,
+    "redundancy_score": 1.0,
+    "articulation_count": 23
+  },
+  "actions": [
+    {
+      "kind": "add_feeder",
+      "params": {
+        "from_id": "GEN_SOLAR",
+        "to_id": "H5"
+      },
+      "expected_delta": 0.43938364997030455,
+      "rationale": "Long feeder chain GEN_SOLAR->H5 (8 hops) — add a parallel branch."
+    }
+  ],
+  "summary": "AIPlanner ran 1 accepted actions on a 49-node grid (max_iterations=8, seed=42).\nBaseline KPIs: {'avg_path_length': 6.2, 'mesh_index': 0.5510204081632653, 'redundancy_score': 1.0, 'articulation_count': 23}\nPredicted total cost reduction: 0.4394\nActions:\n  1. add_feeder({'from_id': 'GEN_SOLAR', 'to_id': 'H5'})  expected_delta=0.4394"
+}

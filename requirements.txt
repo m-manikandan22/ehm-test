@@ -1,0 +1,25 @@
+# Core backend runtime
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+numpy==1.26.4
+torch==2.2.2
+networkx==3.3
+scikit-learn==1.4.2
+pydantic==2.6.4
+python-multipart==0.0.9
+
+# Application configuration and serialization
+pydantic-settings>=2.0
+PyYAML>=6.0
+orjson>=3.9
+python-dateutil>=2.8
+
+# Scientific / optimization helpers used by the simulation stack
+pandas>=2.0
+scipy>=1.11
+
+# Test tooling
+pytest>=8.0
+
+# Optional physics validator for AC PF and IEEE-13 reference checks
+pandapower>=2.10,<3.0

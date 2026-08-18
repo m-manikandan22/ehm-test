@@ -1,0 +1,62 @@
+[
+  {
+    "controller_label": "dqn_core_only",
+    "n_total_runs": 2,
+    "n_valid_runs": 2,
+    "actions_taken_mean": 20.0,
+    "critical_load_interruption_steps_mean": 0.0,
+    "energy_not_served_mwh_mean": 0.026615062522130504,
+    "illegal_actions_attempted_mean": 0.0,
+    "n_faults_mean": 1.0,
+    "n_restored_mean": 0.0,
+    "n_steps_mean": 20.0,
+    "restoration_rate_mean": 0.0,
+    "total_customer_minutes_interrupted_mean": 1.5969037513278301,
+    "voltage_violation_count_mean": 0.0
+  },
+  {
+    "controller_label": "full_stack",
+    "n_total_runs": 2,
+    "n_valid_runs": 2,
+    "actions_taken_mean": 20.0,
+    "critical_load_interruption_steps_mean": 0.0,
+    "energy_not_served_mwh_mean": 0.07166659951934645,
+    "illegal_actions_attempted_mean": 0.0,
+    "n_faults_mean": 1.0,
+    "n_restored_mean": 0.0,
+    "n_steps_mean": 20.0,
+    "restoration_rate_mean": 0.0,
+    "total_customer_minutes_interrupted_mean": 4.299995971160788,
+    "voltage_violation_count_mean": 0.0
+  },
+  {
+    "controller_label": "random",
+    "n_total_runs": 2,
+    "n_valid_runs": 2,
+    "actions_taken_mean": 20.0,
+    "critical_load_interruption_steps_mean": 0.0,
+    "energy_not_served_mwh_mean": 0.056291762935180956,
+    "illegal_actions_attempted_mean": 0.0,
+    "n_faults_mean": 1.0,
+    "n_restored_mean": 0.0,
+    "n_steps_mean": 20.0,
+    "restoration_rate_mean": 0.0,
+    "total_customer_minutes_interrupted_mean": 3.3775057761108584,
+    "voltage_violation_count_mean": 0.0
+  },
+  {
+    "controller_label": "rule_based",
+    "n_total_runs": 2,
+    "n_valid_runs": 2,
+    "actions_taken_mean": 20.0,
+    "critical_load_interruption_steps_mean": 0.0,
+    "energy_not_served_mwh_mean": 0.0685825503825789,
+    "illegal_actions_attempted_mean": 0.0,
+    "n_faults_mean": 1.0,
+    "n_restored_mean": 0.0,
+    "n_steps_mean": 20.0,
+    "restoration_rate_mean": 0.0,
+    "total_customer_minutes_interrupted_mean": 4.114953022954736,
+    "voltage_violation_count_mean": 0.0
+  }
+]

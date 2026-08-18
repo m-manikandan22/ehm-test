@@ -1,0 +1,1690 @@
+{
+  "wallclock_s": 108.86,
+  "n_seeds": 2,
+  "n_policies": 2,
+  "n_scenarios": 10,
+  "n_weathers": 3,
+  "total_runs": 120,
+  "results": [
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -213.82886,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -213.51654,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -216.6563,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -239.58358,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -239.58358,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -243.19578,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -243.47914,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.7648316999448518
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -243.16698,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8478059372074672
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -246.31238,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9754167671747396
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -112.79169999999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -112.47562,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -115.60058,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -172.80326,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -172.49028,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -175.63032,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -259.39444000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -259.08259999999996,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -262.2288199999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.3544274697490213,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -270.3248,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9979141757437217
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.6898702167239232,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -270.3248,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.107778473946072
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.193034337186276,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -273.94061999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.274903468029058
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 6.0,
+        "rl_reward": -195.19968,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 6.0,
+        "rl_reward": -195.19968,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 6.0,
+        "rl_reward": -198.80618,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.491906905938935,
+        "saidi_proxy": 30.0,
+        "rl_reward": -178.74944000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9979141757437217
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.741097596532829,
+        "saidi_proxy": 30.0,
+        "rl_reward": -178.43656,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.107778473946072
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.114883632423669,
+        "saidi_proxy": 30.0,
+        "rl_reward": -181.57646000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.274903468029058
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -297.04143999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9269675365004851
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -297.04143999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.029048916642448
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 0.7894736842105263,
+        "rl_reward": -369.90866,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1846965089497505
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -190.76778,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -190.45185999999998,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -193.57924,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -213.83192,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -213.83192,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -217.43232,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -226.73278,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.7648316999448518
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -226.41685999999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8478059372074672
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -229.54424,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9754167671747396
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -76.82762,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -76.51217999999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -79.63488,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -136.92278,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -136.60685999999998,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -139.73424,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -242.64777999999998,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -242.33185999999998,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -245.45924,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.3544274697490213,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -247.72192,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9979141757437217
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.6898702167239232,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -247.72192,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.107778473946072
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.193034337186276,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -251.32232,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.274903468029058
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 6.0,
+        "rl_reward": -159.93192000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.426866580786833
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 6.0,
+        "rl_reward": -159.93192000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.44224717063180896
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 6.0,
+        "rl_reward": -163.53232,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.46931526781455546
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.491906905938935,
+        "saidi_proxy": 30.0,
+        "rl_reward": -142.87778,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9979141757437217
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.741097596532829,
+        "saidi_proxy": 30.0,
+        "rl_reward": -142.56185999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.107778473946072
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.114883632423669,
+        "saidi_proxy": 30.0,
+        "rl_reward": -145.68924,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.274903468029058
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.7851146381864433,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -277.72692,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9269675365004851
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.8636261020050877,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -277.72692,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.029048916642448
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.9813932977330542,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -281.32732,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1846965089497505
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -207.62364,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -207.13474,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "single_pole_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -209.95942000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -236.93492000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -236.93492000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "feeder_head_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -240.49622,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -237.17818000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8617571502340363
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -236.68326,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9587650687191582
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "transformer_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -239.49274,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1068379462595463
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -108.14136,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -107.64692,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "generator_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -110.45366,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -166.58982,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -166.09996,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storage_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -168.92414,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -253.09498000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -252.60005999999998,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "double_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -255.40954,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.7356134762393234,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -267.60842,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.0249143759403125
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.109174823863256,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -267.60842,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1417739169647274
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "storm_all_feeders",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.669516845299155,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -271.23842,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.3190960704381223
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 6.0,
+        "rl_reward": -192.55496000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 6.0,
+        "rl_reward": -192.55496000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "hospital_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 6.0,
+        "rl_reward": -196.11078000000003,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.4554739286697536,
+        "saidi_proxy": 30.0,
+        "rl_reward": -172.5375,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.0249143759403125
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.701021321536729,
+        "saidi_proxy": 30.0,
+        "rl_reward": -172.04780000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1417739169647274
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "industry_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.069342410837192,
+        "saidi_proxy": 30.0,
+        "rl_reward": -174.87195999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.3190960704381223
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -294.3997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.7724112944071171
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -294.3997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8587660236480076
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "random",
+      "scenario": "cascade",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -297.9514,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9912177832792382
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -186.33668,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -185.84212000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "single_pole_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 3.3333333333333335,
+        "rl_reward": -188.65084000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -211.19140000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -211.19140000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "feeder_head_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 2.142857142857143,
+        "rl_reward": -214.7414,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -222.30168,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8617571502340363
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -221.80712,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9587650687191582
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "transformer_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 2.0,
+        "rl_reward": -224.61584,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1068379462595463
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -73.9916,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -73.49776,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "generator_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -76.30239999999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -132.49168,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -131.99712,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storage_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 0.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 0.0,
+        "rl_reward": -134.80584,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -238.21668,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -237.72212000000002,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "double_fault",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 0.0,
+        "saidi_proxy": 1.875,
+        "rl_reward": -240.53084,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.7356134762393234,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -245.0814,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.0249143759403125
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.109174823863256,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -245.0814,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1417739169647274
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "storm_all_feeders",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 4.669516845299155,
+        "saidi_proxy": 1.6666666666666667,
+        "rl_reward": -248.63139999999999,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.3190960704381223
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 6.0,
+        "rl_reward": -157.2914,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.530315648876243
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 6.0,
+        "rl_reward": -157.2914,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.5699698756267617
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "hospital_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 6.0,
+        "rl_reward": -160.8414,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.6337676557218184
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.4554739286697536,
+        "saidi_proxy": 30.0,
+        "rl_reward": -138.44668,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.0249143759403125
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 2.701021321536729,
+        "saidi_proxy": 30.0,
+        "rl_reward": -137.95212,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.1417739169647274
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "industry_loss",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 3.069342410837192,
+        "saidi_proxy": 30.0,
+        "rl_reward": -140.76084,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 1.3190960704381223
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "clear",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.23013954756957,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -275.08639999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.7724112944071171
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "cloudy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.353153502326527,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -275.08639999999997,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.8587660236480076
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "rule_based",
+      "scenario": "cascade",
+      "weather": "stormy",
+      "metrics": {
+        "restoration_time": 30.0,
+        "energy_not_supplied": 1.5376744344619624,
+        "saidi_proxy": 1.3043478260869565,
+        "rl_reward": -278.6364,
+        "fault_detection_f1": 1.0,
+        "forecast_rmse": 0.9912177832792382
+      }
+    }
+  ]
+}

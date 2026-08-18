@@ -1,0 +1,932 @@
+{
+  "different_seed": {
+    "all_different": true,
+    "description": "Different seeds \u2192 different fault lists",
+    "details": [
+      {
+        "different": true,
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "seed_a": 0,
+        "seed_b": 1,
+        "weather": "normal"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "seed_a": 1,
+        "seed_b": 2,
+        "weather": "normal"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "seed_a": 2,
+        "seed_b": 3,
+        "weather": "normal"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "seed_a": 0,
+        "seed_b": 1,
+        "weather": "high_demand"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "seed_a": 1,
+        "seed_b": 2,
+        "weather": "high_demand"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "seed_a": 2,
+        "seed_b": 3,
+        "weather": "high_demand"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "seed_a": 0,
+        "seed_b": 1,
+        "weather": "storm"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "seed_a": 1,
+        "seed_b": 2,
+        "weather": "storm"
+      },
+      {
+        "different": true,
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "seed_a": 2,
+        "seed_b": 3,
+        "weather": "storm"
+      }
+    ],
+    "n_cases": 9
+  },
+  "paired_scenario_across_configs": {
+    "all_valid": true,
+    "description": "Same scenario replayed across all configs",
+    "details": [
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "full_stack",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "no_lstm",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "no_twin",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "no_predictive",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "no_reward",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "dqn_core_only",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "rule_based",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "random",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H49"
+          ]
+        ],
+        "label": "persistence",
+        "seed": 0,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "full_stack",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "no_lstm",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "no_twin",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "no_predictive",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "no_reward",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "dqn_core_only",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "rule_based",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "random",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            7,
+            "H72"
+          ]
+        ],
+        "label": "persistence",
+        "seed": 1,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "full_stack",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "no_lstm",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "no_twin",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "no_predictive",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "no_reward",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "dqn_core_only",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "rule_based",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "random",
+        "seed": 2,
+        "valid": true
+      },
+      {
+        "faults_in_scenario": [
+          [
+            18,
+            "H07"
+          ]
+        ],
+        "label": "persistence",
+        "seed": 2,
+        "valid": true
+      }
+    ],
+    "n_cases": 27
+  },
+  "same_seed": {
+    "all_identical": true,
+    "description": "Same seed \u2192 identical fault list",
+    "details": [
+      {
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "identical": true,
+        "seed": 0,
+        "weather": "normal"
+      },
+      {
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "identical": true,
+        "seed": 0,
+        "weather": "high_demand"
+      },
+      {
+        "faults_a": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "faults_b": [
+          [
+            7,
+            "H33"
+          ],
+          [
+            29,
+            "S2"
+          ]
+        ],
+        "identical": true,
+        "seed": 0,
+        "weather": "storm"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "identical": true,
+        "seed": 1,
+        "weather": "normal"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "identical": true,
+        "seed": 1,
+        "weather": "high_demand"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H72"
+          ],
+          [
+            21,
+            "H15"
+          ]
+        ],
+        "identical": true,
+        "seed": 1,
+        "weather": "storm"
+      },
+      {
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "identical": true,
+        "seed": 2,
+        "weather": "normal"
+      },
+      {
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "identical": true,
+        "seed": 2,
+        "weather": "high_demand"
+      },
+      {
+        "faults_a": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "faults_b": [
+          [
+            8,
+            "H11"
+          ],
+          [
+            28,
+            "H21"
+          ]
+        ],
+        "identical": true,
+        "seed": 2,
+        "weather": "storm"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "identical": true,
+        "seed": 3,
+        "weather": "normal"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "identical": true,
+        "seed": 3,
+        "weather": "high_demand"
+      },
+      {
+        "faults_a": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "faults_b": [
+          [
+            13,
+            "H47"
+          ],
+          [
+            20,
+            "H75"
+          ]
+        ],
+        "identical": true,
+        "seed": 3,
+        "weather": "storm"
+      },
+      {
+        "faults_a": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "faults_b": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "identical": true,
+        "seed": 4,
+        "weather": "normal"
+      },
+      {
+        "faults_a": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "faults_b": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "identical": true,
+        "seed": 4,
+        "weather": "high_demand"
+      },
+      {
+        "faults_a": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "faults_b": [
+          [
+            20,
+            "H38"
+          ],
+          [
+            30,
+            "H61"
+          ]
+        ],
+        "identical": true,
+        "seed": 4,
+        "weather": "storm"
+      }
+    ],
+    "n_cases": 15
+  },
+  "scenario_generator": "experiments.scenario.make_scenario",
+  "schema_version": "1.0",
+  "verdict": "PASS"
+}

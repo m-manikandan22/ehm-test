@@ -1,0 +1,410 @@
+{
+  "dqn_core_only": {
+    "n_faults": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_restored": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 2.0,
+      "max": 3.0,
+      "mean": 2.85,
+      "std": 0.36634754853252327,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "restoration_rate": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 0.6666666666666666,
+      "max": 1.0,
+      "mean": 0.95,
+      "std": 0.12211584951084109,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "avg_restoration_steps": {
+      "n_unique_values": 8,
+      "zero_variance": false,
+      "min": 4.0,
+      "max": 7.0,
+      "mean": 4.8,
+      "std": 0.8812537586498584,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "actions_taken": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "voltage_violation_count": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "critical_load_interruption_steps": {
+      "n_unique_values": 3,
+      "zero_variance": false,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.5,
+      "std": 1.0513149660756935,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "total_customer_minutes_interrupted": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 7.789883560773713,
+      "max": 123.66105138489301,
+      "mean": 44.47600998500998,
+      "std": 33.04577940053386,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "energy_not_served_mwh": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 0.12983139267956223,
+      "max": 2.0610175230815484,
+      "mean": 0.7412668330835009,
+      "std": 0.5507629900088976,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_steps": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    }
+  },
+  "full_stack": {
+    "n_faults": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_restored": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 2.0,
+      "max": 3.0,
+      "mean": 2.85,
+      "std": 0.36634754853252327,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "restoration_rate": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 0.6666666666666666,
+      "max": 1.0,
+      "mean": 0.95,
+      "std": 0.12211584951084109,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "avg_restoration_steps": {
+      "n_unique_values": 8,
+      "zero_variance": false,
+      "min": 4.0,
+      "max": 7.0,
+      "mean": 4.8,
+      "std": 0.8812537586498584,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "actions_taken": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "voltage_violation_count": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "critical_load_interruption_steps": {
+      "n_unique_values": 3,
+      "zero_variance": false,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.5,
+      "std": 1.0513149660756935,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "total_customer_minutes_interrupted": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 25.25356175324565,
+      "max": 181.24315422483608,
+      "mean": 80.63725627236148,
+      "std": 46.18984251522249,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "energy_not_served_mwh": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 0.42089269588742684,
+      "max": 3.0207192370805953,
+      "mean": 1.3439542712060253,
+      "std": 0.7698307085870407,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_steps": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    }
+  },
+  "random": {
+    "n_faults": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_restored": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 2.0,
+      "max": 3.0,
+      "mean": 2.85,
+      "std": 0.36634754853252327,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "restoration_rate": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 0.6666666666666666,
+      "max": 1.0,
+      "mean": 0.95,
+      "std": 0.12211584951084109,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "avg_restoration_steps": {
+      "n_unique_values": 8,
+      "zero_variance": false,
+      "min": 4.0,
+      "max": 7.0,
+      "mean": 4.8,
+      "std": 0.8812537586498584,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "actions_taken": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "voltage_violation_count": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "critical_load_interruption_steps": {
+      "n_unique_values": 3,
+      "zero_variance": false,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.5,
+      "std": 1.0513149660756935,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "total_customer_minutes_interrupted": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 21.396986297289114,
+      "max": 159.57660712200058,
+      "mean": 80.59833547353642,
+      "std": 43.53842958902753,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "energy_not_served_mwh": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 0.3566164382881516,
+      "max": 2.659610118700008,
+      "mean": 1.3433055912256067,
+      "std": 0.7256404931504583,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_steps": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    }
+  },
+  "rule_based": {
+    "n_faults": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 3.0,
+      "max": 3.0,
+      "mean": 3.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_restored": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 2.0,
+      "max": 3.0,
+      "mean": 2.85,
+      "std": 0.36634754853252327,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "restoration_rate": {
+      "n_unique_values": 2,
+      "zero_variance": false,
+      "min": 0.6666666666666666,
+      "max": 1.0,
+      "mean": 0.95,
+      "std": 0.12211584951084109,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "avg_restoration_steps": {
+      "n_unique_values": 8,
+      "zero_variance": false,
+      "min": 4.0,
+      "max": 7.0,
+      "mean": 4.8,
+      "std": 0.8812537586498584,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "actions_taken": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "voltage_violation_count": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "critical_load_interruption_steps": {
+      "n_unique_values": 3,
+      "zero_variance": false,
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.5,
+      "std": 1.0513149660756935,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "total_customer_minutes_interrupted": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 19.0328552802562,
+      "max": 155.78841337749782,
+      "mean": 81.29340956685878,
+      "std": 43.37336949211625,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "energy_not_served_mwh": {
+      "n_unique_values": 20,
+      "zero_variance": false,
+      "min": 0.3172142546709362,
+      "max": 2.596473556291637,
+      "mean": 1.3548901594476463,
+      "std": 0.7228894915352714,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    },
+    "n_steps": {
+      "n_unique_values": 1,
+      "zero_variance": true,
+      "min": 80.0,
+      "max": 80.0,
+      "mean": 80.0,
+      "std": 0.0,
+      "n_outliers_3sd": 0,
+      "outlier_values": []
+    }
+  }
+}

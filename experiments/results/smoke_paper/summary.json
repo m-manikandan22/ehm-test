@@ -1,0 +1,42 @@
+{
+  "ablation_labels": [
+    "full_stack",
+    "no_lstm",
+    "no_twin"
+  ],
+  "ablation_validity": {
+    "n_invalid": 0,
+    "n_total": 9,
+    "n_valid": 9
+  },
+  "baseline_labels": [
+    "random",
+    "rule_based"
+  ],
+  "baseline_validity": {
+    "n_invalid": 0,
+    "n_total": 6,
+    "n_valid": 6
+  },
+  "faults_per_run": 1,
+  "n_seeds": 3,
+  "n_total_runs": 15,
+  "n_valid_runs": 15,
+  "outputs": {
+    "ablation_csv": "ablation_results.csv",
+    "ablation_json": "ablation_results.json",
+    "ablation_md": "ablation_table.md",
+    "baseline_csv": "baseline_results.csv",
+    "baseline_json": "baseline_results.json",
+    "baseline_md": "baseline_table.md",
+    "manifest": "manifest.json",
+    "scenarios": "scenarios.json",
+    "statistics": "statistics.json",
+    "statistics_md": "statistics.md"
+  },
+  "ticks": 20,
+  "valid_rate": 1.0,
+  "weather_modes": [
+    "normal"
+  ]
+}

@@ -1,0 +1,5 @@
+controller_label,n_total_runs,n_valid_runs,actions_taken_mean,critical_load_interruption_steps_mean,energy_not_served_mwh_mean,illegal_actions_attempted_mean,n_faults_mean,n_restored_mean,n_steps_mean,restoration_rate_mean,total_customer_minutes_interrupted_mean,voltage_violation_count_mean
+dqn_core_only,5,5,40.0,0.6,0.36074474370978576,0.0,2.0,0.0,40.0,0.0,21.644684622587153,0.0
+full_stack,5,5,40.0,0.6,0.5747436535338889,0.0,2.0,0.0,40.0,0.0,34.484619212033316,0.0
+random,5,5,40.0,0.6,0.579505473203184,0.0,2.0,0.0,40.0,0.0,34.77032839219105,0.0
+rule_based,5,5,40.0,0.6,0.52976118022196,0.0,2.0,0.0,40.0,0.0,31.78567081331755,0.0

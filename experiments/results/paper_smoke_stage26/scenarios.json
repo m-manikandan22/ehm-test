@@ -1,0 +1,32 @@
+[
+  {
+    "total_steps": 20,
+    "faults": [
+      {
+        "timestep": 16,
+        "target": "P_A3",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 20,
+    "faults": [
+      {
+        "timestep": 11,
+        "target": "LC1_UP_1",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "scenario_seed": 1
+  }
+]

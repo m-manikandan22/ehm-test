@@ -1,0 +1,19 @@
+{
+  "primary": {
+    "name": "EHM 49-node distribution test feeder",
+    "buses": 49,
+    "source_bus": "GEN_SOLAR / GEN_WIND / GEN_NUCLEAR / GEN_COAL / GEN_GAS",
+    "tie_switches": "see backend/simulation/grid.py"
+  },
+  "second_benchmark": {
+    "name": "IEEE 33-bus test feeder",
+    "buses": 33,
+    "lines": 37,
+    "tie_switches": 5,
+    "total_load_kw": 3715,
+    "total_load_kvar": 2300,
+    "source_bus": "1",
+    "voltage_base_kv": 12.66,
+    "reference": "Baran & Wu 1989; IEEE PES Distribution System Analysis Subcommittee 1992"
+  }
+}

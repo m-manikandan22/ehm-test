@@ -1,0 +1,8 @@
+[       random] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.07330810260972702  dc_converged=1
+[   rule_based] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.07551440285581867  dc_converged=1
+[dqn_core_only] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.02898175441215653  dc_converged=1
+[   full_stack] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.06181787209312352  dc_converged=1
+[       random] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.03927542326063489  dc_converged=1
+[   rule_based] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.06165069790933915  dc_converged=1
+[dqn_core_only] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.024248370632104478  dc_converged=1
+[   full_stack] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.08151532694556937  dc_converged=1

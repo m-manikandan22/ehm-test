@@ -1,0 +1,542 @@
+[
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 42,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 52,
+        "target": "LA0_2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 67,
+        "target": "LB0_UP_1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 40,
+        "target": "P_C3",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 42,
+        "target": "LA0_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 60,
+        "target": "LA1_2",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "scenario_seed": 1
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 13,
+        "target": "LB2_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 24,
+        "target": "LB0_UP_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 66,
+        "target": "P_C2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": "",
+    "scenario_seed": 2
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 11,
+        "target": "LA2_1",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 18,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 65,
+        "target": "LA2_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 3,
+    "label": "",
+    "scenario_seed": 3
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 58,
+        "target": "T_A",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 70,
+        "target": "T_C",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 74,
+        "target": "LC0_UP_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 4,
+    "label": "",
+    "scenario_seed": 4
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 6,
+        "target": "LB2_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 54,
+        "target": "LC1_UP_1",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 64,
+        "target": "P_B3",
+        "duration_steps": 1,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 5,
+    "label": "",
+    "scenario_seed": 5
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 37,
+        "target": "LB1_UP_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 43,
+        "target": "T_A",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 44,
+        "target": "LB1_DN",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 6,
+    "label": "",
+    "scenario_seed": 6
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 51,
+        "target": "P_C2",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 55,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 74,
+        "target": "P_A1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 7,
+    "label": "",
+    "scenario_seed": 7
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 22,
+        "target": "LA2_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 29,
+        "target": "LB1_DN",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 58,
+        "target": "T_A",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 8,
+    "label": "",
+    "scenario_seed": 8
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 36,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 69,
+        "target": "LA1_1",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 76,
+        "target": "P_A2",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 9,
+    "label": "",
+    "scenario_seed": 9
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 24,
+        "target": "P_B3",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 62,
+        "target": "P_C2",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 75,
+        "target": "LA2_1",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 10,
+    "label": "",
+    "scenario_seed": 10
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 14,
+        "target": "P_A1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 14,
+        "target": "LB2_2",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 63,
+        "target": "P_A2",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 11,
+    "label": "",
+    "scenario_seed": 11
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 23,
+        "target": "LA2_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 50,
+        "target": "LA0_2",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 77,
+        "target": "P_C3",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 12,
+    "label": "",
+    "scenario_seed": 12
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 65,
+        "target": "P_C2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 68,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 71,
+        "target": "LA0_2",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 13,
+    "label": "",
+    "scenario_seed": 13
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 16,
+        "target": "LB1_DN",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 53,
+        "target": "LA1_1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 66,
+        "target": "P_B2",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 14,
+    "label": "",
+    "scenario_seed": 14
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 56,
+        "target": "LB1_DN",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 57,
+        "target": "P_B3",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 73,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 15,
+    "label": "",
+    "scenario_seed": 15
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 44,
+        "target": "LA1_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 46,
+        "target": "LB2_1",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 65,
+        "target": "P_B3",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 16,
+    "label": "",
+    "scenario_seed": 16
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 12,
+        "target": "P_A1",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 59,
+        "target": "LB2_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 67,
+        "target": "LA1_2",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 17,
+    "label": "",
+    "scenario_seed": 17
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 20,
+        "target": "P_C2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 34,
+        "target": "P_B1",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 71,
+        "target": "LB0_UP_1",
+        "duration_steps": 3,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 18,
+    "label": "",
+    "scenario_seed": 18
+  },
+  {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 31,
+        "target": "LB0_UP_1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 36,
+        "target": "P_C3",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 48,
+        "target": "LB1_UP_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 19,
+    "label": "",
+    "scenario_seed": 19
+  }
+]

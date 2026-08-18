@@ -1,0 +1,1458 @@
+{
+  "completed_at": "2026-08-04T09:02:39.531354+00:00",
+  "elapsed_s": 20.424,
+  "experiment": "experiments.runner",
+  "faults_per_run": 1,
+  "n_invalid": 0,
+  "n_seeds": 2,
+  "n_total": 10,
+  "n_valid": 10,
+  "runs": [
+    {
+      "completed_at": "2026-08-04T09:02:32.078902+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "full_stack",
+        "notes": "",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "full_stack",
+      "fault_timesteps": {
+        "H49": 18
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.029,
+        "critical_load_restored_mw": 1.0928,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.0928,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 18.0,
+            "fault_timestep": 18,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H49"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 46.9329,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 980,
+          "twin_syncs": 20
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.1168,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.3227,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 16.7168,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 980,
+        "twin_syncs": 20
+      },
+      "policy": "full_stack",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.102659+00:00",
+        "faults": [
+          {
+            "duration_steps": 2,
+            "target": "H49",
+            "timestep": 18
+          }
+        ],
+        "label": "seed_0_normal",
+        "seed": 0,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 0,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:32.883409+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "full_stack",
+        "notes": "",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "full_stack",
+      "fault_timesteps": {
+        "H72": 7
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0145,
+        "critical_load_restored_mw": 1.1082,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.1082,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 7.0,
+            "fault_timestep": 7,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H72"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 47.0791,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 980,
+          "twin_syncs": 20
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.0871,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.2149,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 17.1748,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 980,
+        "twin_syncs": 20
+      },
+      "policy": "full_stack",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.103655+00:00",
+        "faults": [
+          {
+            "duration_steps": 1,
+            "target": "H72",
+            "timestep": 7
+          }
+        ],
+        "label": "seed_1_normal",
+        "seed": 1,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 1,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:35.012553+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "digital_twin"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": false,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_twin",
+        "notes": "Digital twin registry bypassed; no health-aware action selection.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_twin",
+      "fault_timesteps": {
+        "H49": 18
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0326,
+        "critical_load_restored_mw": 1.0928,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.0928,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 18.0,
+            "fault_timestep": 18,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H49"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 46.9329,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 100,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.1135,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 1.3621,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 16.7168,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 100,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "no_twin",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.102659+00:00",
+        "faults": [
+          {
+            "duration_steps": 2,
+            "target": "H49",
+            "timestep": 18
+          }
+        ],
+        "label": "seed_0_normal",
+        "seed": 0,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 0,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:37.089710+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "digital_twin"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": false,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_twin",
+        "notes": "Digital twin registry bypassed; no health-aware action selection.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_twin",
+      "fault_timesteps": {
+        "H72": 7
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0151,
+        "critical_load_restored_mw": 1.1082,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.1082,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 7.0,
+            "fault_timestep": 7,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H72"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 47.0791,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 100,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.1371,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 1.3821,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 17.1748,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 100,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "no_twin",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.103655+00:00",
+        "faults": [
+          {
+            "duration_steps": 1,
+            "target": "H72",
+            "timestep": 7
+          }
+        ],
+        "label": "seed_1_normal",
+        "seed": 1,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 1,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:37.239764+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "lstm"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": false,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_lstm",
+        "notes": "LSTM forecaster disabled; persistence fallback used.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_lstm",
+      "fault_timesteps": {
+        "H49": 18
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0096,
+        "critical_load_restored_mw": 1.0928,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.0928,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 18.0,
+            "fault_timestep": 18,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H49"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 46.9329,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 0,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 980,
+          "twin_syncs": 20
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.047,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.1316,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 16.7168,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 0,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 980,
+        "twin_syncs": 20
+      },
+      "policy": "no_lstm",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.102659+00:00",
+        "faults": [
+          {
+            "duration_steps": 2,
+            "target": "H49",
+            "timestep": 18
+          }
+        ],
+        "label": "seed_0_normal",
+        "seed": 0,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 0,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:37.473667+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "lstm"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": false,
+        "enable_predictive_healing": true,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_lstm",
+        "notes": "LSTM forecaster disabled; persistence fallback used.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_lstm",
+      "fault_timesteps": {
+        "H72": 7
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0129,
+        "critical_load_restored_mw": 1.1082,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.1082,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 7.0,
+            "fault_timestep": 7,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H72"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 47.0791,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 0,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 20,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 980,
+          "twin_syncs": 20
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.0819,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.2049,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 17.1748,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 0,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 20,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 980,
+        "twin_syncs": 20
+      },
+      "policy": "no_lstm",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.103655+00:00",
+        "faults": [
+          {
+            "duration_steps": 1,
+            "target": "H72",
+            "timestep": 7
+          }
+        ],
+        "label": "seed_1_normal",
+        "seed": 1,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 1,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:38.319387+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "digital_twin",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "predictive_healing"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": false,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_predictive",
+        "notes": "Predictive self-healing disabled; faults handled reactively by FLISR only.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_predictive",
+      "fault_timesteps": {
+        "H49": 18
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.016,
+        "critical_load_restored_mw": 1.0928,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.0928,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 18.0,
+            "fault_timestep": 18,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H49"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 46.9329,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 0,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.0905,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.216,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 16.7168,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 0,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "no_predictive",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.102659+00:00",
+        "faults": [
+          {
+            "duration_steps": 2,
+            "target": "H49",
+            "timestep": 18
+          }
+        ],
+        "label": "seed_0_normal",
+        "seed": 0,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 0,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:39.226271+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "lstm",
+          "digital_twin",
+          "reward_shaping",
+          "flisr",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "disabled_modules": [
+          "predictive_healing"
+        ],
+        "enable_dqn": true,
+        "enable_ems": true,
+        "enable_flisr": true,
+        "enable_lstm": true,
+        "enable_predictive_healing": false,
+        "enable_reward_shaping": true,
+        "enable_storage": true,
+        "enable_twin": true,
+        "enable_xai": true,
+        "fault_count": 1,
+        "label": "no_predictive",
+        "notes": "Predictive self-healing disabled; faults handled reactively by FLISR only.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "no_predictive",
+      "fault_timesteps": {
+        "H72": 7
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0126,
+        "critical_load_restored_mw": 1.1082,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.1082,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 7.0,
+            "fault_timestep": 7,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H72"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 47.0791,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 20,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 0,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.1169,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.2668,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 17.1748,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 20,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 0,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "no_predictive",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.103655+00:00",
+        "faults": [
+          {
+            "duration_steps": 1,
+            "target": "H72",
+            "timestep": 7
+          }
+        ],
+        "label": "seed_1_normal",
+        "seed": 1,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 1,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:39.382256+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "flisr"
+        ],
+        "disabled_modules": [
+          "lstm",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "enable_dqn": true,
+        "enable_ems": false,
+        "enable_flisr": true,
+        "enable_lstm": false,
+        "enable_predictive_healing": false,
+        "enable_reward_shaping": false,
+        "enable_storage": false,
+        "enable_twin": false,
+        "enable_xai": false,
+        "fault_count": 1,
+        "label": "dqn_core_only",
+        "notes": "DQN core only \u2014 no LSTM, no Twin, no Predictive, no reward shaping, no EMS, no XAI.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "dqn_core_only",
+      "fault_timesteps": {
+        "H49": 18
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.017,
+        "critical_load_restored_mw": 1.0928,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.0928,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 18.0,
+            "fault_timestep": 18,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H49"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 46.9329,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 0,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 0,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.051,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.136,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 16.7168,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 0,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 0,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "dqn_core_only",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.102659+00:00",
+        "faults": [
+          {
+            "duration_steps": 2,
+            "target": "H49",
+            "timestep": 18
+          }
+        ],
+        "label": "seed_0_normal",
+        "seed": 0,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 0,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    },
+    {
+      "completed_at": "2026-08-04T09:02:39.531354+00:00",
+      "config": {
+        "active_modules": [
+          "dqn",
+          "flisr"
+        ],
+        "disabled_modules": [
+          "lstm",
+          "digital_twin",
+          "predictive_healing",
+          "reward_shaping",
+          "ems",
+          "storage",
+          "xai"
+        ],
+        "enable_dqn": true,
+        "enable_ems": false,
+        "enable_flisr": true,
+        "enable_lstm": false,
+        "enable_predictive_healing": false,
+        "enable_reward_shaping": false,
+        "enable_storage": false,
+        "enable_twin": false,
+        "enable_xai": false,
+        "fault_count": 1,
+        "label": "dqn_core_only",
+        "notes": "DQN core only \u2014 no LSTM, no Twin, no Predictive, no reward shaping, no EMS, no XAI.",
+        "seed": 42,
+        "simulation_steps": 100,
+        "weather_mode": "normal"
+      },
+      "controller": "dqn",
+      "controller_label": "dqn_core_only",
+      "fault_timesteps": {
+        "H72": 7
+      },
+      "metrics": {
+        "actions_taken": 20,
+        "asai": 0.0,
+        "average_voltage_pu": 0.961428571428572,
+        "battery_dispatch_events": 0,
+        "carbon_kg": 0.0,
+        "controller_runtime_s": 0.0186,
+        "critical_load_restored_mw": 1.1082,
+        "critical_load_restored_pct": 100.0,
+        "critical_load_total_mw": 1.1082,
+        "ens": 10.0,
+        "faults": [
+          {
+            "fault_timestamp_s": 7.0,
+            "fault_timestep": 7,
+            "restoration_seconds": null,
+            "restoration_steps": null,
+            "restoration_timestamp_s": null,
+            "restoration_timestep": null,
+            "successful_restoration": false,
+            "target_node": "H72"
+          }
+        ],
+        "frequency_deviation_count": 980,
+        "generation_mw": 47.0791,
+        "illegal_actions_attempted": 0,
+        "isolated_nodes": 0,
+        "line_overload_count": 0,
+        "load_shedding_events": 0,
+        "maifi": 20.0,
+        "maximum_voltage_pu": 1.0,
+        "minimum_voltage_pu": 0.95,
+        "module_call_counts": {
+          "dqn_actions": 20,
+          "flisr_calls": 0,
+          "lstm_calls": 0,
+          "noop_actions": 0,
+          "predictive_actions": 0,
+          "predictive_assess_calls": 0,
+          "random_actions": 0,
+          "rule_actions": 0,
+          "twin_reads": 0,
+          "twin_syncs": 0
+        },
+        "n_faults": 1,
+        "number_of_islands": 1,
+        "operating_cost_usd": 0.0,
+        "outage_cost_usd": 0.0,
+        "power_flow_runtime_s": 0.0482,
+        "restoration_time_seconds": 0.0,
+        "restoration_time_steps": null,
+        "runtime_s": 0.1301,
+        "saidi": 0.0,
+        "saifi": 0.02040816326530612,
+        "successful_restoration_count": 0,
+        "switching_operations": 0,
+        "total_load_mw": 17.1748,
+        "voltage_violation_count": 0
+      },
+      "module_call_counts": {
+        "dqn_actions": 20,
+        "flisr_calls": 0,
+        "lstm_calls": 0,
+        "noop_actions": 0,
+        "predictive_actions": 0,
+        "predictive_assess_calls": 0,
+        "random_actions": 0,
+        "rule_actions": 0,
+        "twin_reads": 0,
+        "twin_syncs": 0
+      },
+      "policy": "dqn_core_only",
+      "scenario": {
+        "created_at": "2026-08-04T09:02:28.103655+00:00",
+        "faults": [
+          {
+            "duration_steps": 1,
+            "target": "H72",
+            "timestep": 7
+          }
+        ],
+        "label": "seed_1_normal",
+        "seed": 1,
+        "software": {
+          "cuda": "unavailable",
+          "networkx": "3.3",
+          "numpy": "1.26.4",
+          "pandapower": "2.14.10",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python": "3.11.0",
+          "torch": "2.2.2+cpu"
+        },
+        "total_steps": 20,
+        "weather_mode": "normal"
+      },
+      "seed": 1,
+      "valid": true,
+      "validity": {
+        "details": {},
+        "invalid_reason": null,
+        "timestamp_step": null,
+        "valid": true
+      },
+      "weather_mode": "normal"
+    }
+  ],
+  "schema_version": "2.0",
+  "summary": {
+    "dqn_core_only": {
+      "n_runs": 2,
+      "n_valid": 2
+    },
+    "full_stack": {
+      "n_runs": 2,
+      "n_valid": 2
+    },
+    "no_lstm": {
+      "n_runs": 2,
+      "n_valid": 2
+    },
+    "no_predictive": {
+      "n_runs": 2,
+      "n_valid": 2
+    },
+    "no_twin": {
+      "n_runs": 2,
+      "n_valid": 2
+    }
+  },
+  "ticks": 20,
+  "valid_rate": 1.0,
+  "weather_modes": [
+    "normal"
+  ]
+}

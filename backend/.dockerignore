@@ -1,0 +1,21 @@
+# Backend
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.egg-info
+.venv
+venv
+
+# IDE
+.vscode
+.idea
+
+# Test outputs
+.coverage
+htmlcov
+.pytest_cache
+.pyrightconfig.json

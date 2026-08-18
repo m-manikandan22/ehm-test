@@ -1,0 +1,282 @@
+[
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 32,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 39,
+        "target": "LA0_2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 50,
+        "target": "LB0_UP_1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 30,
+        "target": "P_C3",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 32,
+        "target": "LA0_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 45,
+        "target": "LA1_2",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 1
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 10,
+        "target": "LB2_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 19,
+        "target": "LB0_UP_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 50,
+        "target": "P_C2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 2
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 9,
+        "target": "LA2_1",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 14,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 48,
+        "target": "LA2_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 3,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 3
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 44,
+        "target": "T_A",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 52,
+        "target": "T_C",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 55,
+        "target": "LC0_UP_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 4,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 4
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 6,
+        "target": "LB2_2",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 41,
+        "target": "LC1_UP_1",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 48,
+        "target": "P_B3",
+        "duration_steps": 1,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 5,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 5
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 29,
+        "target": "LB1_UP_1",
+        "duration_steps": 2,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 32,
+        "target": "T_A",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 34,
+        "target": "LB1_DN",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 6,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 6
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 38,
+        "target": "P_C2",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 41,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 56,
+        "target": "P_A1",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 7,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 7
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 17,
+        "target": "LA2_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 22,
+        "target": "LB1_DN",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 43,
+        "target": "T_A",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 8,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 8
+  },
+  {
+    "total_steps": 60,
+    "faults": [
+      {
+        "timestep": 27,
+        "target": "LB0_DN_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 51,
+        "target": "LA1_1",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 56,
+        "target": "P_A2",
+        "duration_steps": 3,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 9,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 9
+  }
+]

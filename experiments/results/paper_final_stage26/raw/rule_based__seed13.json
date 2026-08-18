@@ -1,0 +1,96 @@
+{
+  "config": {
+    "enable_dqn": false,
+    "enable_lstm": false,
+    "enable_twin": true,
+    "enable_predictive_healing": true,
+    "enable_reward_shaping": false,
+    "enable_flisr": true,
+    "enable_ems": true,
+    "enable_storage": true,
+    "enable_xai": false,
+    "seed": 0,
+    "label": "rule_based",
+    "active_modules": [
+      "digital_twin",
+      "ems",
+      "flisr",
+      "predictive_healing",
+      "storage"
+    ],
+    "disabled_modules": [
+      "dqn",
+      "lstm",
+      "reward_shaping",
+      "xai"
+    ]
+  },
+  "scenario": {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 65,
+        "target": "P_C2",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 68,
+        "target": "P_C1",
+        "duration_steps": 1,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 71,
+        "target": "LA0_2",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 13,
+    "label": ""
+  },
+  "validity": {
+    "valid": true,
+    "invalid_reason": null,
+    "timestamp_step": null,
+    "notes": {},
+    "details": {}
+  },
+  "metrics": {
+    "n_faults": 3,
+    "n_restored": 3,
+    "restoration_rate": 1.0,
+    "avg_restoration_steps": 7.0,
+    "actions_taken": 80,
+    "illegal_actions_attempted": 0,
+    "voltage_violation_count": 0,
+    "critical_load_interruption_steps": 0,
+    "total_customer_minutes_interrupted": 19.0328552802562,
+    "energy_not_served_mwh": 0.3172142546709362,
+    "n_steps": 80
+  },
+  "controller_label": "rule_based",
+  "active_modules": [
+    "digital_twin",
+    "ems",
+    "flisr",
+    "predictive_healing",
+    "storage"
+  ],
+  "disabled_modules": [
+    "dqn",
+    "lstm",
+    "reward_shaping",
+    "xai"
+  ],
+  "pf_diagnostic": {
+    "dc_converged": 1,
+    "dc_kcl_residual_max": 3.858025010572419e-15,
+    "dc_bus_count": 41
+  },
+  "seed": 13,
+  "seed_id": 13,
+  "weather_mode": "normal"
+}

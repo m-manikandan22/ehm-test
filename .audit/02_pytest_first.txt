@@ -1,0 +1,26 @@
+﻿python : C:\Users\ELCOT\AppData\Roaming\Python\Python314\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 
+(2.6.3) or chardet (7.4.3)/charset_normalizer (3.4.4) doesn't match a supported version!
+At line:1 char:361
++ ... ic\EHM-paper"; cd backend; python -m pytest --tb=line -q 2>&1 | Tee-O ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\ELCOT\...ported version!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+........................................................................ [ 15%]
+......................................................F................. [ 31%]
+........................................................................ [ 46%]
+........................................................................ [ 62%]
+........................................................................ [ 77%]
+........................................................................ [ 93%]
+..............................                                           [100%]
+================================== FAILURES ===================================
+E   AssertionError: run_single must record pf_diagnostic
+    assert 'pf_diagnostic' in {'completed_at': '2026-08-11T16:53:58.626432+00:00', 'config': {'active_modules': ['digital_twin', 'dqn', 'ems', 'flis... 'disabled_modules': [], 'enable_dqn': True, 'enable_ems': True, ...}, 'controller': 'dqn', 'fault_timesteps': {}, ...}
+---------------------------- Captured stdout call -----------------------------
+[LSTM] Generating synthetic dataset...
+[LSTM] Training on CPU (30 epochs)...
+[LSTM] Training complete. Final loss: 0.048583 | chronological val MSE: 0.095331 (n_train=400, n_val=100)
+C:\Users\ELCOT\Music\EHM-paper\backend\tests\test_experiments_framework.py:75: AssertionError: run_single must record pf_diagnostic
+=========================== short test summary info ===========================
+FAILED tests/test_experiments_framework.py::test_runner_records_pf_diagnostic

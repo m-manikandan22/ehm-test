@@ -1,0 +1,28 @@
+{
+  "cuda_available": false,
+  "generated_at": "2026-08-02T14:15:03.651224+00:00",
+  "git_commit": "67401988bc2a779daf682393f07911334ef716fc",
+  "package_versions": {
+    "cuda_available": "no",
+    "fastapi": "0.110.0",
+    "networkx": "3.3",
+    "numpy": "1.26.4",
+    "pandapower": "2.14.10",
+    "pydantic": "2.6.4",
+    "python": "3.11.0",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.4.2",
+    "torch": "2.2.2+cpu",
+    "torch_device": "cpu"
+  },
+  "pandapower_usable": true,
+  "platform": {
+    "machine": "AMD64",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+    "python_implementation": "CPython",
+    "release": "10",
+    "system": "Windows"
+  },
+  "python_executable": "C:\\Users\\ELCOT\\miniconda3\\envs\\EHM-paper\\python.exe"
+}

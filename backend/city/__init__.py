@@ -1,0 +1,1 @@
+"""city — procedural city generator and AI-assisted grid planner."""

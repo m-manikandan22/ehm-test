@@ -1,0 +1,80 @@
+# weather.yaml — default WeatherEngine configuration.
+# Probabilities are interpreted as the per-step Markov transition
+# matrix from each state to the next.  Each row is renormalised
+# internally, so absolute magnitudes do not have to sum to 1.
+
+factors:
+  sunny:
+    solar_factor: 1.00
+    wind_factor: 0.80
+    load_factor: 1.00
+    fault_prob_factor: 0.30
+    battery_discharge_factor: 0.50
+    temperature_c: 28.0
+  cloudy:
+    solar_factor: 0.55
+    wind_factor: 1.00
+    load_factor: 1.00
+    fault_prob_factor: 0.50
+    battery_discharge_factor: 0.70
+    temperature_c: 22.0
+  rain:
+    solar_factor: 0.30
+    wind_factor: 1.20
+    load_factor: 1.05
+    fault_prob_factor: 1.20
+    battery_discharge_factor: 1.10
+    temperature_c: 18.0
+  storm:
+    solar_factor: 0.15
+    wind_factor: 1.50
+    load_factor: 1.15
+    fault_prob_factor: 3.00
+    battery_discharge_factor: 1.80
+    temperature_c: 16.0
+  heatwave:
+    solar_factor: 1.10
+    wind_factor: 0.50
+    load_factor: 1.30
+    fault_prob_factor: 1.40
+    battery_discharge_factor: 1.40
+    temperature_c: 42.0
+  cyclone:
+    solar_factor: 0.05
+    wind_factor: 1.80
+    load_factor: 1.40
+    fault_prob_factor: 5.00
+    battery_discharge_factor: 2.50
+    temperature_c: 14.0
+
+transitions:
+  sunny:
+    sunny: 0.70
+    cloudy: 0.20
+    rain: 0.05
+    heatwave: 0.05
+  cloudy:
+    sunny: 0.30
+    cloudy: 0.40
+    rain: 0.20
+    storm: 0.10
+  rain:
+    cloudy: 0.30
+    rain: 0.40
+    storm: 0.20
+    sunny: 0.10
+  storm:
+    rain: 0.40
+    storm: 0.30
+    cloudy: 0.20
+    cyclone: 0.10
+  heatwave:
+    sunny: 0.30
+    heatwave: 0.50
+    cloudy: 0.15
+    storm: 0.05
+  cyclone:
+    storm: 0.50
+    rain: 0.30
+    cloudy: 0.15
+    cyclone: 0.05

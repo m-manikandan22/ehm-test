@@ -1,0 +1,90 @@
+{
+  "config": {
+    "enable_dqn": true,
+    "enable_lstm": false,
+    "enable_twin": false,
+    "enable_predictive_healing": false,
+    "enable_reward_shaping": false,
+    "enable_flisr": true,
+    "enable_ems": false,
+    "enable_storage": false,
+    "enable_xai": false,
+    "seed": 0,
+    "label": "dqn_core_only",
+    "active_modules": [
+      "dqn",
+      "flisr"
+    ],
+    "disabled_modules": [
+      "digital_twin",
+      "ems",
+      "lstm",
+      "predictive_healing",
+      "reward_shaping",
+      "storage",
+      "xai"
+    ]
+  },
+  "scenario": {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 21,
+        "target": "T_B",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 22,
+        "target": "P_B2",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": ""
+  },
+  "validity": {
+    "valid": true,
+    "invalid_reason": null,
+    "timestamp_step": null,
+    "notes": {},
+    "details": {}
+  },
+  "metrics": {
+    "n_faults": 2,
+    "n_restored": 0,
+    "restoration_rate": 0.0,
+    "avg_restoration_steps": null,
+    "actions_taken": 40,
+    "illegal_actions_attempted": 0,
+    "voltage_violation_count": 0,
+    "critical_load_interruption_steps": 3,
+    "total_customer_minutes_interrupted": 53.324397880350986,
+    "energy_not_served_mwh": 0.8887399646725163,
+    "n_steps": 40
+  },
+  "controller_label": "dqn_core_only",
+  "active_modules": [
+    "dqn",
+    "flisr"
+  ],
+  "disabled_modules": [
+    "digital_twin",
+    "ems",
+    "lstm",
+    "predictive_healing",
+    "reward_shaping",
+    "storage",
+    "xai"
+  ],
+  "pf_diagnostic": {
+    "dc_converged": 1,
+    "dc_kcl_residual_max": 9.71445146547012e-16,
+    "dc_bus_count": 39
+  },
+  "seed": 1,
+  "seed_id": 1,
+  "weather_mode": "normal"
+}

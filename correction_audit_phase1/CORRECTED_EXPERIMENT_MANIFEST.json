@@ -1,0 +1,426 @@
+{
+  "created_at_local": "2026-08-05",
+  "design": {
+    "expected_runs": 540,
+    "policies": [
+      "persistence",
+      "random",
+      "rule_based",
+      "dqn_core_only",
+      "full_stack",
+      "no_lstm",
+      "no_twin",
+      "no_predictive",
+      "no_reward"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "stress_levels": [
+      "moderate",
+      "severe"
+    ],
+    "ticks": 200
+  },
+  "experiment": "Experiment B corrected rerun",
+  "frozen_design_statement": "No stress levels, seeds, policy labels, primary outcomes, controller thresholds, or baseline parameters changed for the corrected rerun.",
+  "git_head": "67401988bc2a779daf682393f07911334ef716fc",
+  "manifest_name": "CORRECTED_EXPERIMENT_MANIFEST",
+  "policy_definitions": {
+    "dqn_core_only": {
+      "active_modules": [
+        "dqn",
+        "flisr"
+      ],
+      "disabled_modules": [
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "enable_dqn": true,
+      "enable_ems": false,
+      "enable_flisr": true,
+      "enable_lstm": false,
+      "enable_predictive_healing": false,
+      "enable_reward_shaping": false,
+      "enable_storage": false,
+      "enable_twin": false,
+      "enable_xai": false,
+      "fault_count": 1,
+      "label": "dqn_core_only",
+      "notes": "DQN core only \u2014 no LSTM, no Twin, no Predictive, no reward shaping, no EMS, no XAI.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "full_stack": {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [],
+      "enable_dqn": true,
+      "enable_ems": true,
+      "enable_flisr": true,
+      "enable_lstm": true,
+      "enable_predictive_healing": true,
+      "enable_reward_shaping": true,
+      "enable_storage": true,
+      "enable_twin": true,
+      "enable_xai": true,
+      "fault_count": 1,
+      "label": "full_stack",
+      "notes": "",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "no_lstm": {
+      "active_modules": [
+        "dqn",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "lstm"
+      ],
+      "enable_dqn": true,
+      "enable_ems": true,
+      "enable_flisr": true,
+      "enable_lstm": false,
+      "enable_predictive_healing": true,
+      "enable_reward_shaping": true,
+      "enable_storage": true,
+      "enable_twin": true,
+      "enable_xai": true,
+      "fault_count": 1,
+      "label": "no_lstm",
+      "notes": "LSTM forecaster disabled; persistence fallback used.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "no_predictive": {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "predictive_healing"
+      ],
+      "enable_dqn": true,
+      "enable_ems": true,
+      "enable_flisr": true,
+      "enable_lstm": true,
+      "enable_predictive_healing": false,
+      "enable_reward_shaping": true,
+      "enable_storage": true,
+      "enable_twin": true,
+      "enable_xai": true,
+      "fault_count": 1,
+      "label": "no_predictive",
+      "notes": "Predictive self-healing disabled; faults handled reactively by FLISR only.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "no_reward": {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "reward_shaping"
+      ],
+      "enable_dqn": true,
+      "enable_ems": true,
+      "enable_flisr": true,
+      "enable_lstm": true,
+      "enable_predictive_healing": true,
+      "enable_reward_shaping": false,
+      "enable_storage": true,
+      "enable_twin": true,
+      "enable_xai": true,
+      "fault_count": 1,
+      "label": "no_reward",
+      "notes": "Reward shaping replaced with a single penalty on outage count.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "no_twin": {
+      "active_modules": [
+        "dqn",
+        "lstm",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "disabled_modules": [
+        "digital_twin"
+      ],
+      "enable_dqn": true,
+      "enable_ems": true,
+      "enable_flisr": true,
+      "enable_lstm": true,
+      "enable_predictive_healing": true,
+      "enable_reward_shaping": true,
+      "enable_storage": true,
+      "enable_twin": false,
+      "enable_xai": true,
+      "fault_count": 1,
+      "label": "no_twin",
+      "notes": "Digital twin registry bypassed; no health-aware action selection.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "persistence": {
+      "active_modules": [],
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "enable_dqn": false,
+      "enable_ems": false,
+      "enable_flisr": false,
+      "enable_lstm": false,
+      "enable_predictive_healing": false,
+      "enable_reward_shaping": false,
+      "enable_storage": false,
+      "enable_twin": false,
+      "enable_xai": false,
+      "fault_count": 1,
+      "label": "persistence",
+      "notes": "No-AI controller \u2014 no actions are ever issued.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "random": {
+      "active_modules": [],
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "flisr",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "enable_dqn": false,
+      "enable_ems": false,
+      "enable_flisr": false,
+      "enable_lstm": false,
+      "enable_predictive_healing": false,
+      "enable_reward_shaping": false,
+      "enable_storage": false,
+      "enable_twin": false,
+      "enable_xai": false,
+      "fault_count": 1,
+      "label": "random",
+      "notes": "Random policy baseline.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    },
+    "rule_based": {
+      "active_modules": [
+        "flisr"
+      ],
+      "disabled_modules": [
+        "dqn",
+        "lstm",
+        "digital_twin",
+        "predictive_healing",
+        "reward_shaping",
+        "ems",
+        "storage",
+        "xai"
+      ],
+      "enable_dqn": false,
+      "enable_ems": false,
+      "enable_flisr": true,
+      "enable_lstm": false,
+      "enable_predictive_healing": false,
+      "enable_reward_shaping": false,
+      "enable_storage": false,
+      "enable_twin": false,
+      "enable_xai": false,
+      "fault_count": 1,
+      "label": "rule_based",
+      "notes": "Deterministic rule-based FLISR; no learned control.",
+      "seed": 42,
+      "simulation_steps": 100,
+      "weather_mode": "normal"
+    }
+  },
+  "source_sha256": {
+    "backend/self_healing/predictor.py": "89c113ca8591a2098782c3ee5da06ffcbe940856d6855cbfb8be583342d8a1b7",
+    "backend/simulation/scada.py": "57c8b1c88ac75a364051de6bb44db9564e4f140165ea21c2b08fb8ff5bead695",
+    "experiments/experiment_config.py": "71caa55e6e64f6d1cb72054d89dc444f71ab5ebdb04ef931d8fa9f43afa95866",
+    "experiments/runner.py": "2f40fc1d0c81944e6b7909c70cc09f8aa72f36ecad1cd1dbc8cc8163ed958165",
+    "experiments/stress_runner.py": "a0ca9c14430823ad6c58719d093aa9704d60e8c50693bd9c6053531e882df9e9",
+    "experiments/stress_scenario.py": "7ce70079736d3ededdf674e9d70dce547ce2a91e20c577431947d7e7a7c17fa9"
+  },
+  "stress_level_parameters": {
+    "extreme": {
+      "battery_soc_range": [
+        0.1,
+        0.3
+      ],
+      "critical_load_fraction": 0.25,
+      "fault_count": 12,
+      "fault_duration_range": [
+        50,
+        100
+      ],
+      "fault_inject_probability": 0.95,
+      "generation_reserve_factor": 0.5,
+      "line_capacity_factor": 0.55,
+      "load_multiplier": 1.8,
+      "max_concurrent_faults": 4,
+      "renewable_factor": 0.4,
+      "tie_capacity_factor": 0.25,
+      "tie_capacity_mw": 2.0,
+      "weather_mode": "storm"
+    },
+    "moderate": {
+      "battery_soc_range": [
+        0.3,
+        0.7
+      ],
+      "critical_load_fraction": 0.7,
+      "fault_count": 5,
+      "fault_duration_range": [
+        10,
+        20
+      ],
+      "fault_inject_probability": 0.85,
+      "generation_reserve_factor": 0.9,
+      "line_capacity_factor": 0.85,
+      "load_multiplier": 1.2,
+      "max_concurrent_faults": 2,
+      "renewable_factor": 0.85,
+      "tie_capacity_factor": 0.7,
+      "tie_capacity_mw": 5.6,
+      "weather_mode": "normal"
+    },
+    "nominal": {
+      "battery_soc_range": [
+        0.5,
+        0.9
+      ],
+      "critical_load_fraction": 1.0,
+      "fault_count": 3,
+      "fault_duration_range": [
+        3,
+        8
+      ],
+      "fault_inject_probability": 1.0,
+      "generation_reserve_factor": 1.0,
+      "line_capacity_factor": 1.0,
+      "load_multiplier": 1.0,
+      "max_concurrent_faults": 1,
+      "renewable_factor": 1.0,
+      "tie_capacity_factor": 1.0,
+      "tie_capacity_mw": 8.0,
+      "weather_mode": "normal"
+    },
+    "severe": {
+      "battery_soc_range": [
+        0.2,
+        0.5
+      ],
+      "critical_load_fraction": 0.4,
+      "fault_count": 8,
+      "fault_duration_range": [
+        25,
+        50
+      ],
+      "fault_inject_probability": 0.9,
+      "generation_reserve_factor": 0.7,
+      "line_capacity_factor": 0.7,
+      "load_multiplier": 1.5,
+      "max_concurrent_faults": 3,
+      "renewable_factor": 0.6,
+      "tie_capacity_factor": 0.4,
+      "tie_capacity_mw": 3.2,
+      "weather_mode": "storm"
+    }
+  },
+  "validation_inputs": {
+    "component_activation_matrix": "correction_audit_phase1/component_activation_matrix.csv",
+    "smoke_results": "correction_audit_phase1/smoke_after_tc/smoke_runs.json",
+    "unit_tests": "python -m pytest experiments/test_execution_paths_corrected.py -q"
+  }
+}

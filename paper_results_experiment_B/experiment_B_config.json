@@ -1,0 +1,118 @@
+{
+  "ablations": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_reward",
+    "dqn_core_only"
+  ],
+  "controllers": [
+    "persistence",
+    "random",
+    "rule_based",
+    "dqn_core_only",
+    "full_stack"
+  ],
+  "deviation_from_initial_freeze": {
+    "original_n_seeds": 100,
+    "final_n_seeds": 30,
+    "reason": "100 seeds × 2 levels × 9 policies = 1800 runs. Each full_stack / dqn_core_only run trains an LSTM (30 epochs on synthetic data) on CPU. Measured rate: ~8 LSTM trainings/min, projecting >2 hours total on a single CPU. To deliver a paper-ready artefact within the available window, we reduced to 30 paired seeds × 2 levels × 9 policies = 540 runs (~35-45 minutes). The freeze file was RE-ISSUED with the new seed count *before* any final analysis was conducted. No scenario difficulty was tuned based on cross-controller ranking. This deviation is disclosed transparently in EXPERIMENT_B_FINAL_RESULTS.md §2 (Experimental design).",
+    "disclosed": true,
+    "decision_made_before_analysis": true,
+    "statistical_validity_note": "30 paired samples per (level, controller) is sufficient for paired Wilcoxon signed-rank tests at alpha=0.05. The 10-seed pilot established saturation/inconclusive on primary outcomes; 30 seeds gives ~3x more statistical power and is the minimum credible paired-by-seed design."
+  },
+  "environment": {
+    "cuda": "unavailable",
+    "fastapi": "0.110.0",
+    "networkx": "3.3",
+    "numpy": "1.26.4",
+    "pandapower": "2.14.10",
+    "pandas": "3.0.5",
+    "pydantic": "2.6.4",
+    "python": "3.11.0",
+    "scikit-learn": "1.4.2",
+    "torch": "2.2.2+cpu",
+    "yaml": "6.0.3"
+  },
+  "expected_run_count_explanation": "2 stress levels × 30 seeds × 9 unique controllers = 540 runs. The 9 unique controllers cover both the baseline set (5) and the ablation set (6) with dqn_core_only/full_stack shared (preserving raw provenance by replicating rather than reusing).",
+  "expected_runs": 540,
+  "experiment_a_protected": true,
+  "experiment_a_protection_record": "experiments/results/final_paper/EXPERIMENT_A_PROTECTION.json",
+  "experiment_id": "EHM-paper-30seed-stress-v1",
+  "frozen_at": "2026-08-04T22:55:00.000000+00:00",
+  "git_commit": "67401988bc2a779daf682393f07911334ef716fc",
+  "metrics": [
+    "saifi",
+    "saidi",
+    "ens",
+    "restoration_time_seconds",
+    "critical_load_restored_pct",
+    "voltage_violation_count",
+    "switching_operations",
+    "number_of_islands",
+    "stress_cumulative_unserved_energy",
+    "resilience_loss_area",
+    "resilience_time_to_50pct_restoration",
+    "stress_critical_load_restored_pct",
+    "stress_cum_feasible_restoration_mw",
+    "stress_cum_unserved_restoration_mw"
+  ],
+  "n_seeds": 30,
+  "primary_outcomes": [
+    "stress_cumulative_unserved_energy",
+    "resilience_time_to_50pct_restoration",
+    "stress_critical_load_restored_pct",
+    "saidi"
+  ],
+  "primary_outcomes_document": "experiments/results/experiment_B_stress/PRIMARY_OUTCOMES.md",
+  "provenance": {
+    "ablations_genuinely_isolated": true,
+    "isolation_tests_pass": true,
+    "module_call_counts_recorded": true,
+    "validity_guards_recorded": true
+  },
+  "scenario_generator_version": "experiments.stress_scenario@1.0",
+  "schema_version": "1.1",
+  "seeds": [
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+    20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  ],
+  "stress_definitions": {
+    "moderate": {
+      "battery_soc_range": [0.3, 0.7],
+      "critical_load_fraction": 0.7,
+      "fault_count": 5,
+      "fault_duration_range": [10, 20],
+      "fault_inject_probability": 0.85,
+      "generation_reserve_factor": 0.9,
+      "line_capacity_factor": 0.85,
+      "load_multiplier": 1.2,
+      "max_concurrent_faults": 2,
+      "renewable_factor": 0.85,
+      "tie_capacity_factor": 0.7,
+      "tie_capacity_mw": 5.6,
+      "weather_mode": "normal"
+    },
+    "severe": {
+      "battery_soc_range": [0.2, 0.5],
+      "critical_load_fraction": 0.4,
+      "fault_count": 8,
+      "fault_duration_range": [25, 50],
+      "fault_inject_probability": 0.9,
+      "generation_reserve_factor": 0.7,
+      "line_capacity_factor": 0.7,
+      "load_multiplier": 1.5,
+      "max_concurrent_faults": 3,
+      "renewable_factor": 0.6,
+      "tie_capacity_factor": 0.4,
+      "tie_capacity_mw": 3.2,
+      "weather_mode": "storm"
+    }
+  },
+  "stress_levels": [
+    "moderate",
+    "severe"
+  ],
+  "ticks": 200
+}

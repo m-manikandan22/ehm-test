@@ -1,0 +1,36 @@
+# Table 4 — Ablation study (full_stack vs ablation variants)
+
+| stress_level | ablation | outcome | median_full_stack | median_ablation | median_diff | wilcoxon_p_raw | wilcoxon_p_holm | cliffs_delta | per_seed_identical |
+|---|---|---|---|---|---|---|---|---|---|
+| moderate | no_lstm | PO1_ens | 501.2 | 501.2 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_lstm | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_lstm | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_lstm | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_twin | PO1_ens | 501.2 | 501.2 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_twin | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_twin | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_twin | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_predictive | PO1_ens | 501.2 | 501.2 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_predictive | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_predictive | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_predictive | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_reward | PO1_ens | 501.2 | 501.2 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_reward | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_reward | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| moderate | no_reward | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_lstm | PO1_ens | 1330 | 1330 | 0 | 1 | 1 | 0 | yes |
+| severe | no_lstm | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_lstm | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| severe | no_lstm | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_twin | PO1_ens | 1330 | 1330 | 0 | 1 | 1 | 0 | yes |
+| severe | no_twin | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_twin | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| severe | no_twin | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_predictive | PO1_ens | 1330 | 1330 | 0 | 1 | 1 | 0 | yes |
+| severe | no_predictive | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_predictive | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| severe | no_predictive | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_reward | PO1_ens | 1330 | 1330 | 0 | 1 | 1 | 0 | yes |
+| severe | no_reward | PO2_restoration_time | 0 | 0 | 0 | 1 | 1 | 0 | yes |
+| severe | no_reward | PO3_critical_load | 100 | 100 | 0 | 1 | 1 | 0 | yes |
+| severe | no_reward | PO4_saidi | 0 | 0 | 0 | 1 | 1 | 0 | yes |

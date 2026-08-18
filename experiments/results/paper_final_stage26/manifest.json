@@ -1,0 +1,52 @@
+{
+  "git_sha": "UNKNOWN",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.4.2",
+    "scipy": "1.18.0",
+    "networkx": "3.6.1",
+    "pandas": "2.3.3",
+    "torch": "2.11.0+cpu",
+    "matplotlib": "3.10.8"
+  },
+  "seeds": 20,
+  "ticks": 80,
+  "faults_per_run": 3,
+  "weather_modes": [
+    "normal"
+  ],
+  "policies": [
+    "random",
+    "rule_based",
+    "dqn_core_only",
+    "full_stack"
+  ],
+  "ablation_policies": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_reward",
+    "dqn_core_only"
+  ],
+  "n_runs_attempted": 80,
+  "n_runs_valid": 80,
+  "n_runs_invalid": 0,
+  "invalid_rate": 0.0,
+  "runtime_seconds": 35.89469313621521,
+  "ablation": {
+    "n_total_runs": 120,
+    "n_valid_runs": 120
+  },
+  "output_layout": {
+    "raw/": "one JSON per (policy, seed)",
+    "aggregated/": "per-policy summary CSV + JSON",
+    "statistics/": "paired comparison JSON + Markdown",
+    "tables/": "TABLE_I, II, III, IV Markdown + JSON",
+    "figures/": "PNG figures (or stub if matplotlib missing)",
+    "logs/": "per-run summary log",
+    "manifest.json": "this file",
+    "summary.md": "human-readable top-line summary"
+  }
+}

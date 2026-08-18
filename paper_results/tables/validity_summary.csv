@@ -1,0 +1,10 @@
+policy,n_total,n_valid,n_invalid,valid_rate
+dqn_core_only,200,200,0,1.0000
+full_stack,200,200,0,1.0000
+no_lstm,100,100,0,1.0000
+no_predictive,100,100,0,1.0000
+no_reward,100,100,0,1.0000
+no_twin,100,100,0,1.0000
+persistence,100,100,0,1.0000
+random,100,100,0,1.0000
+rule_based,100,100,0,1.0000

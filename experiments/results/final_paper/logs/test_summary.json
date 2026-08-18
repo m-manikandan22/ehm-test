@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-02T19:30:00Z",
+  "command": "python -m pytest tests/ -v",
+  "results": {
+    "total": 330,
+    "passed": 330,
+    "failed": 0,
+    "skipped": 0,
+    "xfailed": 0,
+    "xpassed": 0,
+    "warnings": 0,
+    "execution_time_s": 783.96
+  },
+  "bug_fix_applied": {
+    "files_changed": [
+      "backend/utils/pandas_compat.py (new)",
+      "backend/simulation/ac_power_flow.py",
+      "experiments/ieee13_validation.py"
+    ],
+    "description": "Two genuine bugs blocking the test suite: (1) pandapower 2.14.x requires std_type as a positional argument in create_line(); switched to create_line_from_parameters(). (2) pandas 3.0+ Copy-on-Write returns read-only arrays from .values, breaking pandapower's result-write code. Added a minimal monkey-patch in a new utils/pandas_compat.py that overrides Series.values / DataFrame.values to return writable copies.",
+    "root_cause": "Dependency upgrade (pandas 3.0.5) + pandapower 2.14.x API drift.",
+    "minimal_change": true,
+    "tests_altered": 0,
+    "tests_added": 0
+  },
+  "verdict": "PASS"
+}

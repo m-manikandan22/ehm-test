@@ -1,0 +1,23 @@
+{
+  "cuda": "unavailable",
+  "generated_at": "2026-08-04T16:55:32.416081+00:00",
+  "git_commit": "67401988bc2a779daf682393f07911334ef716fc",
+  "os": "Windows 11 (build 26200)",
+  "packages": {
+    "fastapi": "0.110.0",
+    "networkx": "3.3",
+    "numpy": "1.26.4",
+    "pandapower": "2.14.10",
+    "pandas": "3.0.5",
+    "pydantic": "2.6.4",
+    "scikit-learn": "1.4.2",
+    "torch": "2.2.2+cpu",
+    "yaml": "6.0.3"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "python": "3.11.0",
+  "python_executable": "C:\\Users\\ELCOT\\miniconda3\\envs\\EHM-paper\\python.exe",
+  "schema_version": "1.0",
+  "torch_device": "cpu"
+}

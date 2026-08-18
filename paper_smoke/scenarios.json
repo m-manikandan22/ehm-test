@@ -1,0 +1,24 @@
+[
+  {
+    "total_steps": 10,
+    "faults": [
+      {
+        "timestep": 7,
+        "target": "LC0_UP_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 8,
+        "target": "LB0_UP_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "created_at": "synthetic",
+    "scenario_seed": 0
+  }
+]

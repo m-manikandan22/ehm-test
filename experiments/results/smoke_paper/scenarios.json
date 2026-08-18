@@ -1,0 +1,71 @@
+[
+  {
+    "created_at": "2026-08-02T08:53:29.658026+00:00",
+    "faults": [
+      {
+        "duration_steps": 2,
+        "target": "H49",
+        "timestep": 18
+      }
+    ],
+    "label": "seed_0_normal",
+    "seed": 0,
+    "software": {
+      "cuda": "unavailable",
+      "networkx": "3.6.1",
+      "numpy": "2.4.2",
+      "pandapower": "missing",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.14.3",
+      "torch": "2.11.0+cpu"
+    },
+    "total_steps": 20,
+    "weather_mode": "normal"
+  },
+  {
+    "created_at": "2026-08-02T08:53:29.658468+00:00",
+    "faults": [
+      {
+        "duration_steps": 1,
+        "target": "H72",
+        "timestep": 7
+      }
+    ],
+    "label": "seed_1_normal",
+    "seed": 1,
+    "software": {
+      "cuda": "unavailable",
+      "networkx": "3.6.1",
+      "numpy": "2.4.2",
+      "pandapower": "missing",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.14.3",
+      "torch": "2.11.0+cpu"
+    },
+    "total_steps": 20,
+    "weather_mode": "normal"
+  },
+  {
+    "created_at": "2026-08-02T08:53:29.658811+00:00",
+    "faults": [
+      {
+        "duration_steps": 1,
+        "target": "H07",
+        "timestep": 18
+      }
+    ],
+    "label": "seed_2_normal",
+    "seed": 2,
+    "software": {
+      "cuda": "unavailable",
+      "networkx": "3.6.1",
+      "numpy": "2.4.2",
+      "pandapower": "missing",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.14.3",
+      "torch": "2.11.0+cpu"
+    },
+    "total_steps": 20,
+    "weather_mode": "normal"
+  }
+]

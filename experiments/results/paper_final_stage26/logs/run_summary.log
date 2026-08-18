@@ -1,0 +1,80 @@
+[       random] seed=  0  valid=True  reason=None  restoration_rate=1.0  ENS=0.6740921707615267  dc_converged=1
+[   rule_based] seed=  0  valid=True  reason=None  restoration_rate=1.0  ENS=0.7499263623508741  dc_converged=1
+[dqn_core_only] seed=  0  valid=True  reason=None  restoration_rate=1.0  ENS=0.21442784620208605  dc_converged=1
+[   full_stack] seed=  0  valid=True  reason=None  restoration_rate=1.0  ENS=0.6751456568841021  dc_converged=1
+[       random] seed=  1  valid=True  reason=None  restoration_rate=1.0  ENS=2.6430865346272845  dc_converged=1
+[   rule_based] seed=  1  valid=True  reason=None  restoration_rate=1.0  ENS=2.289339173996736  dc_converged=1
+[dqn_core_only] seed=  1  valid=True  reason=None  restoration_rate=1.0  ENS=1.9721764778135313  dc_converged=1
+[   full_stack] seed=  1  valid=True  reason=None  restoration_rate=1.0  ENS=2.4253988841551553  dc_converged=1
+[       random] seed=  2  valid=True  reason=None  restoration_rate=1.0  ENS=1.9067239105811895  dc_converged=1
+[   rule_based] seed=  2  valid=True  reason=None  restoration_rate=1.0  ENS=1.9022471958848752  dc_converged=1
+[dqn_core_only] seed=  2  valid=True  reason=None  restoration_rate=1.0  ENS=0.7092599852694038  dc_converged=1
+[   full_stack] seed=  2  valid=True  reason=None  restoration_rate=1.0  ENS=1.669489604302395  dc_converged=1
+[       random] seed=  3  valid=True  reason=None  restoration_rate=1.0  ENS=1.8026265297316746  dc_converged=1
+[   rule_based] seed=  3  valid=True  reason=None  restoration_rate=1.0  ENS=1.9015835772072422  dc_converged=1
+[dqn_core_only] seed=  3  valid=True  reason=None  restoration_rate=1.0  ENS=0.8423601386605079  dc_converged=1
+[   full_stack] seed=  3  valid=True  reason=None  restoration_rate=1.0  ENS=2.1406665657223303  dc_converged=1
+[       random] seed=  4  valid=True  reason=None  restoration_rate=1.0  ENS=1.4248915392001067  dc_converged=1
+[   rule_based] seed=  4  valid=True  reason=None  restoration_rate=1.0  ENS=1.8453404249760754  dc_converged=1
+[dqn_core_only] seed=  4  valid=True  reason=None  restoration_rate=1.0  ENS=1.181915054489608  dc_converged=1
+[   full_stack] seed=  4  valid=True  reason=None  restoration_rate=1.0  ENS=1.7281093677899424  dc_converged=1
+[       random] seed=  5  valid=True  reason=None  restoration_rate=1.0  ENS=0.6289912483543556  dc_converged=1
+[   rule_based] seed=  5  valid=True  reason=None  restoration_rate=1.0  ENS=1.0496046905077163  dc_converged=1
+[dqn_core_only] seed=  5  valid=True  reason=None  restoration_rate=1.0  ENS=0.2931784088569488  dc_converged=1
+[   full_stack] seed=  5  valid=True  reason=None  restoration_rate=1.0  ENS=1.131801789063139  dc_converged=1
+[       random] seed=  6  valid=True  reason=None  restoration_rate=1.0  ENS=1.6596508745077894  dc_converged=1
+[   rule_based] seed=  6  valid=True  reason=None  restoration_rate=1.0  ENS=2.2508489340513513  dc_converged=1
+[dqn_core_only] seed=  6  valid=True  reason=None  restoration_rate=1.0  ENS=1.0863348906743413  dc_converged=1
+[   full_stack] seed=  6  valid=True  reason=None  restoration_rate=1.0  ENS=1.7681528455046582  dc_converged=1
+[       random] seed=  7  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.6588013516269986  dc_converged=1
+[   rule_based] seed=  7  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.6934453198545392  dc_converged=1
+[dqn_core_only] seed=  7  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.30798362697159626  dc_converged=1
+[   full_stack] seed=  7  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.5865601680258793  dc_converged=1
+[       random] seed=  8  valid=True  reason=None  restoration_rate=1.0  ENS=1.8925209309280475  dc_converged=1
+[   rule_based] seed=  8  valid=True  reason=None  restoration_rate=1.0  ENS=1.5600867406017107  dc_converged=1
+[dqn_core_only] seed=  8  valid=True  reason=None  restoration_rate=1.0  ENS=0.9435654862124052  dc_converged=1
+[   full_stack] seed=  8  valid=True  reason=None  restoration_rate=1.0  ENS=1.610364225344591  dc_converged=1
+[       random] seed=  9  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.4694177201916752  dc_converged=1
+[   rule_based] seed=  9  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.3986595187275821  dc_converged=1
+[dqn_core_only] seed=  9  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.12983139267956223  dc_converged=1
+[   full_stack] seed=  9  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.48687094688223065  dc_converged=1
+[       random] seed= 10  valid=True  reason=None  restoration_rate=1.0  ENS=1.8308551813003953  dc_converged=1
+[   rule_based] seed= 10  valid=True  reason=None  restoration_rate=1.0  ENS=1.9638992220881073  dc_converged=1
+[dqn_core_only] seed= 10  valid=True  reason=None  restoration_rate=1.0  ENS=1.2825203097627582  dc_converged=1
+[   full_stack] seed= 10  valid=True  reason=None  restoration_rate=1.0  ENS=1.292238366006929  dc_converged=1
+[       random] seed= 11  valid=True  reason=None  restoration_rate=1.0  ENS=2.0111454389331347  dc_converged=1
+[   rule_based] seed= 11  valid=True  reason=None  restoration_rate=1.0  ENS=2.596473556291637  dc_converged=1
+[dqn_core_only] seed= 11  valid=True  reason=None  restoration_rate=1.0  ENS=0.7406540486062018  dc_converged=1
+[   full_stack] seed= 11  valid=True  reason=None  restoration_rate=1.0  ENS=3.0207192370805953  dc_converged=1
+[       random] seed= 12  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=1.4542291569303019  dc_converged=1
+[   rule_based] seed= 12  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.5529647235072228  dc_converged=1
+[dqn_core_only] seed= 12  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.5528602029341452  dc_converged=1
+[   full_stack] seed= 12  valid=True  reason=None  restoration_rate=0.6666666666666666  ENS=0.5205448127800877  dc_converged=1
+[       random] seed= 13  valid=True  reason=None  restoration_rate=1.0  ENS=0.3566164382881516  dc_converged=1
+[   rule_based] seed= 13  valid=True  reason=None  restoration_rate=1.0  ENS=0.3172142546709362  dc_converged=1
+[dqn_core_only] seed= 13  valid=True  reason=None  restoration_rate=1.0  ENS=0.2680261014404022  dc_converged=1
+[   full_stack] seed= 13  valid=True  reason=None  restoration_rate=1.0  ENS=0.42089269588742684  dc_converged=1
+[       random] seed= 14  valid=True  reason=None  restoration_rate=1.0  ENS=0.473447728426051  dc_converged=1
+[   rule_based] seed= 14  valid=True  reason=None  restoration_rate=1.0  ENS=0.7639520472514464  dc_converged=1
+[dqn_core_only] seed= 14  valid=True  reason=None  restoration_rate=1.0  ENS=0.29259826089581903  dc_converged=1
+[   full_stack] seed= 14  valid=True  reason=None  restoration_rate=1.0  ENS=0.7136537806989183  dc_converged=1
+[       random] seed= 15  valid=True  reason=None  restoration_rate=1.0  ENS=0.3998646348575644  dc_converged=1
+[   rule_based] seed= 15  valid=True  reason=None  restoration_rate=1.0  ENS=0.6277174032875102  dc_converged=1
+[dqn_core_only] seed= 15  valid=True  reason=None  restoration_rate=1.0  ENS=0.262417196713618  dc_converged=1
+[   full_stack] seed= 15  valid=True  reason=None  restoration_rate=1.0  ENS=0.6587436817512415  dc_converged=1
+[       random] seed= 16  valid=True  reason=None  restoration_rate=1.0  ENS=1.3456754871410281  dc_converged=1
+[   rule_based] seed= 16  valid=True  reason=None  restoration_rate=1.0  ENS=0.7786146352965919  dc_converged=1
+[dqn_core_only] seed= 16  valid=True  reason=None  restoration_rate=1.0  ENS=0.44775187587342796  dc_converged=1
+[   full_stack] seed= 16  valid=True  reason=None  restoration_rate=1.0  ENS=0.5418248383385091  dc_converged=1
+[       random] seed= 17  valid=True  reason=None  restoration_rate=1.0  ENS=1.0293771891713588  dc_converged=1
+[   rule_based] seed= 17  valid=True  reason=None  restoration_rate=1.0  ENS=1.3808389707612618  dc_converged=1
+[dqn_core_only] seed= 17  valid=True  reason=None  restoration_rate=1.0  ENS=0.5882508603634464  dc_converged=1
+[   full_stack] seed= 17  valid=True  reason=None  restoration_rate=1.0  ENS=1.4160708658102572  dc_converged=1
+[       random] seed= 18  valid=True  reason=None  restoration_rate=1.0  ENS=1.5444876402534933  dc_converged=1
+[   rule_based] seed= 18  valid=True  reason=None  restoration_rate=1.0  ENS=1.2766312977383618  dc_converged=1
+[dqn_core_only] seed= 18  valid=True  reason=None  restoration_rate=1.0  ENS=0.6482069741686601  dc_converged=1
+[   full_stack] seed= 18  valid=True  reason=None  restoration_rate=1.0  ENS=1.6275309415012373  dc_converged=1
+[       random] seed= 19  valid=True  reason=None  restoration_rate=1.0  ENS=2.659610118700008  dc_converged=1
+[   rule_based] seed= 19  valid=True  reason=None  restoration_rate=1.0  ENS=2.1984151399011487  dc_converged=1
+[dqn_core_only] seed= 19  valid=True  reason=None  restoration_rate=1.0  ENS=2.0610175230815484  dc_converged=1
+[   full_stack] seed= 19  valid=True  reason=None  restoration_rate=1.0  ENS=2.444306150590877  dc_converged=1

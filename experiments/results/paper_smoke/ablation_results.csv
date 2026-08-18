@@ -1,0 +1,10 @@
+controller_label,seed,weather_mode,n_faults,n_restored,restoration_rate,avg_restoration_steps,voltage_violation_count,critical_load_interruption_steps,energy_not_served_mwh,customer_minutes_interrupted,n_steps,valid
+full_stack,,,2.0,0.0,0.0,,0.0,0.0,0.41197653170059184,,30.0,True
+no_lstm,,,2.0,0.0,0.0,,0.0,0.0,0.43974845226733517,,30.0,True
+no_twin,,,2.0,0.0,0.0,,0.0,0.0,0.40658284060375244,,30.0,True
+no_predictive,,,2.0,0.0,0.0,,0.0,0.0,0.36391129502094843,,30.0,True
+no_reward,,,2.0,0.0,0.0,,0.0,0.0,0.4149085970113311,,30.0,True
+dqn_core_only,,,2.0,0.0,0.0,,0.0,0.0,0.25268507404167295,,30.0,True
+rule_based,,,2.0,0.0,0.0,,0.0,0.0,0.4324890187223254,,30.0,True
+random,,,2.0,0.0,0.0,,0.0,0.0,0.34977247132517925,,30.0,True
+persistence,,,2.0,0.0,0.0,,0.0,4.666666666666667,0.40934027544076373,,30.0,True

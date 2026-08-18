@@ -1,0 +1,94 @@
+{
+  "config": {
+    "enable_dqn": false,
+    "enable_lstm": false,
+    "enable_twin": false,
+    "enable_predictive_healing": false,
+    "enable_reward_shaping": false,
+    "enable_flisr": true,
+    "enable_ems": true,
+    "enable_storage": true,
+    "enable_xai": false,
+    "seed": 0,
+    "label": "random",
+    "active_modules": [
+      "ems",
+      "flisr",
+      "storage"
+    ],
+    "disabled_modules": [
+      "digital_twin",
+      "dqn",
+      "lstm",
+      "predictive_healing",
+      "reward_shaping",
+      "xai"
+    ]
+  },
+  "scenario": {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 13,
+        "target": "LB2_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 24,
+        "target": "LB0_UP_1",
+        "duration_steps": 2,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 66,
+        "target": "P_C2",
+        "duration_steps": 2,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": ""
+  },
+  "validity": {
+    "valid": true,
+    "invalid_reason": null,
+    "timestamp_step": null,
+    "notes": {},
+    "details": {}
+  },
+  "metrics": {
+    "n_faults": 3,
+    "n_restored": 3,
+    "restoration_rate": 1.0,
+    "avg_restoration_steps": 4.666666666666667,
+    "actions_taken": 80,
+    "illegal_actions_attempted": 0,
+    "voltage_violation_count": 0,
+    "critical_load_interruption_steps": 0,
+    "total_customer_minutes_interrupted": 31.092870909842983,
+    "energy_not_served_mwh": 0.5182145151640499,
+    "n_steps": 80
+  },
+  "controller_label": "random",
+  "active_modules": [
+    "ems",
+    "flisr",
+    "storage"
+  ],
+  "disabled_modules": [
+    "digital_twin",
+    "dqn",
+    "lstm",
+    "predictive_healing",
+    "reward_shaping",
+    "xai"
+  ],
+  "pf_diagnostic": {
+    "dc_converged": 1,
+    "dc_kcl_residual_max": 1.6930901125533637e-15,
+    "dc_bus_count": 40
+  },
+  "seed": 2
+}

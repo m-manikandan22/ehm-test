@@ -1,0 +1,107 @@
+[
+  {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 26,
+        "target": "LC0_UP_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 33,
+        "target": "LB0_UP_1",
+        "duration_steps": 1,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 0,
+    "label": "",
+    "scenario_seed": 0
+  },
+  {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 21,
+        "target": "T_B",
+        "duration_steps": 1,
+        "kind": "switch_fault"
+      },
+      {
+        "timestep": 22,
+        "target": "P_B2",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 1,
+    "label": "",
+    "scenario_seed": 1
+  },
+  {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 13,
+        "target": "LA1_1",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 33,
+        "target": "LB0_UP_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 2,
+    "label": "",
+    "scenario_seed": 2
+  },
+  {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 7,
+        "target": "LA2_1",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 32,
+        "target": "LB0_DN_1",
+        "duration_steps": 3,
+        "kind": "line_break"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 3,
+    "label": "",
+    "scenario_seed": 3
+  },
+  {
+    "total_steps": 40,
+    "faults": [
+      {
+        "timestep": 29,
+        "target": "P_C3",
+        "duration_steps": 3,
+        "kind": "pole_failure"
+      },
+      {
+        "timestep": 37,
+        "target": "LC1_UP_1",
+        "duration_steps": 3,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 4,
+    "label": "",
+    "scenario_seed": 4
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-08-02T19:30:00Z",
+  "git_commit": "67401988bc2a779daf682393f07911334ef716fc",
+  "environment": {
+    "python": "3.11.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+    "cuda_available": false,
+    "torch_device": "cpu",
+    "key_packages": {
+      "numpy": "1.26.4",
+      "torch": "2.2.2+cpu",
+      "networkx": "3.3",
+      "scikit-learn": "1.4.2",
+      "pandapower": "2.14.11",
+      "pandas": "3.0.5",
+      "fastapi": "0.110.0",
+      "pydantic": "2.6.4",
+      "yaml": "6.0.3"
+    }
+  },
+  "experiment": {
+    "seeds": 100,
+    "ticks": 200,
+    "faults_per_run": 3,
+    "weather_modes": ["normal"],
+    "baseline_policies": [
+      "random",
+      "persistence",
+      "rule_based",
+      "dqn_core_only",
+      "full_stack"
+    ],
+    "ablation_policies": [
+      "full_stack",
+      "no_lstm",
+      "no_twin",
+      "no_predictive",
+      "no_reward",
+      "dqn_core_only"
+    ],
+    "metric_definitions_version": "experiments.research_metrics (MetricCollector)",
+    "schema_version": "2.0",
+    "expected_total_runs": 100 * 5 + 100 * 6
+  },
+  "command": "python -m experiments.paper_experiment --seeds 100 --ticks 200 --faults 3 --weather normal --policies random,persistence,rule_based,dqn_core_only,full_stack --ablation-policies full_stack,no_lstm,no_twin,no_predictive,no_reward,dqn_core_only --output experiments/results/final_paper/raw/paper",
+  "configuration_files": [
+    "experiments/experiment_config.py",
+    "experiments/runner.py",
+    "experiments/paper_experiment.py",
+    "experiments/scenario.py",
+    "experiments/validity.py",
+    "experiments/research_metrics.py",
+    "experiments/tables.py",
+    "backend/utils/pandas_compat.py"
+  ],
+  "deterministic_paired_seeds": true,
+  "validity_guards": "experiments.validity (InvalidRunReason, ValidityReport, check_run_validity)",
+  "no_silent_exception_swallowing": true,
+  "results_output_dirs": {
+    "baseline_raw": "experiments/results/final_paper/raw/baseline",
+    "ablation_raw": "experiments/results/final_paper/raw/ablation",
+    "tables": "experiments/results/final_paper/tables",
+    "statistics": "experiments/results/final_paper/statistics",
+    "figures": "experiments/results/final_paper/figures",
+    "logs": "experiments/results/final_paper/logs"
+  }
+}

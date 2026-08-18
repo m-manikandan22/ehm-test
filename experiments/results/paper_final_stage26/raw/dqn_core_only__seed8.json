@@ -1,0 +1,96 @@
+{
+  "config": {
+    "enable_dqn": true,
+    "enable_lstm": false,
+    "enable_twin": false,
+    "enable_predictive_healing": false,
+    "enable_reward_shaping": false,
+    "enable_flisr": true,
+    "enable_ems": false,
+    "enable_storage": false,
+    "enable_xai": false,
+    "seed": 0,
+    "label": "dqn_core_only",
+    "active_modules": [
+      "dqn",
+      "flisr"
+    ],
+    "disabled_modules": [
+      "digital_twin",
+      "ems",
+      "lstm",
+      "predictive_healing",
+      "reward_shaping",
+      "storage",
+      "xai"
+    ]
+  },
+  "scenario": {
+    "total_steps": 80,
+    "faults": [
+      {
+        "timestep": 22,
+        "target": "LA2_1",
+        "duration_steps": 1,
+        "kind": "transformer_overload"
+      },
+      {
+        "timestep": 29,
+        "target": "LB1_DN",
+        "duration_steps": 3,
+        "kind": "line_break"
+      },
+      {
+        "timestep": 58,
+        "target": "T_A",
+        "duration_steps": 2,
+        "kind": "transformer_overload"
+      }
+    ],
+    "weather_mode": "normal",
+    "seed": 8,
+    "label": ""
+  },
+  "validity": {
+    "valid": true,
+    "invalid_reason": null,
+    "timestamp_step": null,
+    "notes": {},
+    "details": {}
+  },
+  "metrics": {
+    "n_faults": 3,
+    "n_restored": 3,
+    "restoration_rate": 1.0,
+    "avg_restoration_steps": 4.666666666666667,
+    "actions_taken": 80,
+    "illegal_actions_attempted": 0,
+    "voltage_violation_count": 0,
+    "critical_load_interruption_steps": 0,
+    "total_customer_minutes_interrupted": 56.61392917274399,
+    "energy_not_served_mwh": 0.9435654862124052,
+    "n_steps": 80
+  },
+  "controller_label": "dqn_core_only",
+  "active_modules": [
+    "dqn",
+    "flisr"
+  ],
+  "disabled_modules": [
+    "digital_twin",
+    "ems",
+    "lstm",
+    "predictive_healing",
+    "reward_shaping",
+    "storage",
+    "xai"
+  ],
+  "pf_diagnostic": {
+    "dc_converged": 1,
+    "dc_kcl_residual_max": 1.1102230246251565e-15,
+    "dc_bus_count": 38
+  },
+  "seed": 8,
+  "seed_id": 8,
+  "weather_mode": "normal"
+}

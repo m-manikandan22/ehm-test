@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "details": {},
+      "invalid_reason": null,
+      "name": "healthy_grid",
+      "valid": true
+    },
+    {
+      "invalid_reason": "INFINITY_VALUE",
+      "name": "nan_voltage",
+      "valid": false
+    },
+    {
+      "invalid_reason": "NAN_VALUE",
+      "name": "inf_voltage",
+      "valid": false
+    },
+    {
+      "invalid_reason": "IMPOSSIBLE_VOLTAGE",
+      "name": "impossible_voltage_high",
+      "valid": false
+    },
+    {
+      "invalid_reason": "TOPOLOGY_INCONSISTENT",
+      "name": "empty_topology",
+      "valid": false
+    },
+    {
+      "invalid_reason": null,
+      "name": "low_voltage_still_valid",
+      "valid": true
+    }
+  ],
+  "schema_version": "1.0",
+  "verdict": "PASS"
+}

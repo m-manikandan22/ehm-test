@@ -1,0 +1,21 @@
+{
+  "framework": "EHM v3 (Existing Hybrid Microgrid self-healing pipeline)",
+  "modules": [
+    "Resilience-aware topology planner",
+    "Renewable (solar + wind) generation",
+    "Hybrid battery + supercapacitor storage",
+    "LSTM demand forecaster",
+    "Digital twin (Arrhenius ageing)",
+    "DQN controller with train/eval separation",
+    "FLISR 9-stage pipeline",
+    "DC power-flow (KCL-residual-checked) validator",
+    "IEEE 1366 reliability metrics"
+  ],
+  "controllers": [
+    "dqn_core_only",
+    "full_stack",
+    "random",
+    "rule_based"
+  ],
+  "seeds_per_run": 2
+}

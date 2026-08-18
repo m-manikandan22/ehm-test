@@ -1,0 +1,16 @@
+﻿python : C:\Users\ELCOT\AppData\Roaming\Python\Python314\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 
+(2.6.3) or chardet (7.4.3)/charset_normalizer (3.4.4) doesn't match a supported version!
+At line:1 char:361
++ ... ic\EHM-paper"; cd backend; python -m pytest --tb=line -q 2>&1 | Tee-O ...
++                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\ELCOT\...ported version!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+........................................................................ [ 15%]
+........................................................................ [ 31%]
+........................................................................ [ 46%]
+........................................................................ [ 62%]
+........................................................................ [ 77%]
+........................................................................ [ 93%]
+..............................                                           [100%]

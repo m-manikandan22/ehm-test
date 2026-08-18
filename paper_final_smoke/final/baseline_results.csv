@@ -1,0 +1,11 @@
+controller_label,seed,weather_mode,n_faults,n_restored,restoration_rate,avg_restoration_steps,voltage_violation_count,critical_load_interruption_steps,energy_not_served_mwh,customer_minutes_interrupted,n_steps,valid
+random,0,normal,5,0,0.0,,0,0,1.6882229451307096,101.29337670784267,50,True
+rule_based,0,normal,5,0,0.0,,0,0,1.3020478030480493,78.12286818288302,50,True
+random,1,normal,5,0,0.0,,0,2,1.4440026309508864,86.64015785705315,50,True
+rule_based,1,normal,5,0,0.0,,0,2,1.556358827535599,93.38152965213614,50,True
+random,2,normal,5,0,0.0,,0,0,2.1719801515485857,130.31880909291485,50,True
+rule_based,2,normal,5,0,0.0,,0,0,1.6131573039617764,96.78943823770635,50,True
+random,3,normal,5,0,0.0,,0,0,1.8795575194090413,112.77345116454264,50,True
+rule_based,3,normal,5,0,0.0,,0,0,2.518218856228044,151.09313137368244,50,True
+random,4,normal,5,0,0.0,,0,0,0.7747050944703332,46.482305668220015,50,True
+rule_based,4,normal,5,0,0.0,,0,0,0.765112667714679,45.90676006288079,50,True

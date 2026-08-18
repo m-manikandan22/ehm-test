@@ -1,0 +1,12 @@
+metric,experiment_a_nominal_n,experiment_a_nominal_mean,experiment_a_nominal_std,experiment_b_severe_n,experiment_b_severe_mean,experiment_b_severe_std
+saifi,0,0.0,0.0,30,0.16326530612244897,0.0
+saidi,0,0.0,0.0,30,0.0,0.0
+ens,0,0.0,0.0,30,80.0,0.0
+restoration_time_seconds,0,0.0,0.0,30,0.0,0.0
+critical_load_restored_pct,0,0.0,0.0,30,0.0,0.0
+voltage_violation_count,0,0.0,0.0,30,7448.833333333333,39.862767463951336
+line_overload_count,0,0.0,0.0,30,19.466666666666665,3.4713937709000513
+stress_cumulative_unserved_energy,0,0.0,0.0,30,8385.047580682673,249.02465959570813
+resilience_loss_area,0,0.0,0.0,30,172.65508376277256,0.9058200597097479
+resilience_time_to_50pct_restoration,0,0.0,0.0,30,0.0,0.0
+stress_critical_load_restored_pct,0,0.0,0.0,30,100.0,0.0

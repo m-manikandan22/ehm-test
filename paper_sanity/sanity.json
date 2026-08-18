@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "input": "../paper_sanity/summary.json",
+  "overall_pass": true,
+  "checks": [
+    {
+      "metric": "valid_rate",
+      "value": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "pass": true
+    }
+  ]
+}

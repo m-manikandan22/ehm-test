@@ -1,0 +1,20 @@
+[       random] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.1657248215958029  dc_converged=1
+[   rule_based] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.13109322166966966  dc_converged=1
+[dqn_core_only] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.04670602589402276  dc_converged=1
+[   full_stack] seed=  0  valid=True  reason=None  restoration_rate=0.0  ENS=0.1494637462365204  dc_converged=1
+[       random] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=1.3111661231102394  dc_converged=1
+[   rule_based] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.8786195289967721  dc_converged=1
+[dqn_core_only] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=0.8887399646725163  dc_converged=1
+[   full_stack] seed=  1  valid=True  reason=None  restoration_rate=0.0  ENS=1.1694512315478967  dc_converged=1
+[       random] seed=  2  valid=True  reason=None  restoration_rate=0.0  ENS=0.5774781566449053  dc_converged=1
+[   rule_based] seed=  2  valid=True  reason=None  restoration_rate=0.0  ENS=0.4243627597909638  dc_converged=1
+[dqn_core_only] seed=  2  valid=True  reason=None  restoration_rate=0.0  ENS=0.19175292943231456  dc_converged=1
+[   full_stack] seed=  2  valid=True  reason=None  restoration_rate=0.0  ENS=0.49910674001695815  dc_converged=1
+[       random] seed=  3  valid=True  reason=None  restoration_rate=0.0  ENS=0.33926699121871723  dc_converged=1
+[   rule_based] seed=  3  valid=True  reason=None  restoration_rate=0.0  ENS=0.7282080881787234  dc_converged=1
+[dqn_core_only] seed=  3  valid=True  reason=None  restoration_rate=0.0  ENS=0.20053989796110092  dc_converged=1
+[   full_stack] seed=  3  valid=True  reason=None  restoration_rate=0.0  ENS=0.5607970012621447  dc_converged=1
+[       random] seed=  4  valid=True  reason=None  restoration_rate=0.0  ENS=0.5038912734462553  dc_converged=1
+[   rule_based] seed=  4  valid=True  reason=None  restoration_rate=0.0  ENS=0.4865223024736709  dc_converged=1
+[dqn_core_only] seed=  4  valid=True  reason=None  restoration_rate=0.0  ENS=0.47598490058897436  dc_converged=1
+[   full_stack] seed=  4  valid=True  reason=None  restoration_rate=0.0  ENS=0.4948995486059246  dc_converged=1
