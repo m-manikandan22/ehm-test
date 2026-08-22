@@ -83,6 +83,17 @@ class GridNode:
         self.battery_capacity: float = 10.0     # MWh
         self.supercap_level: float = 1.0        # 0–1 (charge fraction)
         self.supercap_capacity: float = 1.0     # MWh (small, fast)
+        # Stage-45 (physics-coupled metric audit): a per-step marker
+        # the runner sets when the controller dispatches a
+        # battery / supercap discharge for THIS node. ``step()``
+        # then preserves a generation contribution even when the
+        # solar curve is at zero (real prosumer storage is
+        # independent of daylight). Without this marker, the
+        # Stage-45 BFS source-broadening fix is rendered
+        # ineffective outside the daylight window because
+        # ``generation`` is overwritten to 0.0 inside ``step()``.
+        self._discharge_signal_mw: float = 0.0
+        self._supercap_signal_mw: float = 0.0
 
         # --- Status ---
         self.failed: bool = False
@@ -272,11 +283,21 @@ class GridNode:
         rng = rng or random
         rmult = float(renewable_multiplier or 1.0)
         dmult = float(demand_multiplier or 1.0)
+        # Stage-45 (physics-coupled metric audit): ``_discharge_active``
+        # captures whether the controller dispatched a battery
+        # discharge on THIS node THIS step. The recharge branch (block
+        # 3 below) is skipped when this is true so the dispatch is a
+        # real drain — the BFS source-broadening fix in
+        # ``simulation/grid.py`` then delivers the injection to
+        # downstream loads. Initialised at the top so non-house node
+        # types still see a defined value.
+        _discharge_active = float(self._discharge_signal_mw or 0.0)
         if self.failed or self.isolated:
             self.voltage = 0.0
             self.frequency = 0.0
             self.load = 0.0
             self.generation = 0.0
+            self._discharge_signal_mw = 0.0
             return
 
         # 1. Base Demand Drift
@@ -316,13 +337,33 @@ class GridNode:
             self.generation = 0.0
 
         elif self.node_type == "house":
-            # Houses have rooftop solar (small prosumer generation)
+            # Houses have rooftop solar (small prosumer generation).
+            #
+            # Stage-45 (physics-coupled metric audit): the
+            # controller may also dispatch a battery discharge on
+            # this house during this timestep. Real prosumer
+            # storage is independent of solar availability — the
+            # battery can discharge at night. We add the dispatch
+            # signal (set by ``runner._dispatch_action`` on the
+            # house node) as an additive generation offset so the
+            # discharge reaches the BFS source set even outside
+            # the daylight window.
+            #
+            # ``_discharge_active`` was already captured at the
+            # top of ``step()`` (block 0) so the marker is
+            # consistent across all node-type branches.
             if 0.25 < time_of_day < 0.75:
                 sun_intensity = math.sin((time_of_day - 0.25) * 2 * math.pi)
                 solar_gen = 0.8 * sun_intensity * (1.0 - self.weather) + rng.gauss(0, 0.02)
-                self.generation = float(max(0.0, solar_gen * rmult))
+                self.generation = float(max(
+                    0.0,
+                    solar_gen * rmult + _discharge_active,
+                ))
             else:
-                self.generation = 0.0
+                self.generation = float(max(0.0, _discharge_active))
+            # Clear the marker after this step so the offset only
+            # persists for the dispatch it was set for.
+            self._discharge_signal_mw = 0.0
 
         elif self.node_type in ["hospital", "industry", "commercial"]:
             # Commercial/Industrial buildings may have rooftop solar
@@ -337,10 +378,19 @@ class GridNode:
             self.generation = 0.0
 
         # 3. Prosumer Self-Consumption & Storage
+        #
+        # Stage-45 (physics-coupled metric audit): when the controller
+        # has dispatched a battery discharge on this node, the
+        # auto-recharge branch would defeat the dispatch by soaking
+        # the surplus right back into storage — leaving ENS unchanged.
+        # We skip the recharge branch when a discharge was active
+        # THIS step (captured into ``_had_discharge`` before we
+        # cleared the marker at line 354); the dispatch is then a
+        # *real* drain that the BFS source-broadening fix can
+        # deliver to downstream loads.
         internal_balance = self.generation - self.load
-        
-        # Charge storage if we have solar surplus
-        if internal_balance > 0:
+        if internal_balance > 0 and not _discharge_active:
+            # Charge storage if we have solar surplus
             # Supercap first
             cap_space = 1.0 - self.supercap_level
             cap_charge = min(internal_balance * 0.1 * dt, cap_space)

@@ -1,0 +1,45 @@
+{
+  "schema_version": "stage46.1.manifest.1.0",
+  "experiment": "stage46_1_information_flow",
+  "checkpoint": "C:\\Users\\ELCOT\\Music\\EHM-paper\\backend\\experiments\\checkpoints\\dqn_stage44.pt",
+  "checkpoint_sha256": "eb7bbed22a18f13dbe607b908caf7905ec0fd9b9c14f2a80a75c628bac594493",
+  "checkpoint_unchanged": true,
+  "state_dim": 78,
+  "probe_states": [
+    "A_s0_t10",
+    "A_s0_t30",
+    "A_s0_t60",
+    "E_s0_t10",
+    "E_s0_t40",
+    "I_s0_t10",
+    "I_s0_t40",
+    "J_s0_t10",
+    "H_s0_t10"
+  ],
+  "configs": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_ems",
+    "no_predictive"
+  ],
+  "feature_blocks": {
+    "lstm": [
+      72
+    ],
+    "storage": [
+      73,
+      74
+    ],
+    "twin": [
+      75,
+      76,
+      77
+    ]
+  },
+  "n_state_comparisons": 36,
+  "n_q_comparisons": 36,
+  "n_action_comparisons": 36,
+  "n_sensitivity_rows": 27,
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d"
+}

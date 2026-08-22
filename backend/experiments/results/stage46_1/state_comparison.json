@@ -1,0 +1,468 @@
+[
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.38794273138046265,
+        "ablated": 0.5,
+        "diff": 0.11205726861953735
+      }
+    },
+    "delta_state_norm": 0.11205726861953735
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.3573344945907593,
+        "ablated": 0.5,
+        "diff": 0.14266550540924072
+      }
+    },
+    "delta_state_norm": 0.14266550540924072
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.38729846477508545,
+        "ablated": 0.5,
+        "diff": 0.11270153522491455
+      }
+    },
+    "delta_state_norm": 0.11270153522491455
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.3815263509750366,
+        "ablated": 0.5,
+        "diff": 0.11847364902496338
+      }
+    },
+    "delta_state_norm": 0.11847364902496338
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.3769567608833313,
+        "ablated": 0.5,
+        "diff": 0.1230432391166687
+      }
+    },
+    "delta_state_norm": 0.1230432391166687
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.38794273138046265,
+        "ablated": 0.5,
+        "diff": 0.11205726861953735
+      }
+    },
+    "delta_state_norm": 0.11205726861953735
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.3794744610786438,
+        "ablated": 0.5,
+        "diff": 0.1205255389213562
+      }
+    },
+    "delta_state_norm": 0.1205255389213562
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.38794273138046265,
+        "ablated": 0.5,
+        "diff": 0.11205726861953735
+      }
+    },
+    "delta_state_norm": 0.11205726861953735
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 1,
+    "feature_differences": {
+      "72": {
+        "full": 0.38794273138046265,
+        "ablated": 0.5,
+        "diff": 0.11205726861953735
+      }
+    },
+    "delta_state_norm": 0.11205726861953735
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 3,
+    "feature_differences": {
+      "75": {
+        "full": 0.5,
+        "ablated": 0.0,
+        "diff": -0.5
+      },
+      "76": {
+        "full": 0.01020408163265306,
+        "ablated": 0.0,
+        "diff": -0.01020408163265306
+      },
+      "77": {
+        "full": 0.02040816326530612,
+        "ablated": 0.0,
+        "diff": -0.02040816326530612
+      }
+    },
+    "delta_state_norm": 0.5005203456502335
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "state_dim_full": 78,
+    "state_dim_ablated": 78,
+    "n_features_differ": 0,
+    "feature_differences": {},
+    "delta_state_norm": 0.0
+  }
+]

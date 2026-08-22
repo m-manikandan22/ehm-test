@@ -1,0 +1,35 @@
+{
+  "scenarios": {
+    "A": {
+      "max_risk_max_overall": 0.0,
+      "mean_risk_mean_over_seeds": 0.0,
+      "n_seeds": 3,
+      "max_risk_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_risk_per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "H": {
+      "max_risk_max_overall": 0.50000004186936,
+      "mean_risk_mean_over_seeds": 0.010204082152189382,
+      "n_seeds": 3,
+      "max_risk_per_seed": [
+        0.5000000301673809,
+        0.5000000043350983,
+        0.50000004186936
+      ],
+      "mean_risk_per_seed": [
+        0.010204082248313897,
+        0.010204081721124456,
+        0.010204082487129796
+      ]
+    }
+  },
+  "note": "Training environment (clean grid, no faults) has max_risk typically \u2264 0.05; H pre-ages an asset to force high risk."
+}

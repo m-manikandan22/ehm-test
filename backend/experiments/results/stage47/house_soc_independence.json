@@ -1,0 +1,52 @@
+[
+  {
+    "house_battery_soc": 1.0,
+    "house_supercap_soc": 1.0,
+    "grid_battery_soc": 0.5,
+    "grid_supercap_soc": 0.5,
+    "feature_73": 0.5,
+    "feature_74": 0.5,
+    "bat_independent": true,
+    "sc_independent": true
+  },
+  {
+    "house_battery_soc": 0.5,
+    "house_supercap_soc": 1.0,
+    "grid_battery_soc": 0.5,
+    "grid_supercap_soc": 0.5,
+    "feature_73": 0.5,
+    "feature_74": 0.5,
+    "bat_independent": true,
+    "sc_independent": true
+  },
+  {
+    "house_battery_soc": 0.0,
+    "house_supercap_soc": 1.0,
+    "grid_battery_soc": 0.5,
+    "grid_supercap_soc": 0.5,
+    "feature_73": 0.5,
+    "feature_74": 0.5,
+    "bat_independent": true,
+    "sc_independent": true
+  },
+  {
+    "house_battery_soc": 1.0,
+    "house_supercap_soc": 0.5,
+    "grid_battery_soc": 0.5,
+    "grid_supercap_soc": 0.5,
+    "feature_73": 0.5,
+    "feature_74": 0.5,
+    "bat_independent": true,
+    "sc_independent": true
+  },
+  {
+    "house_battery_soc": 1.0,
+    "house_supercap_soc": 0.0,
+    "grid_battery_soc": 0.5,
+    "grid_supercap_soc": 0.5,
+    "feature_73": 0.5,
+    "feature_74": 0.5,
+    "bat_independent": true,
+    "sc_independent": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "state_dim": 78,
+  "steps_done": 1600,
+  "epsilon": 0.0503202869342563,
+  "seeds": {
+    "master": 0,
+    "environment": 17,
+    "controller": 31,
+    "training": 47
+  },
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d",
+  "extra": {
+    "train_seed": 0,
+    "episodes": 8,
+    "steps_per_episode": 200,
+    "total_transitions": 1600,
+    "mean_reward_per_episode": [
+      -89.92669099999998,
+      -74.82678229999999,
+      -82.85881420000001,
+      -72.5110919,
+      -74.45439800000003,
+      -65.96775570000003,
+      -74.34779620000002,
+      -80.68853880000002
+    ],
+    "final_epsilon": 0.0503202869342563,
+    "pipeline": "stage43_dqn_training"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "stage45.manifest.1.0",
+  "experiment": "stage45_validation",
+  "n_seeds": 2,
+  "seeds": [
+    0,
+    1
+  ],
+  "scenarios": [
+    "A",
+    "E",
+    "I",
+    "J"
+  ],
+  "controllers": [
+    "trained_dqn"
+  ],
+  "ablations": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_ems",
+    "no_predictive"
+  ],
+  "n_runs": 40,
+  "n_valid": 40,
+  "n_fingerprint_invalid": 0,
+  "checkpoint": "experiments/checkpoints/dqn_stage44.pt",
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d"
+}

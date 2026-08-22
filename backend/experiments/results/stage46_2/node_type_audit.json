@@ -1,0 +1,100 @@
+{
+  "STORAGE_BAT": {
+    "node_id": "STORAGE_BAT",
+    "node_type": "battery",
+    "battery_capacity_mwh": 150.0,
+    "battery_soc_init": 0.75,
+    "discharge_rate_mw": 8.0,
+    "role": "storage",
+    "source_type": "battery",
+    "connected_to": []
+  },
+  "STORAGE_SC": {
+    "node_id": "STORAGE_SC",
+    "node_type": "supercap",
+    "supercap_capacity_mwh": 15.0,
+    "supercap_soc_init": 1.0,
+    "discharge_rate_mw": 5.0,
+    "role": "support",
+    "source_type": "supercap",
+    "connected_to": []
+  },
+  "audit_rows": [
+    {
+      "location": "simulation/grid.py::_build_grid (line ~237/247)",
+      "expected_type": "battery / supercap",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "grid-scale storage connected to S_MAIN"
+    },
+    {
+      "location": "experiments/runner.py::_dispatch_action (action 1)",
+      "match_rule": "'storage_bat' in node_type or node_type=='house'",
+      "actual_type": "battery",
+      "effect": "matched=False -> STORAGE_BAT is NOT dispatched by action 1"
+    },
+    {
+      "location": "experiments/runner.py::_dispatch_action (action 2)",
+      "match_rule": "'storage_sc' in node_type or node_type=='house'",
+      "actual_type": "supercap",
+      "effect": "matched=False -> STORAGE_SC is NOT dispatched by action 2"
+    },
+    {
+      "location": "experiments/stage44_dqn_training.py::_highest_storage_soc",
+      "match_rule": "'storage_bat'/'storage_sc' substring",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "SOC features 73/74 exclude STORAGE_BAT/STORAGE_SC during training"
+    },
+    {
+      "location": "experiments/dqn_training.py::_soc",
+      "match_rule": "'storage_bat'/'storage_sc' substring",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "SOC features exclude grid-scale storage"
+    },
+    {
+      "location": "experiments/runner.py::_storage_level",
+      "match_rule": "'storage_bat'/'storage_sc' substring",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "runner DQN state excludes grid-scale storage SOC"
+    },
+    {
+      "location": "experiments/stage44_validation.py (feature 73/74)",
+      "match_rule": "node_type=='house'",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "validation harness SOC features read houses only"
+    },
+    {
+      "location": "simulation/ems.py::_charge_storage",
+      "match_rule": "node_type in ('battery','supercap')",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "EMS charging DOES target STORAGE_BAT/STORAGE_SC"
+    },
+    {
+      "location": "simulation/grid.py BFS source broadening (line ~1127)",
+      "match_rule": "generation>0 and type in (house,battery,supercap,...)",
+      "actual_type": [
+        "battery",
+        "supercap"
+      ],
+      "effect": "power-flow WOULD deliver a battery/supercap generation injection if one existed"
+    }
+  ],
+  "mismatch_summary": "ACTION DISPATCH + SOC OBSERVATION use the substrings 'storage_bat'/'storage_sc' which do NOT match the actual node_types 'battery'/'supercap'. EMS charging and the BFS power-flow use the correct types."
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11205726861953735,
+    "delta_Q_norm": 1.3134716799620458,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.14266550540924072,
+    "delta_Q_norm": 1.672448741650532,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11270153522491455,
+    "delta_Q_norm": 1.321198637265345,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11847364902496338,
+    "delta_Q_norm": 1.387668449630433,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.1230432391166687,
+    "delta_Q_norm": 1.4412512682994347,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11205726861953735,
+    "delta_Q_norm": 1.3136645526438036,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.1205255389213562,
+    "delta_Q_norm": 1.4129689846399296,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11205726861953735,
+    "delta_Q_norm": 1.3134716799620458,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "lstm",
+    "features": [
+      72
+    ],
+    "delta_state_norm": 0.11205726861953735,
+    "delta_Q_norm": 1.3135269481538667,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "storage",
+    "features": [
+      73,
+      74
+    ],
+    "delta_state_norm": 0.0,
+    "delta_Q_norm": 0.0,
+    "delta_argmax": false,
+    "delta_physical": false
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "feature_group": "twin",
+    "features": [
+      75,
+      76,
+      77
+    ],
+    "delta_state_norm": 0.5005203456502335,
+    "delta_Q_norm": 6.382790731792147,
+    "delta_argmax": false,
+    "delta_physical": false
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "cases": [
+    {
+      "case": "A_deficit",
+      "Q": [
+        -903.68310546875,
+        -894.1637573242188,
+        -888.4823608398438,
+        -900.3448486328125,
+        -903.4683227539062
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_action": 2,
+      "selected_name": "use_supercapacitor",
+      "reward": -6.670899999999996,
+      "reward_components": {
+        "stability_voltage": 3.0700000000000016,
+        "stability_freq": 0.39860000000000173,
+        "balance_penalty": -12.0,
+        "failed_penalty": -0.0,
+        "isolated_penalty": -0.0,
+        "loss_penalty": -0.1395,
+        "supercap_spike_bonus": 2.0,
+        "reroute_bonus": 0.0
+      },
+      "balance_reported": -3.0,
+      "any_load_gt_1_2": true,
+      "has_failed_in_state": false
+    },
+    {
+      "case": "B_spike",
+      "Q": [
+        -868.7985229492188,
+        -859.7484741210938,
+        -854.0128784179688,
+        -865.480224609375,
+        -868.5988159179688
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_action": 2,
+      "selected_name": "use_supercapacitor",
+      "reward": -40.9721,
+      "reward_components": {
+        "stability_voltage": 3.0700000000000016,
+        "stability_freq": 0.39860000000000173,
+        "balance_penalty": -46.3012,
+        "failed_penalty": -0.0,
+        "isolated_penalty": -0.0,
+        "loss_penalty": -0.1395,
+        "supercap_spike_bonus": 2.0,
+        "reroute_bonus": 0.0
+      },
+      "balance_reported": 11.5753,
+      "any_load_gt_1_2": true,
+      "has_failed_in_state": false
+    },
+    {
+      "case": "C_sustained_deficit",
+      "Q": [
+        -910.8160400390625,
+        -901.1771850585938,
+        -895.5464477539062,
+        -907.4912109375,
+        -910.601806640625
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_action": 2,
+      "selected_name": "use_supercapacitor",
+      "reward": -14.6709,
+      "reward_components": {
+        "stability_voltage": 3.0700000000000016,
+        "stability_freq": 0.39860000000000173,
+        "balance_penalty": -20.0,
+        "failed_penalty": -0.0,
+        "isolated_penalty": -0.0,
+        "loss_penalty": -0.1395,
+        "supercap_spike_bonus": 2.0,
+        "reroute_bonus": 0.0
+      },
+      "balance_reported": -5.0,
+      "any_load_gt_1_2": true,
+      "has_failed_in_state": false
+    },
+    {
+      "case": "D_topology_fault",
+      "Q": [
+        -909.3470458984375,
+        -899.7432250976562,
+        -894.0947265625,
+        -906.0313720703125,
+        -909.1393432617188
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_action": 2,
+      "selected_name": "use_supercapacitor",
+      "reward": -57.0121,
+      "reward_components": {
+        "stability_voltage": 3.0300000000000002,
+        "stability_freq": 0.39860000000000173,
+        "balance_penalty": -52.3012,
+        "failed_penalty": -10.0,
+        "isolated_penalty": -0.0,
+        "loss_penalty": -0.1395,
+        "supercap_spike_bonus": 2.0,
+        "reroute_bonus": 0.0
+      },
+      "balance_reported": 13.0753,
+      "any_load_gt_1_2": true,
+      "has_failed_in_state": true
+    },
+    {
+      "case": "E_high_demand",
+      "Q": [
+        -864.4146728515625,
+        -855.448486328125,
+        -849.6702880859375,
+        -861.0855712890625,
+        -864.2139282226562
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_action": 2,
+      "selected_name": "use_supercapacitor",
+      "reward": 1.3291000000000035,
+      "reward_components": {
+        "stability_voltage": 3.0700000000000016,
+        "stability_freq": 0.39860000000000173,
+        "balance_penalty": -4.0,
+        "failed_penalty": -0.0,
+        "isolated_penalty": -0.0,
+        "loss_penalty": -0.1395,
+        "supercap_spike_bonus": 2.0,
+        "reroute_bonus": 0.0
+      },
+      "balance_reported": -1.0,
+      "any_load_gt_1_2": true,
+      "has_failed_in_state": false
+    }
+  ]
+}

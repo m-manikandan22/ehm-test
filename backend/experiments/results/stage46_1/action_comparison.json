@@ -1,0 +1,1370 @@
+[
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 30,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": -0.0331921368559267,
+        "ens_shortfall_mwh": 0.05268575611085216,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "step": 60,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.037334143929393715,
+        "ens_shortfall_mwh": 0.07973919423900705,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.03647259917548462,
+        "ens_shortfall_mwh": 0.07499313536930453,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "E",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": -0.016525956343098613,
+        "ens_shortfall_mwh": 0.07436696631680019,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "I",
+    "seed": 0,
+    "step": 40,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": -0.10916560528522146,
+        "ens_shortfall_mwh": 0.06511680626925859,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "J",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_lstm",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_lstm": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_twin",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_twin": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_ems",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_ems": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  },
+  {
+    "scenario": "H",
+    "seed": 0,
+    "step": 10,
+    "ablation": "no_predictive",
+    "argmax_full": 4,
+    "argmax_ablated": 4,
+    "valid_full": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "valid_ablated": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "action_changed": false,
+    "physical": {
+      "full_stack": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "no_predictive": {
+        "served_mwh_delta": 0.05044005461723122,
+        "ens_shortfall_mwh": 0.06893080279666715,
+        "critical_interrupted_nodes": 0,
+        "voltage_violation_nodes": 0
+      },
+      "physical_changed": false
+    }
+  }
+]

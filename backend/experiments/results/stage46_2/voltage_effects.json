@@ -1,0 +1,62 @@
+[
+  {
+    "action_id": 0,
+    "action_name": "increase_generation",
+    "voltage_min_pre": 0.95,
+    "voltage_max_pre": 1.0,
+    "voltage_min_post": 0.95,
+    "voltage_max_post": 1.0,
+    "violations_pre": 0,
+    "violations_post": 0,
+    "creates_new_violation": false,
+    "all_within_0_9_1_1": true
+  },
+  {
+    "action_id": 1,
+    "action_name": "use_battery",
+    "voltage_min_pre": 0.95,
+    "voltage_max_pre": 1.0,
+    "voltage_min_post": 0.95,
+    "voltage_max_post": 1.0,
+    "violations_pre": 0,
+    "violations_post": 0,
+    "creates_new_violation": false,
+    "all_within_0_9_1_1": true
+  },
+  {
+    "action_id": 2,
+    "action_name": "use_supercapacitor",
+    "voltage_min_pre": 0.95,
+    "voltage_max_pre": 1.0,
+    "voltage_min_post": 0.95,
+    "voltage_max_post": 1.0,
+    "violations_pre": 0,
+    "violations_post": 0,
+    "creates_new_violation": false,
+    "all_within_0_9_1_1": true
+  },
+  {
+    "action_id": 3,
+    "action_name": "shift_load",
+    "voltage_min_pre": 0.95,
+    "voltage_max_pre": 1.0,
+    "voltage_min_post": 0.95,
+    "voltage_max_post": 1.0,
+    "violations_pre": 0,
+    "violations_post": 0,
+    "creates_new_violation": false,
+    "all_within_0_9_1_1": true
+  },
+  {
+    "action_id": 4,
+    "action_name": "reroute_energy",
+    "voltage_min_pre": 0.95,
+    "voltage_max_pre": 1.0,
+    "voltage_min_post": 0.95,
+    "voltage_max_post": 1.0,
+    "violations_pre": 0,
+    "violations_post": 0,
+    "creates_new_violation": false,
+    "all_within_0_9_1_1": true
+  }
+]

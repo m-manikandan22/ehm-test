@@ -877,6 +877,22 @@ class SmartGrid:
         Returns a dict {closed, benefited_nodes, available_ties} that
         is also recorded in the event log. No-op (with reason) when no
         physically valid tie exists.
+
+        Stage-46 (action-layer integrity): the candidate graph ``tmp``
+        is built from ``self.graph.edges()`` only — nodes that are
+        isolated (no active edges) are NOT auto-added by ``add_edge``.
+        The previous code raised ``networkx.NodeNotFound`` on
+        ``_nx.has_path(tmp, nid, s)`` for any isolated ``nid`` not in
+        ``tmp``. The fix:
+
+          * Build ``tmp`` with ``tmp.add_node(x)`` for every live node
+            FIRST so isolated nodes are present as singletons.
+          * Skip ``nid`` in the benefit count if it is not in ``tmp``
+            (defensive belt-and-braces; with the explicit add_node
+            above this should never trigger).
+          * The action-result contract returns
+            ``{"closed": None, "reason": "..."}`` for infeasible
+            reroutes rather than raising.
         """
         import networkx as _nx
 
@@ -894,30 +910,46 @@ class SmartGrid:
                     "available_ties": len(open_ties),
                     "reason": "no isolated load to restore"}
 
-        # For every open tie, count how many isolated nodes would be
-        # reachable from a substation once the tie is closed.
-        best_tie = None
-        best_benefit = -1
-        for (u, v) in open_ties:
+        # Stage-46 (action-layer integrity): pre-seed the candidate
+        # graph with every live node so isolated nodes are present as
+        # singletons. ``add_edge`` alone does NOT add isolated nodes;
+        # ``has_path`` on a singleton returns False (no path to any
+        # substation), which is the correct "no benefit" verdict.
+        def _build_candidate(extra_edge=None):
             tmp = _nx.Graph()
+            for nid, n in self.nodes.items():
+                if not n.failed:
+                    tmp.add_node(nid)
             for (a, b, d) in self.graph.edges(data=True):
                 if not d.get("active", True):
                     continue
                 if self.nodes[a].failed or self.nodes[b].failed:
                     continue
                 tmp.add_edge(a, b)
-            tmp.add_edge(u, v)
-            subs = [
-                s for s in self.nodes
-                if self.nodes[s].node_type in ("substation", "primary_substation")
-                and not self.nodes[s].failed
-            ]
+            if extra_edge is not None:
+                tmp.add_edge(*extra_edge)
+            return tmp
+
+        subs = [
+            s for s in self.nodes
+            if self.nodes[s].node_type in ("substation", "primary_substation")
+            and not self.nodes[s].failed
+        ]
+
+        def _benefit_for_tie(u, v):
+            tmp = _build_candidate(extra_edge=(u, v))
             benefit = 0
             for nid in isolated:
-                if any(
-                    _nx.has_path(tmp, nid, s) for s in subs
-                ):
+                if nid not in tmp:
+                    continue
+                if any(_nx.has_path(tmp, nid, s) for s in subs):
                     benefit += 1
+            return benefit
+
+        best_tie = None
+        best_benefit = -1
+        for (u, v) in open_ties:
+            benefit = _benefit_for_tie(u, v)
             if benefit > best_benefit:
                 best_benefit = benefit
                 best_tie = (u, v)
@@ -928,22 +960,10 @@ class SmartGrid:
                     "reason": "no tie improves reachability"}
 
         # Recompute the exact benefited set for the chosen tie.
-        tmp = _nx.Graph()
-        for (a, b, d) in self.graph.edges(data=True):
-            if not d.get("active", True):
-                continue
-            if self.nodes[a].failed or self.nodes[b].failed:
-                continue
-            tmp.add_edge(a, b)
-        tmp.add_edge(*best_tie)
-        subs = [
-            s for s in self.nodes
-            if self.nodes[s].node_type in ("substation", "primary_substation")
-            and not self.nodes[s].failed
-        ]
+        tmp = _build_candidate(extra_edge=best_tie)
         benefited = [
             nid for nid in isolated
-            if any(_nx.has_path(tmp, nid, s) for s in subs)
+            if nid in tmp and any(_nx.has_path(tmp, nid, s) for s in subs)
         ]
 
         self.close_tie_switch(*best_tie)
@@ -1096,6 +1116,19 @@ class SmartGrid:
             if not n.failed and (
                 _is_generator(n.node_type)
                 or n.node_type in ("substation", "primary_substation")
+                # Stage-45 (Physics-coupled metric audit):
+                # storage-coupling fix. Any live node whose
+                # ``generation`` field is positive at this step is
+                # also a BFS source — this is how ``use_battery`` /
+                # ``use_supercapacitor`` injections reach downstream
+                # load nodes. Without this broadening, the BFS ignores
+                # storage discharge and ``received_power`` is
+                # invariant across controllers.
+                or (float(getattr(n, "generation", 0.0) or 0.0) > 0.0
+                    and n.node_type in (
+                        "house", "battery", "supercap",
+                        "storage_bat", "storage_sc",
+                    ))
             )
         ]
 

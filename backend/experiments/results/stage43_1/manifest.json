@@ -1,0 +1,17 @@
+{
+  "produced": [
+    "action_validity_distribution.json",
+    "q_values.json",
+    "action_reward_statistics.json",
+    "controlled_states.json",
+    "lstm_alignment.json",
+    "twin_alignment.json",
+    "training_data.json",
+    "mask_summary.json",
+    "figures/q_value_distribution.png",
+    "figures/action_reward_distribution.png",
+    "figures/action_distribution_over_training.png",
+    "figures/mask_validity_distribution.png",
+    "figures/mask_selected_action.png"
+  ]
+}

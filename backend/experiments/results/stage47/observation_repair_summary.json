@@ -1,0 +1,9 @@
+{
+  "battery_tracks_grid": true,
+  "supercap_tracks_grid": true,
+  "multi_state_battery": true,
+  "multi_state_supercap": true,
+  "battery_independent_of_house": true,
+  "supercap_independent_of_house": true,
+  "overall_success": true
+}

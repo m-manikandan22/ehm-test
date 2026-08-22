@@ -1,0 +1,251 @@
+{
+  "checkpoint_hash": "eb7bbed22a18f13dbe607b908caf7905ec0fd9b9c14f2a80a75c628bac594493",
+  "test_cases": [
+    {
+      "test_case": "high_bat",
+      "grid_battery_soc": 0.8,
+      "grid_supercap_soc": 1.0,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.8,
+        "supercap": 1.0
+      },
+      "state_diff_norm": 0.19999999999999996,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -716.80126953125,
+        -711.9558715820312,
+        -718.7954711914062,
+        -718.45654296875,
+        -706.7399291992188
+      ],
+      "q_diff": [
+        1.07110595703125,
+        1.0662841796875,
+        1.07598876953125,
+        1.0716552734375,
+        1.0552978515625
+      ],
+      "q_diff_norm": 2.3883216381073,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    },
+    {
+      "test_case": "low_bat",
+      "grid_battery_soc": 0.2,
+      "grid_supercap_soc": 1.0,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.2,
+        "supercap": 1.0
+      },
+      "state_diff_norm": 0.8,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -713.5880126953125,
+        -708.757080078125,
+        -715.5675048828125,
+        -715.2413940429688,
+        -703.5742797851562
+      ],
+      "q_diff": [
+        4.28436279296875,
+        4.26507568359375,
+        4.303955078125,
+        4.28680419921875,
+        4.220947265625
+      ],
+      "q_diff_norm": 9.553206443786621,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    },
+    {
+      "test_case": "high_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.8,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.75,
+        "supercap": 0.8
+      },
+      "state_diff_norm": 0.3201562118716424,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -715.7608642578125,
+        -710.922607421875,
+        -717.7568969726562,
+        -717.4168090820312,
+        -705.7185668945312
+      ],
+      "q_diff": [
+        2.11151123046875,
+        2.09954833984375,
+        2.11456298828125,
+        2.11138916015625,
+        2.07666015625
+      ],
+      "q_diff_norm": 4.701961517333984,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    },
+    {
+      "test_case": "low_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.2,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.75,
+        "supercap": 0.2
+      },
+      "state_diff_norm": 0.8381527307120106,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -713.4429931640625,
+        -708.62255859375,
+        -715.4480590820312,
+        -715.1014404296875,
+        -703.4459838867188
+      ],
+      "q_diff": [
+        4.42938232421875,
+        4.39959716796875,
+        4.42340087890625,
+        4.4267578125,
+        4.3492431640625
+      ],
+      "q_diff_norm": 9.851622581481934,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    },
+    {
+      "test_case": "both_low",
+      "grid_battery_soc": 0.2,
+      "grid_supercap_soc": 0.2,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.2,
+        "supercap": 0.2
+      },
+      "state_diff_norm": 1.1313708498984762,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -710.49755859375,
+        -705.6903686523438,
+        -712.4890747070312,
+        -712.1541748046875,
+        -700.5441284179688
+      ],
+      "q_diff": [
+        7.37481689453125,
+        7.331787109375,
+        7.38238525390625,
+        7.3740234375,
+        7.2510986328125
+      ],
+      "q_diff_norm": 16.419418334960938,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    },
+    {
+      "test_case": "both_high",
+      "grid_battery_soc": 0.8,
+      "grid_supercap_soc": 0.8,
+      "old_features": {
+        "battery": 1.0,
+        "supercap": 1.0
+      },
+      "new_features": {
+        "battery": 0.8,
+        "supercap": 0.8
+      },
+      "state_diff_norm": 0.28284271247461895,
+      "old_q_values": [
+        -717.8723754882812,
+        -713.0221557617188,
+        -719.8714599609375,
+        -719.5281982421875,
+        -707.7952270507812
+      ],
+      "new_q_values": [
+        -716.0286865234375,
+        -711.1891479492188,
+        -718.0259399414062,
+        -717.6846923828125,
+        -705.9823608398438
+      ],
+      "q_diff": [
+        1.84368896484375,
+        1.8330078125,
+        1.84552001953125,
+        1.843505859375,
+        1.8128662109375
+      ],
+      "q_diff_norm": 4.1048808097839355,
+      "old_action": 4,
+      "new_action": 4,
+      "action_changed": false
+    }
+  ],
+  "state_diff_stats": {
+    "min": 0.19999999999999996,
+    "max": 1.1313708498984762,
+    "mean": 0.5954204174927914
+  },
+  "q_diff_stats": {
+    "min": 2.3883216381073,
+    "max": 16.419418334960938,
+    "mean": 7.836568554242452
+  },
+  "any_action_changed": false,
+  "conclusion": "NEW observation representation produces different state vectors and Q-values vs OLD masked representation. This confirms the observation repair changes the DQN's input. The frozen Stage-44 weights were trained on masked observations, so the new features are not yet utilized by the policy."
+}

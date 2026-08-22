@@ -1,0 +1,70 @@
+[
+  {
+    "feature_changed": "battery_soc (feature 73)",
+    "base_value": 0.5,
+    "test_value": 0.1,
+    "delta_state_norm": 0.0,
+    "delta_q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "delta_q_norm": 0.0,
+    "base_action": 4,
+    "test_action": 4,
+    "action_changed": false
+  },
+  {
+    "feature_changed": "supercap_soc (feature 74)",
+    "base_value": 0.5,
+    "test_value": 0.1,
+    "delta_state_norm": 0.0,
+    "delta_q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "delta_q_norm": 0.0,
+    "base_action": 4,
+    "test_action": 4,
+    "action_changed": false
+  },
+  {
+    "feature_changed": "lstm_forecast (feature 72)",
+    "base_value": 0.5,
+    "test_value": 0.9,
+    "delta_state_norm": 0.4,
+    "delta_q": [
+      -2.1026611328125,
+      -2.08526611328125,
+      -2.10955810546875,
+      -2.112060546875,
+      -2.0760498046875
+    ],
+    "delta_q_norm": 4.689406871795654,
+    "base_action": 4,
+    "test_action": 4,
+    "action_changed": false
+  },
+  {
+    "feature_changed": "twin_max_risk (feature 75)",
+    "base_value": 0.0,
+    "test_value": 0.8,
+    "delta_state_norm": 0.8,
+    "delta_q": [
+      -4.34271240234375,
+      -4.3082275390625,
+      -4.36505126953125,
+      -4.3475341796875,
+      -4.27490234375
+    ],
+    "delta_q_norm": 9.677267074584961,
+    "base_action": 4,
+    "test_action": 4,
+    "action_changed": false
+  }
+]

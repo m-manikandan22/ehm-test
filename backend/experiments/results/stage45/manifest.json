@@ -1,0 +1,45 @@
+{
+  "schema_version": "stage45.statistics.1.0",
+  "n_runs": 480,
+  "n_cells": 48,
+  "n_pairwise_tests": 1104,
+  "n_holm_tests": 0,
+  "n_fingerprint_invalid_pairs": 0,
+  "invariance_audit": {
+    "n_groups": 40,
+    "n_responsive_groups": 40,
+    "fraction_responsive": 1.0,
+    "mean_std": 5.466802116123423,
+    "max_std": 26.072754367188228,
+    "passes_invariance_break": true
+  },
+  "controllers": [
+    "random",
+    "rule_based",
+    "untrained_dqn",
+    "trained_dqn"
+  ],
+  "scenarios": [
+    "A",
+    "E",
+    "I",
+    "J"
+  ],
+  "ablations": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_ems"
+  ],
+  "checkpoint": "experiments/checkpoints/dqn_stage44.pt",
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d",
+  "metrics": [
+    "energy_not_served_mwh",
+    "total_customer_minutes_interrupted",
+    "restoration_rate",
+    "avg_restoration_steps",
+    "critical_load_interruption_steps",
+    "voltage_violation_count"
+  ]
+}

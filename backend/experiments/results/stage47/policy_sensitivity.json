@@ -1,0 +1,604 @@
+{
+  "checkpoint_hash": "316b1a91028ee9143390bc4fba289ffc845a92b94f94ba55015ad52920d029d5",
+  "battery_sensitivity": [
+    {
+      "name": "very_high_bat",
+      "grid_battery_soc": 0.9,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.9,
+      "feature_74": 1.0,
+      "q_values": [
+        -1091.1512451171875,
+        -1123.4315185546875,
+        -1094.2335205078125,
+        -1113.174560546875,
+        -1085.9669189453125
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "high_bat",
+      "grid_battery_soc": 0.8,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.8,
+      "feature_74": 1.0,
+      "q_values": [
+        -1090.5380859375,
+        -1122.8011474609375,
+        -1093.6204833984375,
+        -1112.55029296875,
+        -1085.359619140625
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_high_bat",
+      "grid_battery_soc": 0.6,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.6,
+      "feature_74": 1.0,
+      "q_values": [
+        -1089.311767578125,
+        -1121.5404052734375,
+        -1092.3941650390625,
+        -1111.3018798828125,
+        -1084.14501953125
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_bat",
+      "grid_battery_soc": 0.5,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.5,
+      "feature_74": 1.0,
+      "q_values": [
+        -1088.6986083984375,
+        -1120.9100341796875,
+        -1091.7811279296875,
+        -1110.6776123046875,
+        -1083.537841796875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_low_bat",
+      "grid_battery_soc": 0.4,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.4,
+      "feature_74": 1.0,
+      "q_values": [
+        -1088.08544921875,
+        -1120.2796630859375,
+        -1091.1680908203125,
+        -1110.0533447265625,
+        -1082.9305419921875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "low_bat",
+      "grid_battery_soc": 0.2,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.2,
+      "feature_74": 1.0,
+      "q_values": [
+        -1086.859130859375,
+        -1119.0189208984375,
+        -1089.9417724609375,
+        -1108.804931640625,
+        -1081.7159423828125
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "very_low_bat",
+      "grid_battery_soc": 0.1,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.1,
+      "feature_74": 1.0,
+      "q_values": [
+        -1086.2459716796875,
+        -1118.3885498046875,
+        -1089.3287353515625,
+        -1108.1807861328125,
+        -1081.1087646484375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "critical_bat",
+      "grid_battery_soc": 0.05,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.05,
+      "feature_74": 1.0,
+      "q_values": [
+        -1085.9393310546875,
+        -1118.073486328125,
+        -1089.0220947265625,
+        -1107.8685302734375,
+        -1080.8050537109375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "empty_bat",
+      "grid_battery_soc": 0.0,
+      "grid_supercap_soc": 1.0,
+      "feature_73": 0.0,
+      "feature_74": 1.0,
+      "q_values": [
+        -1085.6329345703125,
+        -1117.75830078125,
+        -1088.715576171875,
+        -1107.5565185546875,
+        -1080.50146484375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    }
+  ],
+  "supercap_sensitivity": [
+    {
+      "name": "very_high_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.9,
+      "feature_73": 0.75,
+      "feature_74": 0.9,
+      "q_values": [
+        -1090.2066650390625,
+        -1122.462158203125,
+        -1093.290283203125,
+        -1112.2135009765625,
+        -1085.03271484375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "high_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.8,
+      "feature_73": 0.75,
+      "feature_74": 0.8,
+      "q_values": [
+        -1090.181884765625,
+        -1122.4383544921875,
+        -1093.2666015625,
+        -1112.1888427734375,
+        -1085.0093994140625
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_high_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.6,
+      "feature_73": 0.75,
+      "feature_74": 0.6,
+      "q_values": [
+        -1090.13232421875,
+        -1122.3907470703125,
+        -1093.2193603515625,
+        -1112.1395263671875,
+        -1084.9627685546875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.5,
+      "feature_73": 0.75,
+      "feature_74": 0.5,
+      "q_values": [
+        -1090.107421875,
+        -1122.3668212890625,
+        -1093.1956787109375,
+        -1112.1148681640625,
+        -1084.9395751953125
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "mid_low_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.4,
+      "feature_73": 0.75,
+      "feature_74": 0.4,
+      "q_values": [
+        -1090.0826416015625,
+        -1122.343017578125,
+        -1093.1719970703125,
+        -1112.090087890625,
+        -1084.916259765625
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "low_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.2,
+      "feature_73": 0.75,
+      "feature_74": 0.2,
+      "q_values": [
+        -1090.0330810546875,
+        -1122.2955322265625,
+        -1093.1246337890625,
+        -1112.0406494140625,
+        -1084.8697509765625
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "very_low_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.1,
+      "feature_73": 0.75,
+      "feature_74": 0.1,
+      "q_values": [
+        -1090.00830078125,
+        -1122.2716064453125,
+        -1093.10107421875,
+        -1112.01611328125,
+        -1084.846435546875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "critical_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.05,
+      "feature_73": 0.75,
+      "feature_74": 0.05,
+      "q_values": [
+        -1089.995849609375,
+        -1122.2596435546875,
+        -1093.0892333984375,
+        -1112.0037841796875,
+        -1084.8348388671875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "empty_sc",
+      "grid_battery_soc": 0.75,
+      "grid_supercap_soc": 0.0,
+      "feature_73": 0.75,
+      "feature_74": 0.0,
+      "q_values": [
+        -1089.9835205078125,
+        -1122.247802734375,
+        -1093.077392578125,
+        -1111.9913330078125,
+        -1084.8232421875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    }
+  ],
+  "joint_sensitivity": [
+    {
+      "name": "both_high",
+      "grid_battery_soc": 0.9,
+      "grid_supercap_soc": 0.9,
+      "feature_73": 0.9,
+      "feature_74": 0.9,
+      "q_values": [
+        -1091.1263427734375,
+        -1123.4075927734375,
+        -1094.2100830078125,
+        -1113.1497802734375,
+        -1085.943603515625
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "high_bat_low_sc",
+      "grid_battery_soc": 0.9,
+      "grid_supercap_soc": 0.1,
+      "feature_73": 0.9,
+      "feature_74": 0.1,
+      "q_values": [
+        -1090.9281005859375,
+        -1123.2171630859375,
+        -1094.0206298828125,
+        -1112.9522705078125,
+        -1085.75732421875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "low_bat_high_sc",
+      "grid_battery_soc": 0.1,
+      "grid_supercap_soc": 0.9,
+      "feature_73": 0.1,
+      "feature_74": 0.9,
+      "q_values": [
+        -1086.2213134765625,
+        -1118.3648681640625,
+        -1089.3050537109375,
+        -1108.1561279296875,
+        -1081.08544921875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "both_low",
+      "grid_battery_soc": 0.1,
+      "grid_supercap_soc": 0.1,
+      "feature_73": 0.1,
+      "feature_74": 0.1,
+      "q_values": [
+        -1086.0228271484375,
+        -1118.1741943359375,
+        -1089.1158447265625,
+        -1107.9586181640625,
+        -1080.899169921875
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "both_mid",
+      "grid_battery_soc": 0.5,
+      "grid_supercap_soc": 0.5,
+      "feature_73": 0.5,
+      "feature_74": 0.5,
+      "q_values": [
+        -1088.5745849609375,
+        -1120.791015625,
+        -1091.6629638671875,
+        -1110.55419921875,
+        -1083.4212646484375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "high_bat_midlow_sc",
+      "grid_battery_soc": 0.8,
+      "grid_supercap_soc": 0.2,
+      "feature_73": 0.8,
+      "feature_74": 0.2,
+      "q_values": [
+        -1090.3397216796875,
+        -1122.6107177734375,
+        -1093.4312744140625,
+        -1112.3529052734375,
+        -1085.17333984375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    },
+    {
+      "name": "midlow_bat_high_sc",
+      "grid_battery_soc": 0.2,
+      "grid_supercap_soc": 0.8,
+      "feature_73": 0.2,
+      "feature_74": 0.8,
+      "q_values": [
+        -1086.8095703125,
+        -1118.9713134765625,
+        -1089.89453125,
+        -1108.755615234375,
+        -1081.6693115234375
+      ],
+      "action": 4,
+      "action_name": "reroute_energy",
+      "confidence": 0.994,
+      "reasoning": "Routine monitoring \u2192 \ud83d\udd00 Rerouting energy via alternate paths"
+    }
+  ],
+  "feature_isolation": [
+    {
+      "feature_changed": "battery_soc",
+      "test_params": {
+        "bat": 0.1,
+        "sc": 0.5
+      },
+      "base_q": [
+        -1088.5745849609375,
+        -1120.791015625,
+        -1091.6629638671875,
+        -1110.55419921875,
+        -1083.4212646484375
+      ],
+      "test_q": [
+        -1086.1220703125,
+        -1118.26953125,
+        -1089.2103271484375,
+        -1108.0572509765625,
+        -1080.9921875
+      ],
+      "delta_q": [
+        2.4525146484375,
+        2.521484375,
+        2.45263671875,
+        2.4969482421875,
+        2.4290771484375
+      ],
+      "delta_q_norm": 5.524789810180664,
+      "base_action": 4,
+      "test_action": 4,
+      "action_changed": false
+    },
+    {
+      "feature_changed": "supercap_soc",
+      "test_params": {
+        "bat": 0.5,
+        "sc": 0.1
+      },
+      "base_q": [
+        -1088.5745849609375,
+        -1120.791015625,
+        -1091.6629638671875,
+        -1110.55419921875,
+        -1083.4212646484375
+      ],
+      "test_q": [
+        -1088.4754638671875,
+        -1120.6956787109375,
+        -1091.5682373046875,
+        -1110.4554443359375,
+        -1083.3282470703125
+      ],
+      "delta_q": [
+        0.09912109375,
+        0.0953369140625,
+        0.0947265625,
+        0.0987548828125,
+        0.093017578125
+      ],
+      "delta_q_norm": 0.21515583992004395,
+      "base_action": 4,
+      "test_action": 4,
+      "action_changed": false
+    },
+    {
+      "feature_changed": "lstm_forecast",
+      "test_params": {
+        "bat": 0.5,
+        "sc": 0.5,
+        "pred": 0.9
+      },
+      "base_q": [
+        -1088.5745849609375,
+        -1120.791015625,
+        -1091.6629638671875,
+        -1110.55419921875,
+        -1083.4212646484375
+      ],
+      "test_q": [
+        -1089.2318115234375,
+        -1121.4625244140625,
+        -1092.3172607421875,
+        -1111.2257080078125,
+        -1084.072265625
+      ],
+      "delta_q": [
+        -0.6572265625,
+        -0.6715087890625,
+        -0.654296875,
+        -0.6715087890625,
+        -0.6510009765625
+      ],
+      "delta_q_norm": 1.4784117937088013,
+      "base_action": 4,
+      "test_action": 4,
+      "action_changed": false
+    },
+    {
+      "feature_changed": "twin_max_risk",
+      "test_params": {
+        "bat": 0.5,
+        "sc": 0.5,
+        "twin": 0.8
+      },
+      "base_q": [
+        -1088.5745849609375,
+        -1120.791015625,
+        -1091.6629638671875,
+        -1110.55419921875,
+        -1083.4212646484375
+      ],
+      "test_q": [
+        -1087.5673828125,
+        -1119.76318359375,
+        -1090.6468505859375,
+        -1109.5220947265625,
+        -1082.41552734375
+      ],
+      "delta_q": [
+        1.0072021484375,
+        1.02783203125,
+        1.01611328125,
+        1.0321044921875,
+        1.0057373046875
+      ],
+      "delta_q_norm": 2.275989532470703,
+      "base_action": 4,
+      "test_action": 4,
+      "action_changed": false
+    }
+  ],
+  "summary": {
+    "battery_q_range_max": 5.6732177734375,
+    "supercap_q_range_max": 0.22314453125,
+    "unique_actions": [
+      4
+    ],
+    "action_distribution": {
+      "4": 25
+    },
+    "battery_level": "LEVEL 3",
+    "supercap_level": "LEVEL 3",
+    "action_flips": false
+  }
+}

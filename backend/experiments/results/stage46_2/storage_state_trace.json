@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "A",
+    "seed": 0,
+    "reference_step": 34,
+    "storage_after_drain": {
+      "STORAGE_BAT.battery_level": 0.55,
+      "STORAGE_SC.supercap_level": 0.666667
+    },
+    "feature_73_harness_house_only": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_74_harness_house_only": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_73_corrected": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_74_corrected": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "classification": "PHYSICALLY ACTIVE / OBSERVATION DISCONNECTED: dedicated storage SOC changes physically but never reaches features 73/74 under the house-only harness formula."
+  },
+  {
+    "scenario": "A",
+    "seed": 0,
+    "reference_step": 4,
+    "storage_after_drain": {
+      "STORAGE_BAT.battery_level": 0.55,
+      "STORAGE_SC.supercap_level": 0.666667
+    },
+    "feature_73_harness_house_only": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_74_harness_house_only": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_73_corrected": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "feature_74_corrected": {
+      "before": 1.0,
+      "after_storage_drain": 1.0,
+      "changed": false
+    },
+    "classification": "PHYSICALLY ACTIVE / OBSERVATION DISCONNECTED: dedicated storage SOC changes physically but never reaches features 73/74 under the house-only harness formula."
+  }
+]

@@ -1,0 +1,56 @@
+C:\Users\ELCOT\AppData\Roaming\Python\Python314\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.4.3)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[LSTM] Generating synthetic dataset...
+[LSTM] Training on CPU (30 epochs)...
+[LSTM] Training complete. Final loss: 0.046894 | chronological val MSE: 0.109658 (n_train=400, n_val=100)
+[stage44_validation] scen=A seed=0 — 12 runs so far
+[stage44_validation] scen=A seed=1 — 24 runs so far
+[stage44_validation] scen=A seed=2 — 36 runs so far
+[stage44_validation] scen=A seed=3 — 48 runs so far
+[stage44_validation] scen=A seed=4 — 60 runs so far
+[stage44_validation] scen=A seed=5 — 72 runs so far
+[stage44_validation] scen=A seed=6 — 84 runs so far
+[stage44_validation] scen=A seed=7 — 96 runs so far
+[stage44_validation] scen=A seed=8 — 108 runs so far
+[stage44_validation] scen=A seed=9 — 120 runs so far
+[stage44_validation] scen=E seed=0 — 132 runs so far
+[stage44_validation] scen=E seed=1 — 144 runs so far
+[stage44_validation] scen=E seed=2 — 156 runs so far
+[stage44_validation] scen=E seed=3 — 168 runs so far
+[stage44_validation] scen=E seed=4 — 180 runs so far
+[stage44_validation] scen=E seed=5 — 192 runs so far
+[stage44_validation] scen=E seed=6 — 204 runs so far
+[stage44_validation] scen=E seed=7 — 216 runs so far
+[stage44_validation] scen=E seed=8 — 228 runs so far
+[stage44_validation] scen=E seed=9 — 240 runs so far
+[stage44_validation] scen=G seed=0 — 252 runs so far
+[stage44_validation] scen=G seed=1 — 264 runs so far
+[stage44_validation] scen=G seed=2 — 276 runs so far
+[stage44_validation] scen=G seed=3 — 288 runs so far
+[stage44_validation] scen=G seed=4 — 300 runs so far
+[stage44_validation] scen=G seed=5 — 312 runs so far
+[stage44_validation] scen=G seed=6 — 324 runs so far
+[stage44_validation] scen=G seed=7 — 336 runs so far
+[stage44_validation] scen=G seed=8 — 348 runs so far
+[stage44_validation] scen=G seed=9 — 360 runs so far
+[stage44_validation] scen=H seed=0 — 372 runs so far
+[stage44_validation] scen=H seed=1 — 384 runs so far
+[stage44_validation] scen=H seed=2 — 396 runs so far
+[stage44_validation] scen=H seed=3 — 408 runs so far
+[stage44_validation] scen=H seed=4 — 420 runs so far
+[stage44_validation] scen=H seed=5 — 432 runs so far
+[stage44_validation] scen=H seed=6 — 444 runs so far
+[stage44_validation] scen=H seed=7 — 456 runs so far
+[stage44_validation] scen=H seed=8 — 468 runs so far
+[stage44_validation] scen=H seed=9 — 480 runs so far
+[stage44_validation] scen=J seed=0 — 492 runs so far
+[stage44_validation] scen=J seed=1 — 504 runs so far
+[stage44_validation] scen=J seed=2 — 516 runs so far
+[stage44_validation] scen=J seed=3 — 528 runs so far
+[stage44_validation] scen=J seed=4 — 540 runs so far
+[stage44_validation] scen=J seed=5 — 552 runs so far
+[stage44_validation] scen=J seed=6 — 564 runs so far
+[stage44_validation] scen=J seed=7 — 576 runs so far
+[stage44_validation] scen=J seed=8 — 588 runs so far
+[stage44_validation] scen=J seed=9 — 600 runs so far
+[stage44_validation] wrote experiments/results/stage44/validation.json with 600 runs (600 valid)

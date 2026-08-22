@@ -255,18 +255,18 @@ class ScadaControlCenter:
         elif action_name == "use_battery":
             discharged_nodes = 0
             for node in grid.nodes.values():
-                if node.node_type == "house" and node.battery_level > 0.2:
+                if (node.node_type == "house" or node.node_type == "battery") and node.battery_level > 0.2:
                     node.use_battery(0.2)
                     discharged_nodes += 1
-            return f"SCADA Signal sent to {discharged_nodes} prosumer inverters: Base-load battery discharge."
+            return f"SCADA Signal sent to {discharged_nodes} battery nodes: Base-load battery discharge."
 
         elif action_name == "use_supercapacitor":
             discharged_nodes = 0
             for node in grid.nodes.values():
-                if node.node_type == "house" and node.supercap_level > 0.1:
+                if (node.node_type == "house" or node.node_type == "supercap") and node.supercap_level > 0.1:
                     node.use_supercapacitor(0.1)
                     discharged_nodes += 1
-            return f"SCADA Signal sent to {discharged_nodes} prosumer inverters: Supercapacitor flash discharge."
+            return f"SCADA Signal sent to {discharged_nodes} supercap nodes: Supercapacitor flash discharge."
 
         elif action_name == "shift_load":
             shifted_nodes = 0

@@ -1,0 +1,8 @@
+{
+  "n_groups": 40,
+  "n_responsive_groups": 40,
+  "fraction_responsive": 1.0,
+  "mean_std": 5.466802116123423,
+  "max_std": 26.072754367188228,
+  "passes_invariance_break": true
+}

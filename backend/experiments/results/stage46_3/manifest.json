@@ -1,0 +1,32 @@
+{
+  "stage": "46.3",
+  "description": "DQN Storage Observation Audit",
+  "checkpoint": {
+    "path": "C:\\Users\\ELCOT\\Music\\EHM-paper\\backend\\experiments\\checkpoints\\dqn_stage44.pt",
+    "sha256": "eb7bbed22a18f13dbe607b908caf7905ec0fd9b9c14f2a80a75c628bac594493",
+    "state_dim": 78,
+    "n_actions": 5
+  },
+  "experiments": {
+    "battery_observation_probe": "battery_observation_probe.json",
+    "supercap_observation_probe": "supercap_observation_probe.json",
+    "q_value_sensitivity_battery": "q_value_sensitivity_battery.json",
+    "q_value_sensitivity_supercap": "q_value_sensitivity_supercap.json",
+    "action_sensitivity_multi_state": "action_sensitivity_multi_state.json",
+    "feature_sensitivity": "feature_sensitivity.json",
+    "ems_observability": "ems_observability.json",
+    "hypothetical_direct_representation": "hypothetical_direct_representation.json",
+    "checkpoint_hash": "checkpoint_hash.json",
+    "source_integrity": "source_integrity.json",
+    "no_retraining_check": "no_retraining_check.json",
+    "storage_observability": "storage_observability.json"
+  },
+  "documents": [
+    "docs/STAGE_46_3_IMPLEMENTATION_PLAN.md",
+    "docs/STAGE_46_3_STATE_VECTOR_MAP.md",
+    "docs/STAGE_46_3_BATTERY_OBSERVATION_TRACE.md",
+    "docs/STAGE_46_3_SUPERCAP_OBSERVATION_TRACE.md"
+  ],
+  "git_sha": "unknown",
+  "python_version": "3.x"
+}

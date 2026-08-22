@@ -1,0 +1,197 @@
+{
+  "state_dim": 78,
+  "states": [
+    {
+      "name": "baseline",
+      "Q": [
+        -1070.7647705078125,
+        -1059.1068115234375,
+        -1053.092529296875,
+        -1067.0196533203125,
+        -1070.4969482421875
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "low_battery",
+      "Q": [
+        -1072.5543212890625,
+        -1060.87451171875,
+        -1054.8729248046875,
+        -1068.8233642578125,
+        -1072.2877197265625
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.05,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "full_battery",
+      "Q": [
+        -1068.9752197265625,
+        -1057.3389892578125,
+        -1051.3121337890625,
+        -1065.2158203125,
+        -1068.7064208984375
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.95,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "low_supercap",
+      "Q": [
+        -1078.11962890625,
+        -1066.3465576171875,
+        -1060.3665771484375,
+        -1074.3736572265625,
+        -1077.8505859375
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.05,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "high_supercap",
+      "Q": [
+        -1063.4100341796875,
+        -1051.866943359375,
+        -1045.8184814453125,
+        -1059.6656494140625,
+        -1063.1435546875
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.95,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "low_forecast",
+      "Q": [
+        -1072.737548828125,
+        -1061.041748046875,
+        -1055.0467529296875,
+        -1068.9971923828125,
+        -1072.47021484375
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.05,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "high_forecast",
+      "Q": [
+        -1066.3809814453125,
+        -1054.806884765625,
+        -1048.75,
+        -1062.6251220703125,
+        -1066.1121826171875
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 1.5,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.0,
+      "twin_mean_risk": 0.0,
+      "twin_high_frac": 0.0
+    },
+    {
+      "name": "high_twin_risk",
+      "Q": [
+        -1069.8765869140625,
+        -1058.218505859375,
+        -1052.221435546875,
+        -1066.1297607421875,
+        -1069.6053466796875
+      ],
+      "valid_actions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "argmax_within_mask": 2,
+      "forecast": 0.5,
+      "battery_soc": 0.5,
+      "supercap_soc": 0.5,
+      "twin_max_risk": 0.9,
+      "twin_mean_risk": 0.6,
+      "twin_high_frac": 0.4
+    }
+  ]
+}

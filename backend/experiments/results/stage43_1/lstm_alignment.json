@@ -1,0 +1,365 @@
+{
+  "rows": [
+    {
+      "step": 0,
+      "lstm_prediction": 0.49403759837150574,
+      "training_feature": 0.7433967362903877,
+      "aggregate_load": 14.867934725807753
+    },
+    {
+      "step": 1,
+      "lstm_prediction": 0.48163601756095886,
+      "training_feature": 0.7561472592862337,
+      "aggregate_load": 15.122945185724674
+    },
+    {
+      "step": 2,
+      "lstm_prediction": 0.46782079339027405,
+      "training_feature": 0.8013696038495892,
+      "aggregate_load": 16.027392076991784
+    },
+    {
+      "step": 3,
+      "lstm_prediction": 0.45366689562797546,
+      "training_feature": 0.8330917263669436,
+      "aggregate_load": 16.661834527338872
+    },
+    {
+      "step": 4,
+      "lstm_prediction": 0.4409295618534088,
+      "training_feature": 0.8909502026064258,
+      "aggregate_load": 17.819004052128516
+    },
+    {
+      "step": 5,
+      "lstm_prediction": 0.4310145676136017,
+      "training_feature": 0.9418179313475307,
+      "aggregate_load": 18.836358626950613
+    },
+    {
+      "step": 6,
+      "lstm_prediction": 0.4218313694000244,
+      "training_feature": 0.9466877139430352,
+      "aggregate_load": 18.933754278860704
+    },
+    {
+      "step": 7,
+      "lstm_prediction": 0.4115438163280487,
+      "training_feature": 0.9327181689803188,
+      "aggregate_load": 18.654363379606377
+    },
+    {
+      "step": 8,
+      "lstm_prediction": 0.39963963627815247,
+      "training_feature": 0.9350441064265965,
+      "aggregate_load": 18.70088212853193
+    },
+    {
+      "step": 9,
+      "lstm_prediction": 0.38615652918815613,
+      "training_feature": 0.9539189712232256,
+      "aggregate_load": 19.07837942446451
+    },
+    {
+      "step": 10,
+      "lstm_prediction": 0.3948684334754944,
+      "training_feature": 0.9460300147775103,
+      "aggregate_load": 18.920600295550205
+    },
+    {
+      "step": 11,
+      "lstm_prediction": 0.4044343829154968,
+      "training_feature": 0.9247068589658074,
+      "aggregate_load": 18.494137179316148
+    },
+    {
+      "step": 12,
+      "lstm_prediction": 0.4135838449001312,
+      "training_feature": 0.935257617187883,
+      "aggregate_load": 18.70515234375766
+    },
+    {
+      "step": 13,
+      "lstm_prediction": 0.4182358682155609,
+      "training_feature": 0.9999052852658672,
+      "aggregate_load": 19.998105705317343
+    },
+    {
+      "step": 14,
+      "lstm_prediction": 0.41157087683677673,
+      "training_feature": 1.011721301281557,
+      "aggregate_load": 20.234426025631137
+    },
+    {
+      "step": 15,
+      "lstm_prediction": 0.39539965987205505,
+      "training_feature": 0.9939696190124414,
+      "aggregate_load": 19.879392380248827
+    },
+    {
+      "step": 16,
+      "lstm_prediction": 0.38230881094932556,
+      "training_feature": 0.9432077202128069,
+      "aggregate_load": 18.864154404256137
+    },
+    {
+      "step": 17,
+      "lstm_prediction": 0.37302538752555847,
+      "training_feature": 0.9213239870504142,
+      "aggregate_load": 18.426479741008283
+    },
+    {
+      "step": 18,
+      "lstm_prediction": 0.3654234707355499,
+      "training_feature": 0.8817646550362669,
+      "aggregate_load": 17.635293100725338
+    },
+    {
+      "step": 19,
+      "lstm_prediction": 0.35869091749191284,
+      "training_feature": 0.8453611070461771,
+      "aggregate_load": 16.90722214092354
+    },
+    {
+      "step": 20,
+      "lstm_prediction": 0.35405370593070984,
+      "training_feature": 0.8273853128984419,
+      "aggregate_load": 16.547706257968837
+    },
+    {
+      "step": 21,
+      "lstm_prediction": 0.34986743330955505,
+      "training_feature": 0.8193300236485401,
+      "aggregate_load": 16.3866004729708
+    },
+    {
+      "step": 22,
+      "lstm_prediction": 0.3447757065296173,
+      "training_feature": 0.8182272931595781,
+      "aggregate_load": 16.364545863191562
+    },
+    {
+      "step": 23,
+      "lstm_prediction": 0.3421284854412079,
+      "training_feature": 0.8153588013233227,
+      "aggregate_load": 16.307176026466454
+    },
+    {
+      "step": 24,
+      "lstm_prediction": 0.3412512242794037,
+      "training_feature": 0.8155982051759322,
+      "aggregate_load": 16.311964103518644
+    },
+    {
+      "step": 25,
+      "lstm_prediction": 0.3414422869682312,
+      "training_feature": 0.8259099634547089,
+      "aggregate_load": 16.51819926909418
+    },
+    {
+      "step": 26,
+      "lstm_prediction": 0.3409675657749176,
+      "training_feature": 0.874679377799421,
+      "aggregate_load": 17.49358755598842
+    },
+    {
+      "step": 27,
+      "lstm_prediction": 0.34016743302345276,
+      "training_feature": 0.9124814529305247,
+      "aggregate_load": 18.249629058610495
+    },
+    {
+      "step": 28,
+      "lstm_prediction": 0.33734679222106934,
+      "training_feature": 0.96916595161999,
+      "aggregate_load": 19.3833190323998
+    },
+    {
+      "step": 29,
+      "lstm_prediction": 0.33337780833244324,
+      "training_feature": 1.023451505683563,
+      "aggregate_load": 20.46903011367126
+    },
+    {
+      "step": 30,
+      "lstm_prediction": 0.3302830755710602,
+      "training_feature": 1.0127829582649441,
+      "aggregate_load": 20.255659165298884
+    },
+    {
+      "step": 31,
+      "lstm_prediction": 0.3275224566459656,
+      "training_feature": 0.9977389813430267,
+      "aggregate_load": 19.954779626860535
+    },
+    {
+      "step": 32,
+      "lstm_prediction": 0.3243626654148102,
+      "training_feature": 0.9975483207149954,
+      "aggregate_load": 19.95096641429991
+    },
+    {
+      "step": 33,
+      "lstm_prediction": 0.3201335668563843,
+      "training_feature": 1.0216066048822081,
+      "aggregate_load": 20.432132097644164
+    },
+    {
+      "step": 34,
+      "lstm_prediction": 0.31644096970558167,
+      "training_feature": 1.0086979314223794,
+      "aggregate_load": 20.17395862844759
+    },
+    {
+      "step": 35,
+      "lstm_prediction": 0.31337159872055054,
+      "training_feature": 0.9792239588781501,
+      "aggregate_load": 19.584479177563
+    },
+    {
+      "step": 36,
+      "lstm_prediction": 0.3099537789821625,
+      "training_feature": 1.0011107516328102,
+      "aggregate_load": 20.022215032656202
+    },
+    {
+      "step": 37,
+      "lstm_prediction": 0.30635008215904236,
+      "training_feature": 1.044384560239663,
+      "aggregate_load": 20.887691204793263
+    },
+    {
+      "step": 38,
+      "lstm_prediction": 0.3040001690387726,
+      "training_feature": 1.0757566936908707,
+      "aggregate_load": 21.515133873817412
+    },
+    {
+      "step": 39,
+      "lstm_prediction": 0.30421245098114014,
+      "training_feature": 1.0452303855493006,
+      "aggregate_load": 20.90460771098601
+    },
+    {
+      "step": 40,
+      "lstm_prediction": 0.3066130578517914,
+      "training_feature": 0.9870628440001322,
+      "aggregate_load": 19.741256880002645
+    },
+    {
+      "step": 41,
+      "lstm_prediction": 0.3108486235141754,
+      "training_feature": 0.9480679466135683,
+      "aggregate_load": 18.961358932271366
+    },
+    {
+      "step": 42,
+      "lstm_prediction": 0.3174280822277069,
+      "training_feature": 0.9326119301446708,
+      "aggregate_load": 18.652238602893416
+    },
+    {
+      "step": 43,
+      "lstm_prediction": 0.32536935806274414,
+      "training_feature": 0.8927158518851032,
+      "aggregate_load": 17.854317037702064
+    },
+    {
+      "step": 44,
+      "lstm_prediction": 0.33334314823150635,
+      "training_feature": 0.8916247797289429,
+      "aggregate_load": 17.83249559457886
+    },
+    {
+      "step": 45,
+      "lstm_prediction": 0.34102752804756165,
+      "training_feature": 0.8768054579655811,
+      "aggregate_load": 17.53610915931162
+    },
+    {
+      "step": 46,
+      "lstm_prediction": 0.3487361669540405,
+      "training_feature": 0.873336511581976,
+      "aggregate_load": 17.46673023163952
+    },
+    {
+      "step": 47,
+      "lstm_prediction": 0.35626348853111267,
+      "training_feature": 0.8664262675706544,
+      "aggregate_load": 17.328525351413088
+    },
+    {
+      "step": 48,
+      "lstm_prediction": 0.36350560188293457,
+      "training_feature": 0.863741639156637,
+      "aggregate_load": 17.27483278313274
+    },
+    {
+      "step": 49,
+      "lstm_prediction": 0.37001270055770874,
+      "training_feature": 0.8587266900657335,
+      "aggregate_load": 17.17453380131467
+    },
+    {
+      "step": 50,
+      "lstm_prediction": 0.3754897713661194,
+      "training_feature": 0.8971634486340992,
+      "aggregate_load": 17.943268972681985
+    },
+    {
+      "step": 51,
+      "lstm_prediction": 0.3793562948703766,
+      "training_feature": 0.9517381332736408,
+      "aggregate_load": 19.034762665472815
+    },
+    {
+      "step": 52,
+      "lstm_prediction": 0.383339524269104,
+      "training_feature": 1.0084853761938637,
+      "aggregate_load": 20.169707523877275
+    },
+    {
+      "step": 53,
+      "lstm_prediction": 0.3959243595600128,
+      "training_feature": 1.0416007911290337,
+      "aggregate_load": 20.832015822580672
+    },
+    {
+      "step": 54,
+      "lstm_prediction": 0.4159656763076782,
+      "training_feature": 1.0355345937389004,
+      "aggregate_load": 20.710691874778007
+    },
+    {
+      "step": 55,
+      "lstm_prediction": 0.43958303332328796,
+      "training_feature": 1.0242342372539788,
+      "aggregate_load": 20.484684745079576
+    },
+    {
+      "step": 56,
+      "lstm_prediction": 0.45843246579170227,
+      "training_feature": 1.021992811340902,
+      "aggregate_load": 20.43985622681804
+    },
+    {
+      "step": 57,
+      "lstm_prediction": 0.4727255403995514,
+      "training_feature": 1.072309518034139,
+      "aggregate_load": 21.44619036068278
+    },
+    {
+      "step": 58,
+      "lstm_prediction": 0.48129400610923767,
+      "training_feature": 1.0467822700486744,
+      "aggregate_load": 20.93564540097349
+    },
+    {
+      "step": 59,
+      "lstm_prediction": 0.487051397562027,
+      "training_feature": 1.031666980393742,
+      "aggregate_load": 20.633339607874838
+    }
+  ],
+  "note": "training_feature = aggregate_load / 20, clipped [0.05, 2.0]; lstm_prediction = output of DemandForecaster"
+}

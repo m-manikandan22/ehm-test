@@ -1,0 +1,18 @@
+{
+  "battery_soc": {
+    "grid_storage_visible": false,
+    "state_delta": true,
+    "q_delta_norm": 0.0,
+    "action_delta": false,
+    "classification": "LEVEL 1 \u2014 represented but constant (masked by house SOC=1.0)",
+    "evidence": "Feature 73 = max(13 house batteries at 1.0, STORAGE_BAT at 0.75) = 1.0 constant"
+  },
+  "supercap_soc": {
+    "grid_storage_visible": false,
+    "state_delta": true,
+    "q_delta_norm": 0.0,
+    "action_delta": false,
+    "classification": "LEVEL 1 \u2014 represented but constant (masked by house SOC=1.0)",
+    "evidence": "Feature 74 = max(13 house supercaps at 1.0, STORAGE_SC at 1.0) = 1.0 constant"
+  }
+}

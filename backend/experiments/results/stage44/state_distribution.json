@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "docs/STAGE_44_STATE_DISTRIBUTION.md",
+  "master_seed_training": 11,
+  "training_episodes": 4,
+  "training_steps_per_episode": 40,
+  "use_zero_init": true,
+  "validation_scenarios": [
+    "A",
+    "E",
+    "G",
+    "H",
+    "J"
+  ],
+  "validation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "features": {
+    "forecast_feature": {
+      "position": 72,
+      "training": {
+        "min": 0.322331,
+        "max": 0.34857,
+        "mean": 0.337051,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.304,
+        "max": 0.494,
+        "mean": 0.3758,
+        "n": 60,
+        "source": "STAGE_43_1_LSTM_TRAINING_ALIGNMENT.md"
+      },
+      "overlap": true
+    },
+    "battery_soc": {
+      "position": 73,
+      "training": {
+        "min": 0.6,
+        "max": 1.0,
+        "mean": 0.819938,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.05,
+        "max": 1.0,
+        "mean": null,
+        "n": 800,
+        "source": "STAGE_43_1_TRAINING_DATA_AUDIT.md (Scenario D/I SOC=0.05..1.0)"
+      },
+      "overlap": true
+    },
+    "supercap_soc": {
+      "position": 74,
+      "training": {
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.807087,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": null,
+        "n": 800,
+        "source": "STAGE_43_1_TRAINING_DATA_AUDIT.md"
+      },
+      "overlap": true
+    },
+    "twin_max_risk": {
+      "position": 75,
+      "training": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.0,
+        "max": 0.5,
+        "mean": 0.0102,
+        "n": 3,
+        "source": "STAGE_43_1_TWIN_TRAINING_ALIGNMENT.md (Scenario H max_risk=0.5)"
+      },
+      "overlap": true
+    },
+    "num_failed": {
+      "position": null,
+      "training": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.0,
+        "max": 3.0,
+        "mean": null,
+        "n": 250,
+        "source": "validation.json n_faults range across A/E/G/H/J"
+      },
+      "overlap": true
+    },
+    "num_isolated": {
+      "position": null,
+      "training": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "n": 160
+      },
+      "validation": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": null,
+        "n": 250,
+        "source": "validation.json \u2014 see scenario A/E/G/H/J"
+      },
+      "overlap": true
+    }
+  },
+  "overall_overlap": true
+}

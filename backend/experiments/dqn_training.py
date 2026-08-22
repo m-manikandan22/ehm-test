@@ -181,8 +181,8 @@ def _soc(grid, kind: str) -> float:
         ntype = str(getattr(n, "node_type", "") or "")
         is_storage = (
             ntype == "house"
-            or (kind == "battery" and "storage_bat" in ntype)
-            or (kind == "supercap" and "storage_sc" in ntype)
+            or (kind == "battery" and ntype == "battery")
+            or (kind == "supercap" and ntype == "supercap")
         )
         if not is_storage:
             continue

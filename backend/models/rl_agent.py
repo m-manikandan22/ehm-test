@@ -633,7 +633,34 @@ class DQNAgent:
     def compute_reward(grid_state: dict, action_name: str = "") -> float:
         """
         Compute a sharp, intentional reward focused on stability, balance, and minimizing failure.
+
+        Stage-44 patch: the supercap bonus is now conditional on the
+        action's *measured* effect — it only fires when the post-step
+        aggregate supercap level dropped by at least ``SUPERCAP_EFFECT_DELTA``
+        (so the action is the documented engineering rationale
+        "supercap mitigated a spike"). See ``docs/STAGE_44_REWARD_DESIGN.md``.
+        The static ``any load > 1.2`` trigger is retained as a *floor*:
+        the bonus never fires if there is no spike signal in the grid.
         """
+        return DQNAgent._compute_reward_components(grid_state, action_name)[
+            "total"
+        ]
+
+    # ------------------------------------------------------------------
+    # Stage-44: split reward into components for auditability. The
+    # ``compute_reward`` static method is preserved as the canonical
+    # entry point; ``_compute_reward_components`` returns the
+    # decomposition (used by the training log and the reward audit).
+    # ------------------------------------------------------------------
+
+    SUPERCAP_EFFECT_DELTA = 1e-4  # supercap SOC drop needed to claim the bonus
+
+    @staticmethod
+    def _compute_reward_components(
+        grid_state: dict, action_name: str = "",
+        supercap_level_pre: float = 0.0,
+        supercap_level_post: float = 0.0,
+    ) -> dict:
         reward = 0.0
         nodes = grid_state.get("nodes", {})
         system = grid_state.get("system", {})
@@ -647,24 +674,52 @@ class DQNAgent:
         num_isolated = sum(1 for n in nodes.values() if n.get("isolated"))
 
         # Stability (HIGH priority)
-        reward += 5.0 * (1.0 - abs(avg_voltage - 1.0) / 0.1)
-        reward += 3.0 * (1.0 - abs(avg_freq - 50.0) / 1.5)
-
+        c_voltage = 5.0 * (1.0 - abs(avg_voltage - 1.0) / 0.1)
+        c_freq = 3.0 * (1.0 - abs(avg_freq - 50.0) / 1.5)
         # Balance (VERY IMPORTANT)
-        reward -= 4.0 * abs(balance)
-
+        c_balance = -4.0 * abs(balance)
         # Failure penalty (CRITICAL)
-        reward -= 10.0 * num_failed
-        reward -= 6.0 * num_isolated
-
+        c_failed = -10.0 * num_failed
+        c_isolated = -6.0 * num_isolated
         # Efficiency
-        reward -= 0.2 * total_energy_loss
+        c_loss = -0.2 * total_energy_loss
+
+        reward = c_voltage + c_freq + c_balance + c_failed + c_isolated + c_loss
 
         # Smart behavior conditional bonuses
-        if action_name == "use_supercapacitor" and any(n.get("load", 0) > 1.2 for n in nodes.values()):
-            reward += 2.0
-            
-        if action_name == "reroute_energy" and (num_failed > 0 or num_isolated > 0):
-            reward += 3.0
+        # (G) supercap bonus — only when there IS a spike signal AND the
+        # supercap SOC actually dropped (the action had an effect).
+        any_spike = any(n.get("load", 0) > 1.2 for n in nodes.values())
+        supercap_helped = (
+            supercap_level_pre - supercap_level_post
+            >= DQNAgent.SUPERCAP_EFFECT_DELTA
+        )
+        if action_name == "use_supercapacitor" and any_spike and supercap_helped:
+            c_supercap = 2.0
+        else:
+            c_supercap = 0.0
+        reward += c_supercap
 
-        return float(reward)
+        # (H) reroute bonus — fires when there is a fault/isolation AND
+        # the policy took the reroute action. The reward audit
+        # (Stage-43.1) noted this never fired during training; Stage-44
+        # exposes it via the training-scenario generator.
+        if action_name == "reroute_energy" and (num_failed > 0 or num_isolated > 0):
+            c_reroute = 3.0
+        else:
+            c_reroute = 0.0
+        reward += c_reroute
+
+        return {
+            "total": float(reward),
+            "stability_voltage": float(c_voltage),
+            "stability_freq": float(c_freq),
+            "balance_penalty": float(c_balance),
+            "failed_penalty": float(c_failed),
+            "isolated_penalty": float(c_isolated),
+            "loss_penalty": float(c_loss),
+            "supercap_spike_bonus": float(c_supercap),
+            "reroute_bonus": float(c_reroute),
+            "_any_spike": bool(any_spike),
+            "_supercap_helped": bool(supercap_helped),
+        }

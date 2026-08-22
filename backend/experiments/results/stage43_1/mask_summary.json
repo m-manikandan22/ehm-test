@@ -1,0 +1,56 @@
+{
+  "per_scenario_average_fraction_valid": {
+    "A": {
+      "increase_generation": 0.0,
+      "use_battery": 0.0,
+      "use_supercapacitor": 0.0,
+      "shift_load": 0.0,
+      "reroute_energy": 0.0
+    },
+    "E": {
+      "increase_generation": 0.0,
+      "use_battery": 0.0,
+      "use_supercapacitor": 0.0,
+      "shift_load": 0.0,
+      "reroute_energy": 0.0
+    },
+    "G": {
+      "increase_generation": 0.0,
+      "use_battery": 0.0,
+      "use_supercapacitor": 0.0,
+      "shift_load": 0.0,
+      "reroute_energy": 0.0
+    },
+    "H": {
+      "increase_generation": 0.0,
+      "use_battery": 0.0,
+      "use_supercapacitor": 0.0,
+      "shift_load": 0.0,
+      "reroute_energy": 0.0
+    },
+    "J": {
+      "increase_generation": 0.0,
+      "use_battery": 0.0,
+      "use_supercapacitor": 0.0,
+      "shift_load": 0.0,
+      "reroute_energy": 0.0
+    }
+  },
+  "per_scenario_selected_counts": {
+    "A": {
+      "2": 400
+    },
+    "E": {
+      "2": 400
+    },
+    "G": {
+      "2": 400
+    },
+    "H": {
+      "2": 400
+    },
+    "J": {
+      "2": 2400
+    }
+  }
+}

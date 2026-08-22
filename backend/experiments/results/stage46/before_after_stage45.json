@@ -1,0 +1,6084 @@
+{
+  "schema_version": "stage46.compare.1.0",
+  "stage45_path": "C:\\Users\\ELCOT\\Music\\EHM-paper\\backend\\experiments\\results\\stage45\\validation.json",
+  "stage46_path": "C:\\Users\\ELCOT\\Music\\EHM-paper\\backend\\experiments\\results\\stage46\\validation.json",
+  "n_cells_common": 48,
+  "per_cell": {
+    "random/full_stack/A": {
+      "cell": [
+        "random",
+        "full_stack",
+        "A"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 0.587403,
+        "std": 0.441078
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 172.7,
+        "std": 90.320479
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 31.5,
+        "std": 21.940576
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.491667,
+        "std": 0.099184
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 17.266667,
+        "std": 9.601296
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 0.584976,
+        "std": 0.434672
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 172.0,
+        "std": 88.799399
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 30.6,
+        "std": 21.920057
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.491667,
+        "std": 0.099184
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 17.033333,
+        "std": 9.582826
+      }
+    },
+    "random/full_stack/E": {
+      "cell": [
+        "random",
+        "full_stack",
+        "E"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 1.618428,
+        "std": 0.853806
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 275.2,
+        "std": 136.868794
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 42.8,
+        "std": 19.809089
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.574188,
+        "std": 0.084783
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 32.506667,
+        "std": 8.675331
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 1.609373,
+        "std": 0.832481
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 271.0,
+        "std": 129.802414
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 39.4,
+        "std": 18.851466
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.574188,
+        "std": 0.084783
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 31.666667,
+        "std": 9.52522
+      }
+    },
+    "random/full_stack/I": {
+      "cell": [
+        "random",
+        "full_stack",
+        "I"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 0.591934,
+        "std": 0.44473
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 178.5,
+        "std": 88.439873
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 30.0,
+        "std": 19.888579
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.471667,
+        "std": 0.094988
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 16.808333,
+        "std": 8.227668
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 0.589507,
+        "std": 0.438372
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 177.8,
+        "std": 86.937781
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 29.1,
+        "std": 19.790289
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.471667,
+        "std": 0.094988
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 16.575,
+        "std": 8.191614
+      }
+    },
+    "random/full_stack/J": {
+      "cell": [
+        "random",
+        "full_stack",
+        "J"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.019773,
+        "std": 0.594572
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 3446.3,
+        "std": 822.620751
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 131.6,
+        "std": 103.81201
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.085606,
+        "std": 0.127771
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 8.2,
+        "std": 14.193721
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.019773,
+        "std": 0.594572
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 3446.3,
+        "std": 822.620751
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 131.6,
+        "std": 103.81201
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.085606,
+        "std": 0.127771
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 8.2,
+        "std": 14.193721
+      }
+    },
+    "rule_based/full_stack/A": {
+      "cell": [
+        "rule_based",
+        "full_stack",
+        "A"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.873287,
+        "std": 1.529593
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 394.7,
+        "std": 60.468633
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 75.7,
+        "std": 7.008725
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.378478,
+        "std": 0.243271
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 39.760952,
+        "std": 24.922679
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.788385,
+        "std": 1.349189
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 387.9,
+        "std": 47.633905
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 69.6,
+        "std": 18.739145
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.397922,
+        "std": 0.239604
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 36.460952,
+        "std": 22.337269
+      }
+    },
+    "rule_based/full_stack/E": {
+      "cell": [
+        "rule_based",
+        "full_stack",
+        "E"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 9.760764,
+        "std": 1.904121
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 595.5,
+        "std": 101.919631
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 80.0,
+        "std": 0.0
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.155066,
+        "std": 0.18495
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 21.6,
+        "std": 26.642952
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 9.649286,
+        "std": 1.677026
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 602.3,
+        "std": 107.216344
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 80.0,
+        "std": 0.0
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.145344,
+        "std": 0.183577
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 27.233333,
+        "std": 30.550121
+      }
+    },
+    "rule_based/full_stack/I": {
+      "cell": [
+        "rule_based",
+        "full_stack",
+        "I"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.873287,
+        "std": 1.529593
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 394.7,
+        "std": 60.468633
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 75.7,
+        "std": 7.008725
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.378478,
+        "std": 0.243271
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 39.760952,
+        "std": 24.922679
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.788385,
+        "std": 1.349189
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 387.9,
+        "std": 47.633905
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 69.6,
+        "std": 18.739145
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.397922,
+        "std": 0.239604
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 36.460952,
+        "std": 22.337269
+      }
+    },
+    "rule_based/full_stack/J": {
+      "cell": [
+        "rule_based",
+        "full_stack",
+        "J"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 44.227196,
+        "std": 10.406945
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 4245.9,
+        "std": 796.426665
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 326.5,
+        "std": 145.300646
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.082817,
+        "std": 0.093477
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 156.466667,
+        "std": 180.425762
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 44.14638,
+        "std": 10.364015
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 4260.6,
+        "std": 787.978454
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 334.4,
+        "std": 149.644171
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.082817,
+        "std": 0.093477
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 156.466667,
+        "std": 180.425762
+      }
+    },
+    "trained_dqn/full_stack/A": {
+      "cell": [
+        "trained_dqn",
+        "full_stack",
+        "A"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.81474,
+        "std": 1.546081
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 382.9,
+        "std": 57.314823
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 75.7,
+        "std": 7.008725
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.385144,
+        "std": 0.246343
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 38.75381,
+        "std": 25.136904
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.706912,
+        "std": 1.306512
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 375.7,
+        "std": 40.343112
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 69.6,
+        "std": 18.739145
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.404589,
+        "std": 0.242128
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 35.47381,
+        "std": 22.419241
+      }
+    },
+    "trained_dqn/full_stack/E": {
+      "cell": [
+        "trained_dqn",
+        "full_stack",
+        "E"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 9.61824,
+        "std": 1.945229
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 585.6,
+        "std": 98.880624
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 80.0,
+        "std": 0.0
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.208632,
+        "std": 0.161049
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 21.916667,
+        "std": 21.250309
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 9.457172,
+        "std": 1.599133
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 589.8,
+        "std": 100.058649
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 80.0,
+        "std": 0.0
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.19891,
+        "std": 0.16306
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 26.716667,
+        "std": 24.823333
+      }
+    },
+    "trained_dqn/full_stack/I": {
+      "cell": [
+        "trained_dqn",
+        "full_stack",
+        "I"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.842225,
+        "std": 1.532445
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 389.5,
+        "std": 58.397584
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 75.7,
+        "std": 7.008725
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.378478,
+        "std": 0.243271
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 38.985714,
+        "std": 24.9543
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 4.756522,
+        "std": 1.351203
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 382.7,
+        "std": 43.984972
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 69.6,
+        "std": 18.739145
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.397922,
+        "std": 0.239604
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 35.691429,
+        "std": 22.251298
+      }
+    },
+    "trained_dqn/full_stack/J": {
+      "cell": [
+        "trained_dqn",
+        "full_stack",
+        "J"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 42.640584,
+        "std": 9.401733
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 3958.8,
+        "std": 617.333297
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 326.5,
+        "std": 145.300646
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.123861,
+        "std": 0.104757
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 96.7,
+        "std": 122.503434
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 42.832056,
+        "std": 9.732515
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 4028.5,
+        "std": 703.677049
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 334.4,
+        "std": 149.644171
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.116718,
+        "std": 0.105748
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 115.783333,
+        "std": 164.673902
+      }
+    },
+    "untrained_dqn/full_stack/A": {
+      "cell": [
+        "untrained_dqn",
+        "full_stack",
+        "A"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.498272,
+        "std": 2.112512
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 263.4,
+        "std": 120.002037
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 46.5,
+        "std": 34.561539
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.474603,
+        "std": 0.219752
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 20.920714,
+        "std": 17.156407
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.498272,
+        "std": 2.112512
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 263.4,
+        "std": 120.002037
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 46.5,
+        "std": 34.561539
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.474603,
+        "std": 0.219752
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 20.920714,
+        "std": 17.156407
+      }
+    },
+    "untrained_dqn/full_stack/E": {
+      "cell": [
+        "untrained_dqn",
+        "full_stack",
+        "E"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 5.384632,
+        "std": 4.477265
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 431.2,
+        "std": 244.911231
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 52.1,
+        "std": 36.038405
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.250047,
+        "std": 0.239
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 12.721429,
+        "std": 17.220072
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 5.384632,
+        "std": 4.477265
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 431.2,
+        "std": 244.911231
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 52.1,
+        "std": 36.038405
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.250047,
+        "std": 0.239
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 12.721429,
+        "std": 17.220072
+      }
+    },
+    "untrained_dqn/full_stack/I": {
+      "cell": [
+        "untrained_dqn",
+        "full_stack",
+        "I"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.534071,
+        "std": 2.145983
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 278.3,
+        "std": 123.554801
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 46.5,
+        "std": 34.561539
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.441746,
+        "std": 0.18626
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 22.887381,
+        "std": 18.798951
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 2.534071,
+        "std": 2.145983
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 278.3,
+        "std": 123.554801
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 46.5,
+        "std": 34.561539
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.441746,
+        "std": 0.18626
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 22.887381,
+        "std": 18.798951
+      }
+    },
+    "untrained_dqn/full_stack/J": {
+      "cell": [
+        "untrained_dqn",
+        "full_stack",
+        "J"
+      ],
+      "stage45_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 26.953196,
+        "std": 23.624284
+      },
+      "stage45_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 3789.2,
+        "std": 1141.302842
+      },
+      "stage45_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 244.4,
+        "std": 200.672868
+      },
+      "stage45_restoration_rate": {
+        "n": 10,
+        "mean": 0.063645,
+        "std": 0.070149
+      },
+      "stage45_avg_restoration_steps": {
+        "n": 10,
+        "mean": 67.5,
+        "std": 128.565807
+      },
+      "stage46_energy_not_served_mwh": {
+        "n": 10,
+        "mean": 26.883872,
+        "std": 23.591409
+      },
+      "stage46_total_customer_minutes_interrupted": {
+        "n": 10,
+        "mean": 3825.0,
+        "std": 1136.549456
+      },
+      "stage46_critical_load_interruption_steps": {
+        "n": 10,
+        "mean": 240.3,
+        "std": 195.681175
+      },
+      "stage46_restoration_rate": {
+        "n": 10,
+        "mean": 0.063645,
+        "std": 0.070149
+      },
+      "stage46_avg_restoration_steps": {
+        "n": 10,
+        "mean": 90.2,
+        "std": 175.46307
+      }
+    }
+  },
+  "paired": {
+    "random vs rule_based | A | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.587403,
+      "mean_b": 4.873287,
+      "mean_diff": -4.285884,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 172.7,
+      "mean_b": 394.7,
+      "mean_diff": -222.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 31.5,
+      "mean_b": 75.7,
+      "mean_diff": -44.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.378478,
+      "mean_diff": 0.113189,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 17.266667,
+      "mean_b": 39.760952,
+      "mean_diff": -22.494286,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.584976,
+      "mean_b": 4.788385,
+      "mean_diff": -4.203408,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 172.0,
+      "mean_b": 387.9,
+      "mean_diff": -215.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 30.6,
+      "mean_b": 69.6,
+      "mean_diff": -39.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.397922,
+      "mean_diff": 0.093745,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24112136827741804,
+        "z": -1.1721885403065389,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | A | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 17.033333,
+      "mean_b": 36.460952,
+      "mean_diff": -19.427619,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.587403,
+      "mean_b": 4.81474,
+      "mean_diff": -4.227337,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 172.7,
+      "mean_b": 382.9,
+      "mean_diff": -210.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 31.5,
+      "mean_b": 75.7,
+      "mean_diff": -44.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.385144,
+      "mean_diff": 0.106522,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.13864063381321845,
+        "z": -1.4808721943977308,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 17.266667,
+      "mean_b": 38.75381,
+      "mean_diff": -21.487143,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.584976,
+      "mean_b": 4.706912,
+      "mean_diff": -4.121936,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 172.0,
+      "mean_b": 375.7,
+      "mean_diff": -203.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 30.6,
+      "mean_b": 69.6,
+      "mean_diff": -39.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.404589,
+      "mean_diff": 0.087078,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.21352435403618242,
+        "z": -1.2439326432940938,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | A | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 17.033333,
+      "mean_b": 35.47381,
+      "mean_diff": -18.440476,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.587403,
+      "mean_b": 2.498272,
+      "mean_diff": -1.910869,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 172.7,
+      "mean_b": 263.4,
+      "mean_diff": -90.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 31.5,
+      "mean_b": 46.5,
+      "mean_diff": -15.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.474603,
+      "mean_diff": 0.017063,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6784023758521882,
+        "z": -0.4146442144313646,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 17.266667,
+      "mean_b": 20.920714,
+      "mean_diff": -3.654048,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.7988593499960497,
+        "z": -0.2548235957188128,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.584976,
+      "mean_b": 2.498272,
+      "mean_diff": -1.913296,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 172.0,
+      "mean_b": 263.4,
+      "mean_diff": -91.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 30.6,
+      "mean_b": 46.5,
+      "mean_diff": -15.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.491667,
+      "mean_b": 0.474603,
+      "mean_diff": 0.017063,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6784023758521882,
+        "z": -0.4146442144313646,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | A | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 17.033333,
+      "mean_b": 20.920714,
+      "mean_diff": -3.887381,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.7988593499960497,
+        "z": -0.2548235957188128,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 1.618428,
+      "mean_b": 9.760764,
+      "mean_diff": -8.142337,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 275.2,
+      "mean_b": 595.5,
+      "mean_diff": -320.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 42.8,
+      "mean_b": 80.0,
+      "mean_diff": -37.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.155066,
+      "mean_diff": 0.419122,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 32.506667,
+      "mean_b": 21.6,
+      "mean_diff": 10.906667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.168806953556508,
+        "z": -1.376047416881589,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 1.609373,
+      "mean_b": 9.649286,
+      "mean_diff": -8.039914,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 271.0,
+      "mean_b": 602.3,
+      "mean_diff": -331.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 39.4,
+      "mean_b": 80.0,
+      "mean_diff": -40.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.145344,
+      "mean_diff": 0.428844,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | E | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 31.666667,
+      "mean_b": 27.233333,
+      "mean_diff": 4.433333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.5750621301739498,
+        "z": -0.5606119105813882,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 1.618428,
+      "mean_b": 9.61824,
+      "mean_diff": -7.999812,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 275.2,
+      "mean_b": 585.6,
+      "mean_diff": -310.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 42.8,
+      "mean_b": 80.0,
+      "mean_diff": -37.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.208632,
+      "mean_diff": 0.365556,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 32.506667,
+      "mean_b": 21.916667,
+      "mean_diff": 10.59,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.20262160771231197,
+        "z": -1.274117978594064,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 1.609373,
+      "mean_b": 9.457172,
+      "mean_diff": -7.847799,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 271.0,
+      "mean_b": 589.8,
+      "mean_diff": -318.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 39.4,
+      "mean_b": 80.0,
+      "mean_diff": -40.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.19891,
+      "mean_diff": 0.375278,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | E | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 31.666667,
+      "mean_b": 26.716667,
+      "mean_diff": 4.95,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.5076243443095239,
+        "z": -0.6625413488689132,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 1.618428,
+      "mean_b": 5.384632,
+      "mean_diff": -3.766205,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 275.2,
+      "mean_b": 431.2,
+      "mean_diff": -156.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.11412832776223869,
+        "z": -1.5799062934566392,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 42.8,
+      "mean_b": 52.1,
+      "mean_diff": -9.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.3328797545683888,
+        "z": -0.9683296637314885,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.250047,
+      "mean_diff": 0.324142,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.009344113002204946,
+        "z": -2.5992006763318902,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 32.506667,
+      "mean_b": 12.721429,
+      "mean_diff": 19.785238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.016604878103722687,
+        "z": -2.39534179975684,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 1.609373,
+      "mean_b": 5.384632,
+      "mean_diff": -3.77526,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 271.0,
+      "mean_b": 431.2,
+      "mean_diff": -160.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.11412832776223869,
+        "z": -1.5799062934566392,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 39.4,
+      "mean_b": 52.1,
+      "mean_diff": -12.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.168806953556508,
+        "z": -1.376047416881589,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.574188,
+      "mean_b": 0.250047,
+      "mean_diff": 0.324142,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.009344113002204946,
+        "z": -2.5992006763318902,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | E | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 31.666667,
+      "mean_b": 12.721429,
+      "mean_diff": 18.945238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.016604878103722687,
+        "z": -2.39534179975684,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.591934,
+      "mean_b": 4.873287,
+      "mean_diff": -4.281353,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 178.5,
+      "mean_b": 394.7,
+      "mean_diff": -216.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 30.0,
+      "mean_b": 75.7,
+      "mean_diff": -45.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.378478,
+      "mean_diff": 0.093189,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 16.808333,
+      "mean_b": 39.760952,
+      "mean_diff": -22.952619,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.589507,
+      "mean_b": 4.788385,
+      "mean_diff": -4.198877,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 177.8,
+      "mean_b": 387.9,
+      "mean_diff": -210.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 29.1,
+      "mean_b": 69.6,
+      "mean_diff": -40.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.397922,
+      "mean_diff": 0.073745,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24112136827741804,
+        "z": -1.1721885403065389,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | I | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 16.575,
+      "mean_b": 36.460952,
+      "mean_diff": -19.885952,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.591934,
+      "mean_b": 4.842225,
+      "mean_diff": -4.250291,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 178.5,
+      "mean_b": 389.5,
+      "mean_diff": -211.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 30.0,
+      "mean_b": 75.7,
+      "mean_diff": -45.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.378478,
+      "mean_diff": 0.093189,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 16.808333,
+      "mean_b": 38.985714,
+      "mean_diff": -22.177381,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.589507,
+      "mean_b": 4.756522,
+      "mean_diff": -4.167015,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 177.8,
+      "mean_b": 382.7,
+      "mean_diff": -204.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 29.1,
+      "mean_b": 69.6,
+      "mean_diff": -40.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.006910429807814644,
+        "z": -2.7011301146194153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.397922,
+      "mean_diff": 0.073745,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24112136827741804,
+        "z": -1.1721885403065389,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | I | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 16.575,
+      "mean_b": 35.691429,
+      "mean_diff": -19.116429,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.591934,
+      "mean_b": 2.534071,
+      "mean_diff": -1.942137,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 178.5,
+      "mean_b": 278.3,
+      "mean_diff": -99.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 30.0,
+      "mean_b": 46.5,
+      "mean_diff": -16.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.441746,
+      "mean_diff": 0.029921,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.8589549227374824,
+        "z": -0.1777046633277277,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 16.808333,
+      "mean_b": 22.887381,
+      "mean_diff": -6.079048,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.5076243443095239,
+        "z": -0.6625413488689132,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.589507,
+      "mean_b": 2.534071,
+      "mean_diff": -1.944563,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 177.8,
+      "mean_b": 278.3,
+      "mean_diff": -100.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.09260069782067593,
+        "z": -1.6818357317441643,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 29.1,
+      "mean_b": 46.5,
+      "mean_diff": -17.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04685328478814732,
+        "z": -1.9876240466067396,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.471667,
+      "mean_b": 0.441746,
+      "mean_diff": 0.029921,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.8589549227374824,
+        "z": -0.1777046633277277,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | I | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 16.575,
+      "mean_b": 22.887381,
+      "mean_diff": -6.312381,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.5076243443095239,
+        "z": -0.6625413488689132,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 44.227196,
+      "mean_diff": -42.207424,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 4245.9,
+      "mean_diff": -799.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 326.5,
+      "mean_diff": -194.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.082817,
+      "mean_diff": 0.002789,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6858304344516057,
+        "z": -0.40451991747794525,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 156.466667,
+      "mean_diff": -148.266667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.027707849358079795,
+        "z": -2.2013981571160284,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 44.14638,
+      "mean_diff": -42.126607,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 4260.6,
+      "mean_diff": -814.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 334.4,
+      "mean_diff": -202.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.082817,
+      "mean_diff": 0.002789,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6858304344516057,
+        "z": -0.40451991747794525,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs rule_based | J | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "rule_based",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 156.466667,
+      "mean_diff": -148.266667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.027707849358079795,
+        "z": -2.2013981571160284,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 42.640584,
+      "mean_diff": -40.620812,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 3958.8,
+      "mean_diff": -512.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04685328478814732,
+        "z": -1.9876240466067396,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 326.5,
+      "mean_diff": -194.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.123861,
+      "mean_diff": -0.038255,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.34544753046922594,
+        "z": -0.9434563530497265,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 96.7,
+      "mean_diff": -88.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 42.832056,
+      "mean_diff": -40.812283,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 4028.5,
+      "mean_diff": -582.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.036657928672214624,
+        "z": -2.0895534848942647,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 334.4,
+      "mean_diff": -202.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.116718,
+      "mean_diff": -0.031112,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.34544753046922594,
+        "z": -0.9434563530497265,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs trained_dqn | J | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 115.783333,
+      "mean_diff": -107.583333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | energy_not_served_mwh | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 26.953196,
+      "mean_diff": -24.933424,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 3789.2,
+      "mean_diff": -342.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10974463874701335,
+        "z": -1.5993419699495492,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | critical_load_interruption_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 244.4,
+      "mean_diff": -112.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | restoration_rate | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.063645,
+      "mean_diff": 0.021961,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17295491798842066,
+        "z": -1.3627702877384937,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | avg_restoration_steps | stage45": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 67.5,
+      "mean_diff": -59.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.34544753046922594,
+        "z": -0.9434563530497265,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | energy_not_served_mwh | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 2.019773,
+      "mean_b": 26.883872,
+      "mean_diff": -24.8641,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07446183141740548,
+        "z": -1.7837651700316894,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 3446.3,
+      "mean_b": 3825.0,
+      "mean_diff": -378.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10974463874701335,
+        "z": -1.5993419699495492,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | critical_load_interruption_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 131.6,
+      "mean_b": 240.3,
+      "mean_diff": -108.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.05933611988090881,
+        "z": -1.8856946083192145,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | restoration_rate | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.085606,
+      "mean_b": 0.063645,
+      "mean_diff": 0.021961,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17295491798842066,
+        "z": -1.3627702877384937,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random vs untrained_dqn | J | avg_restoration_steps | stage46": {
+      "cell_a": "random",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 8.2,
+      "mean_b": 90.2,
+      "mean_diff": -82.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.34544753046922594,
+        "z": -0.9434563530497265,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.873287,
+      "mean_b": 4.81474,
+      "mean_diff": 0.058546,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 394.7,
+      "mean_b": 382.9,
+      "mean_diff": 11.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.378478,
+      "mean_b": 0.385144,
+      "mean_diff": -0.006667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6547208460185772,
+        "z": -0.4472135954999579,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 39.760952,
+      "mean_b": 38.75381,
+      "mean_diff": 1.007143,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.27332167829229803,
+        "z": -1.0954451150103321,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.788385,
+      "mean_b": 4.706912,
+      "mean_diff": 0.081473,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 387.9,
+      "mean_b": 375.7,
+      "mean_diff": 12.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.397922,
+      "mean_b": 0.404589,
+      "mean_diff": -0.006667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6547208460185772,
+        "z": -0.4472135954999579,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | A | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 36.460952,
+      "mean_b": 35.47381,
+      "mean_diff": 0.987143,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.27332167829229803,
+        "z": -1.0954451150103321,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.873287,
+      "mean_b": 2.498272,
+      "mean_diff": 2.375014,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 394.7,
+      "mean_b": 263.4,
+      "mean_diff": 131.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | critical_load_interruption_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 75.7,
+      "mean_b": 46.5,
+      "mean_diff": 29.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.378478,
+      "mean_b": 0.474603,
+      "mean_diff": -0.096126,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17629637444051105,
+        "z": -1.3522468075656264,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 39.760952,
+      "mean_b": 20.920714,
+      "mean_diff": 18.840238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.035691900116804565,
+        "z": -2.100420126042015,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.788385,
+      "mean_b": 2.498272,
+      "mean_diff": 2.290112,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 387.9,
+      "mean_b": 263.4,
+      "mean_diff": 124.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | critical_load_interruption_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 69.6,
+      "mean_b": 46.5,
+      "mean_diff": 23.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.397922,
+      "mean_b": 0.474603,
+      "mean_diff": -0.076681,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.39802471950693796,
+        "z": -0.8451542547285166,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | A | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 36.460952,
+      "mean_b": 20.920714,
+      "mean_diff": 15.540238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.035691900116804565,
+        "z": -2.100420126042015,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 9.760764,
+      "mean_b": 9.61824,
+      "mean_diff": 0.142525,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 595.5,
+      "mean_b": 585.6,
+      "mean_diff": 9.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10880943004054577,
+        "z": -1.6035674514745464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.155066,
+      "mean_b": 0.208632,
+      "mean_diff": -0.053566,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10880943004054577,
+        "z": -1.6035674514745464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 21.6,
+      "mean_b": 21.916667,
+      "mean_diff": -0.316667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "z": 0.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 9.649286,
+      "mean_b": 9.457172,
+      "mean_diff": 0.192115,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 602.3,
+      "mean_b": 589.8,
+      "mean_diff": 12.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.145344,
+      "mean_b": 0.19891,
+      "mean_diff": -0.053566,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10880943004054577,
+        "z": -1.6035674514745464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | E | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 27.233333,
+      "mean_b": 26.716667,
+      "mean_diff": 0.516667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "z": 0.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 9.760764,
+      "mean_b": 5.384632,
+      "mean_diff": 4.376132,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 595.5,
+      "mean_b": 431.2,
+      "mean_diff": 164.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.027707849358079795,
+        "z": -2.2013981571160284,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | critical_load_interruption_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 80.0,
+      "mean_b": 52.1,
+      "mean_diff": 27.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.155066,
+      "mean_b": 0.250047,
+      "mean_diff": -0.094981,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04639946187090471,
+        "z": -1.9917411897716448,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 21.6,
+      "mean_b": 12.721429,
+      "mean_diff": 8.878571,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07473549830588233,
+        "z": -1.7820842224272613,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 9.649286,
+      "mean_b": 5.384632,
+      "mean_diff": 4.264654,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 602.3,
+      "mean_b": 431.2,
+      "mean_diff": 171.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.027707849358079795,
+        "z": -2.2013981571160284,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | critical_load_interruption_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 80.0,
+      "mean_b": 52.1,
+      "mean_diff": 27.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.145344,
+      "mean_b": 0.250047,
+      "mean_diff": -0.104703,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.027707849358079795,
+        "z": -2.2013981571160284,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | E | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 27.233333,
+      "mean_b": 12.721429,
+      "mean_diff": 14.511905,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04639946187090471,
+        "z": -1.9917411897716448,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.873287,
+      "mean_b": 4.842225,
+      "mean_diff": 0.031061,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 394.7,
+      "mean_b": 389.5,
+      "mean_diff": 5.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 39.760952,
+      "mean_b": 38.985714,
+      "mean_diff": 0.775238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.788385,
+      "mean_b": 4.756522,
+      "mean_diff": 0.031862,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 387.9,
+      "mean_b": 382.7,
+      "mean_diff": 5.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | I | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 36.460952,
+      "mean_b": 35.691429,
+      "mean_diff": 0.769524,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.873287,
+      "mean_b": 2.534071,
+      "mean_diff": 2.339216,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 394.7,
+      "mean_b": 278.3,
+      "mean_diff": 116.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | critical_load_interruption_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 75.7,
+      "mean_b": 46.5,
+      "mean_diff": 29.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.378478,
+      "mean_b": 0.441746,
+      "mean_diff": -0.063268,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24886387493792217,
+        "z": -1.1531133203941102,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 39.760952,
+      "mean_b": 22.887381,
+      "mean_diff": 16.873571,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06870357432287832,
+        "z": -1.8203641092364127,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.788385,
+      "mean_b": 2.534071,
+      "mean_diff": 2.254314,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 387.9,
+      "mean_b": 278.3,
+      "mean_diff": 109.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.01171868559976863,
+        "z": -2.5205041512504174,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | critical_load_interruption_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 69.6,
+      "mean_b": 46.5,
+      "mean_diff": 23.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.397922,
+      "mean_b": 0.441746,
+      "mean_diff": -0.043824,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.463071015014588,
+        "z": -0.7337993857053429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | I | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 36.460952,
+      "mean_b": 22.887381,
+      "mean_diff": 13.573571,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06870357432287832,
+        "z": -1.8203641092364127,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 44.227196,
+      "mean_b": 42.640584,
+      "mean_diff": 1.586612,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4245.9,
+      "mean_b": 3958.8,
+      "mean_diff": 287.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.007685794055213302,
+        "z": -2.6655699499159153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.082817,
+      "mean_b": 0.123861,
+      "mean_diff": -0.041044,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 156.466667,
+      "mean_b": 96.7,
+      "mean_diff": 59.766667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04639946187090471,
+        "z": -1.9917411897716448,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 44.14638,
+      "mean_b": 42.832056,
+      "mean_diff": 1.314324,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.00506203212626799,
+        "z": -2.8030595529069404,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4260.6,
+      "mean_b": 4028.5,
+      "mean_diff": 232.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.007685794055213302,
+        "z": -2.6655699499159153,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.082817,
+      "mean_b": 0.116718,
+      "mean_diff": -0.033901,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10880943004054577,
+        "z": -1.6035674514745464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs trained_dqn | J | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "trained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 156.466667,
+      "mean_b": 115.783333,
+      "mean_diff": 40.683333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07961580146011338,
+        "z": -1.7529196424044293,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | energy_not_served_mwh | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 44.227196,
+      "mean_b": 26.953196,
+      "mean_diff": 17.274,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.049949976454746414,
+        "z": -1.9603921176392136,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4245.9,
+      "mean_b": 3789.2,
+      "mean_diff": 456.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | critical_load_interruption_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 326.5,
+      "mean_b": 244.4,
+      "mean_diff": 82.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07961580146011338,
+        "z": -1.7529196424044293,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | restoration_rate | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.082817,
+      "mean_b": 0.063645,
+      "mean_diff": 0.019172,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.28504940740261286,
+        "z": -1.0690449676496976,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | avg_restoration_steps | stage45": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 156.466667,
+      "mean_b": 67.5,
+      "mean_diff": 88.966667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | energy_not_served_mwh | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 44.14638,
+      "mean_b": 26.883872,
+      "mean_diff": 17.262508,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.03815171017341523,
+        "z": -2.073221072156823,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4260.6,
+      "mean_b": 3825.0,
+      "mean_diff": 435.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | critical_load_interruption_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 334.4,
+      "mean_b": 240.3,
+      "mean_diff": 94.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | restoration_rate | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.082817,
+      "mean_b": 0.063645,
+      "mean_diff": 0.019172,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.28504940740261286,
+        "z": -1.0690449676496976,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based vs untrained_dqn | J | avg_restoration_steps | stage46": {
+      "cell_a": "rule_based",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 156.466667,
+      "mean_b": 90.2,
+      "mean_diff": 66.266667,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.10880943004054577,
+        "z": -1.6035674514745464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | energy_not_served_mwh | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.81474,
+      "mean_b": 2.498272,
+      "mean_diff": 2.316468,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 382.9,
+      "mean_b": 263.4,
+      "mean_diff": 119.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | critical_load_interruption_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 75.7,
+      "mean_b": 46.5,
+      "mean_diff": 29.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | restoration_rate | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.385144,
+      "mean_b": 0.474603,
+      "mean_diff": -0.089459,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.23672357063785743,
+        "z": -1.1832159566199232,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | avg_restoration_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 38.75381,
+      "mean_b": 20.920714,
+      "mean_diff": 17.833095,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | energy_not_served_mwh | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.706912,
+      "mean_b": 2.498272,
+      "mean_diff": 2.208639,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 375.7,
+      "mean_b": 263.4,
+      "mean_diff": 112.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | critical_load_interruption_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 69.6,
+      "mean_b": 46.5,
+      "mean_diff": 23.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | restoration_rate | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.404589,
+      "mean_b": 0.474603,
+      "mean_diff": -0.070014,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.49896229860376096,
+        "z": -0.6761234037828132,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | A | avg_restoration_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 35.47381,
+      "mean_b": 20.920714,
+      "mean_diff": 14.553095,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | energy_not_served_mwh | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 9.61824,
+      "mean_b": 5.384632,
+      "mean_diff": 4.233608,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.049949976454746414,
+        "z": -1.9603921176392136,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 585.6,
+      "mean_b": 431.2,
+      "mean_diff": 154.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | critical_load_interruption_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 80.0,
+      "mean_b": 52.1,
+      "mean_diff": 27.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | restoration_rate | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.208632,
+      "mean_b": 0.250047,
+      "mean_diff": -0.041414,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24886387493792217,
+        "z": -1.1531133203941102,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | avg_restoration_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 21.916667,
+      "mean_b": 12.721429,
+      "mean_diff": 9.195238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | energy_not_served_mwh | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 9.457172,
+      "mean_b": 5.384632,
+      "mean_diff": 4.072539,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.049949976454746414,
+        "z": -1.9603921176392136,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 589.8,
+      "mean_b": 431.2,
+      "mean_diff": 158.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | critical_load_interruption_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 80.0,
+      "mean_b": 52.1,
+      "mean_diff": 27.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | restoration_rate | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.19891,
+      "mean_b": 0.250047,
+      "mean_diff": -0.051136,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17295491798842066,
+        "z": -1.3627702877384937,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | E | avg_restoration_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 26.716667,
+      "mean_b": 12.721429,
+      "mean_diff": 13.995238,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | energy_not_served_mwh | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 4.842225,
+      "mean_b": 2.534071,
+      "mean_diff": 2.308154,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 389.5,
+      "mean_b": 278.3,
+      "mean_diff": 111.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | critical_load_interruption_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 75.7,
+      "mean_b": 46.5,
+      "mean_diff": 29.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | restoration_rate | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.378478,
+      "mean_b": 0.441746,
+      "mean_diff": -0.063268,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.24886387493792217,
+        "z": -1.1531133203941102,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | avg_restoration_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 38.985714,
+      "mean_b": 22.887381,
+      "mean_diff": 16.098333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.12819017434510793,
+        "z": -1.52127765851133,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | energy_not_served_mwh | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4.756522,
+      "mean_b": 2.534071,
+      "mean_diff": 2.222451,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.02799181548566576,
+        "z": -2.197401062294143,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 382.7,
+      "mean_b": 278.3,
+      "mean_diff": 104.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.017960477526078655,
+        "z": -2.3664319132398464,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | critical_load_interruption_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 69.6,
+      "mean_b": 46.5,
+      "mean_diff": 23.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.0431144467830753,
+        "z": -2.0225995873897262,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | restoration_rate | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.397922,
+      "mean_b": 0.441746,
+      "mean_diff": -0.043824,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.463071015014588,
+        "z": -0.7337993857053429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | I | avg_restoration_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 35.691429,
+      "mean_b": 22.887381,
+      "mean_diff": 12.804048,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.12819017434510793,
+        "z": -1.52127765851133,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | energy_not_served_mwh | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 42.640584,
+      "mean_b": 26.953196,
+      "mean_diff": 15.687388,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.3742593192802244,
+        "z": -0.8885233166386385,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | total_customer_minutes_interrupted | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 3958.8,
+      "mean_b": 3789.2,
+      "mean_diff": 169.6,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.5754030229127536,
+        "z": -0.5601120336112039,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | critical_load_interruption_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 326.5,
+      "mean_b": 244.4,
+      "mean_diff": 82.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07961580146011338,
+        "z": -1.7529196424044293,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | restoration_rate | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 0.123861,
+      "mean_b": 0.063645,
+      "mean_diff": 0.060216,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.04639946187090471,
+        "z": -1.9917411897716448,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | avg_restoration_steps | stage45": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage45",
+      "n_pairs": 10,
+      "mean_a": 96.7,
+      "mean_b": 67.5,
+      "mean_diff": 29.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.463071015014588,
+        "z": -0.7337993857053429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | energy_not_served_mwh | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 42.832056,
+      "mean_b": 26.883872,
+      "mean_diff": 15.948183,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.3328797545683888,
+        "z": -0.9683296637314885,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | total_customer_minutes_interrupted | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 4028.5,
+      "mean_b": 3825.0,
+      "mean_diff": 203.5,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.4838398513935682,
+        "z": -0.7001400420140048,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | critical_load_interruption_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 334.4,
+      "mean_b": 240.3,
+      "mean_diff": 94.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.06297905121445524,
+        "z": -1.8593393604027364,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | restoration_rate | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 0.116718,
+      "mean_b": 0.063645,
+      "mean_diff": 0.053074,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.07961580146011338,
+        "z": -1.7529196424044293,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn vs untrained_dqn | J | avg_restoration_steps | stage46": {
+      "cell_a": "trained_dqn",
+      "cell_b": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46",
+      "n_pairs": 10,
+      "mean_a": 115.783333,
+      "mean_b": 90.2,
+      "mean_diff": 25.583333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.463071015014588,
+        "z": -0.7337993857053429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/A | energy_not_served_mwh | 46 vs 45": {
+      "cell": "random",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.587403,
+      "mean_46": 0.584976,
+      "mean_diff": -0.002427,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/A | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "random",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 172.7,
+      "mean_46": 172.0,
+      "mean_diff": -0.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/A | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 31.5,
+      "mean_46": 30.6,
+      "mean_diff": -0.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/A | restoration_rate | 46 vs 45": {
+      "cell": "random",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.491667,
+      "mean_46": 0.491667,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/A | avg_restoration_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 17.266667,
+      "mean_46": 17.033333,
+      "mean_diff": -0.233333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/E | energy_not_served_mwh | 46 vs 45": {
+      "cell": "random",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 1.618428,
+      "mean_46": 1.609373,
+      "mean_diff": -0.009055,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/E | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "random",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 275.2,
+      "mean_46": 271.0,
+      "mean_diff": -4.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/E | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 42.8,
+      "mean_46": 39.4,
+      "mean_diff": -3.4,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/E | restoration_rate | 46 vs 45": {
+      "cell": "random",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.574188,
+      "mean_46": 0.574188,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/E | avg_restoration_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 32.506667,
+      "mean_46": 31.666667,
+      "mean_diff": -0.84,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/I | energy_not_served_mwh | 46 vs 45": {
+      "cell": "random",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.591934,
+      "mean_46": 0.589507,
+      "mean_diff": -0.002427,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/I | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "random",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 178.5,
+      "mean_46": 177.8,
+      "mean_diff": -0.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/I | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 30.0,
+      "mean_46": 29.1,
+      "mean_diff": -0.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/I | restoration_rate | 46 vs 45": {
+      "cell": "random",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.471667,
+      "mean_46": 0.471667,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/I | avg_restoration_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 16.808333,
+      "mean_46": 16.575,
+      "mean_diff": -0.233333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "random/J | energy_not_served_mwh | 46 vs 45": {
+      "cell": "random",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 2.019773,
+      "mean_46": 2.019773,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/J | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "random",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 3446.3,
+      "mean_46": 3446.3,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/J | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 131.6,
+      "mean_46": 131.6,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/J | restoration_rate | 46 vs 45": {
+      "cell": "random",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.085606,
+      "mean_46": 0.085606,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "random/J | avg_restoration_steps | 46 vs 45": {
+      "cell": "random",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 8.2,
+      "mean_46": 8.2,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "rule_based/A | energy_not_served_mwh | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 4.873287,
+      "mean_46": 4.788385,
+      "mean_diff": -0.084902,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/A | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 394.7,
+      "mean_46": 387.9,
+      "mean_diff": -6.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/A | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 75.7,
+      "mean_46": 69.6,
+      "mean_diff": -6.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/A | restoration_rate | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.378478,
+      "mean_46": 0.397922,
+      "mean_diff": 0.019444,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/A | avg_restoration_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 39.760952,
+      "mean_46": 36.460952,
+      "mean_diff": -3.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/E | energy_not_served_mwh | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 9.760764,
+      "mean_46": 9.649286,
+      "mean_diff": -0.111478,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/E | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 595.5,
+      "mean_46": 602.3,
+      "mean_diff": 6.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/E | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 80.0,
+      "mean_46": 80.0,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "rule_based/E | restoration_rate | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.155066,
+      "mean_46": 0.145344,
+      "mean_diff": -0.009722,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/E | avg_restoration_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 21.6,
+      "mean_46": 27.233333,
+      "mean_diff": 5.633333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/I | energy_not_served_mwh | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 4.873287,
+      "mean_46": 4.788385,
+      "mean_diff": -0.084902,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/I | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 394.7,
+      "mean_46": 387.9,
+      "mean_diff": -6.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/I | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 75.7,
+      "mean_46": 69.6,
+      "mean_diff": -6.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/I | restoration_rate | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.378478,
+      "mean_46": 0.397922,
+      "mean_diff": 0.019444,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/I | avg_restoration_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 39.760952,
+      "mean_46": 36.460952,
+      "mean_diff": -3.3,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/J | energy_not_served_mwh | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 44.227196,
+      "mean_46": 44.14638,
+      "mean_diff": -0.080817,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.4652088184521417,
+        "z": -0.7302967433402214,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/J | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 4245.9,
+      "mean_46": 4260.6,
+      "mean_diff": 14.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/J | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 326.5,
+      "mean_46": 334.4,
+      "mean_diff": 7.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.7150006546880892,
+        "z": -0.3651483716701107,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "rule_based/J | restoration_rate | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.082817,
+      "mean_46": 0.082817,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "rule_based/J | avg_restoration_steps | 46 vs 45": {
+      "cell": "rule_based",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 156.466667,
+      "mean_46": 156.466667,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "trained_dqn/A | energy_not_served_mwh | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 4.81474,
+      "mean_46": 4.706912,
+      "mean_diff": -0.107829,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.1441270348160153,
+        "z": -1.4605934866804429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/A | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 382.9,
+      "mean_46": 375.7,
+      "mean_diff": -7.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.28504940740261286,
+        "z": -1.0690449676496976,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/A | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 75.7,
+      "mean_46": 69.6,
+      "mean_diff": -6.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/A | restoration_rate | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.385144,
+      "mean_46": 0.404589,
+      "mean_diff": 0.019444,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/A | avg_restoration_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 38.75381,
+      "mean_46": 35.47381,
+      "mean_diff": -3.28,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.28504940740261286,
+        "z": -1.0690449676496976,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/E | energy_not_served_mwh | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 9.61824,
+      "mean_46": 9.457172,
+      "mean_diff": -0.161068,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.27332167829229803,
+        "z": -1.0954451150103321,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/E | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 585.6,
+      "mean_46": 589.8,
+      "mean_diff": 4.2,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/E | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 80.0,
+      "mean_46": 80.0,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "trained_dqn/E | restoration_rate | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.208632,
+      "mean_46": 0.19891,
+      "mean_diff": -0.009722,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/E | avg_restoration_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 21.916667,
+      "mean_46": 26.716667,
+      "mean_diff": 4.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.067889154861829,
+        "z": -1.8257418583505538,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/I | energy_not_served_mwh | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 4.842225,
+      "mean_46": 4.756522,
+      "mean_diff": -0.085703,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.1441270348160153,
+        "z": -1.4605934866804429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/I | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 389.5,
+      "mean_46": 382.7,
+      "mean_diff": -6.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.1441270348160153,
+        "z": -1.4605934866804429,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/I | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 75.7,
+      "mean_46": 69.6,
+      "mean_diff": -6.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.17971249487899987,
+        "z": -1.3416407864998738,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/I | restoration_rate | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.378478,
+      "mean_46": 0.397922,
+      "mean_diff": 0.019444,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/I | avg_restoration_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 38.985714,
+      "mean_46": 35.691429,
+      "mean_diff": -3.294286,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.27332167829229803,
+        "z": -1.0954451150103321,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/J | energy_not_served_mwh | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 42.640584,
+      "mean_46": 42.832056,
+      "mean_diff": 0.191471,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.4652088184521417,
+        "z": -0.7302967433402214,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/J | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 3958.8,
+      "mean_46": 4028.5,
+      "mean_diff": 69.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.28504940740261286,
+        "z": -1.0690449676496976,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/J | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 326.5,
+      "mean_46": 334.4,
+      "mean_diff": 7.9,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.7150006546880892,
+        "z": -0.3651483716701107,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/J | restoration_rate | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.123861,
+      "mean_46": 0.116718,
+      "mean_diff": -0.007143,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "trained_dqn/J | avg_restoration_steps | 46 vs 45": {
+      "cell": "trained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 96.7,
+      "mean_46": 115.783333,
+      "mean_diff": 19.083333,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "z": 0.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "untrained_dqn/A | energy_not_served_mwh | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "A",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 2.498272,
+      "mean_46": 2.498272,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/A | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "A",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 263.4,
+      "mean_46": 263.4,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/A | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "A",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 46.5,
+      "mean_46": 46.5,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/A | restoration_rate | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "A",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.474603,
+      "mean_46": 0.474603,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/A | avg_restoration_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "A",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 20.920714,
+      "mean_46": 20.920714,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/E | energy_not_served_mwh | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "E",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 5.384632,
+      "mean_46": 5.384632,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/E | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "E",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 431.2,
+      "mean_46": 431.2,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/E | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "E",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 52.1,
+      "mean_46": 52.1,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/E | restoration_rate | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "E",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.250047,
+      "mean_46": 0.250047,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/E | avg_restoration_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "E",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 12.721429,
+      "mean_46": 12.721429,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/I | energy_not_served_mwh | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "I",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 2.534071,
+      "mean_46": 2.534071,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/I | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "I",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 278.3,
+      "mean_46": 278.3,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/I | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "I",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 46.5,
+      "mean_46": 46.5,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/I | restoration_rate | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "I",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.441746,
+      "mean_46": 0.441746,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/I | avg_restoration_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "I",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 22.887381,
+      "mean_46": 22.887381,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/J | energy_not_served_mwh | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "J",
+      "metric": "energy_not_served_mwh",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 26.953196,
+      "mean_46": 26.883872,
+      "mean_diff": -0.069324,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.6547208460185772,
+        "z": -0.4472135954999579,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "untrained_dqn/J | total_customer_minutes_interrupted | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "J",
+      "metric": "total_customer_minutes_interrupted",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 3789.2,
+      "mean_46": 3825.0,
+      "mean_diff": 35.8,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "untrained_dqn/J | critical_load_interruption_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "J",
+      "metric": "critical_load_interruption_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 244.4,
+      "mean_46": 240.3,
+      "mean_diff": -4.1,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    },
+    "untrained_dqn/J | restoration_rate | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "J",
+      "metric": "restoration_rate",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 0.063645,
+      "mean_46": 0.063645,
+      "mean_diff": 0.0,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 1.0,
+        "method": "wilcoxon_all_zeros"
+      }
+    },
+    "untrained_dqn/J | avg_restoration_steps | 46 vs 45": {
+      "cell": "untrained_dqn",
+      "scenario": "J",
+      "metric": "avg_restoration_steps",
+      "side": "stage46_vs_stage45",
+      "n_pairs": 10,
+      "mean_45": 67.5,
+      "mean_46": 90.2,
+      "mean_diff": 22.7,
+      "wilcoxon": {
+        "n_pairs": 10,
+        "p_value": 0.31731050786291437,
+        "z": -1.0,
+        "method": "wilcoxon_signed_rank_normal_approx"
+      }
+    }
+  }
+}

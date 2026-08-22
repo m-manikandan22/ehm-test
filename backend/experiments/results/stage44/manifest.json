@@ -1,0 +1,40 @@
+{
+  "schema_version": "stage44.statistics.1.0",
+  "n_runs": 600,
+  "n_cells": 60,
+  "n_pairwise_tests": 1840,
+  "n_holm_tests": 0,
+  "n_fingerprint_invalid_pairs": 0,
+  "controllers": [
+    "random",
+    "rule_based",
+    "untrained_dqn",
+    "trained_dqn"
+  ],
+  "scenarios": [
+    "A",
+    "E",
+    "G",
+    "H",
+    "J"
+  ],
+  "ablations": [
+    "full_stack",
+    "no_lstm",
+    "no_twin",
+    "no_predictive",
+    "no_ems"
+  ],
+  "checkpoint": "experiments/checkpoints/dqn_stage44.pt",
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d",
+  "metrics": [
+    "energy_not_served_mwh",
+    "total_customer_minutes_interrupted",
+    "restoration_rate",
+    "avg_restoration_steps",
+    "critical_load_interruption_steps",
+    "battery_discharged_total",
+    "supercap_discharged_total",
+    "voltage_violation_count"
+  ]
+}

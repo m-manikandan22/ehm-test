@@ -1,0 +1,5944 @@
+{
+  "cells": {
+    "('random', 'A', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 18.558979,
+          "median": 13.607701,
+          "std": 16.161886,
+          "min": 0.0,
+          "max": 49.507904,
+          "ci95_low": 9.889271,
+          "ci95_high": 28.767756
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('rule_based', 'A', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 150.497867,
+          "median": 179.892883,
+          "std": 104.729454,
+          "min": 1.3,
+          "max": 305.841135,
+          "ci95_low": 89.364445,
+          "ci95_high": 209.765058
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'A', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'A', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'A', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'A', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'A', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'A', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'A', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'A', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'A', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'A', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('random', 'E', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 46.994804,
+          "median": 43.853646,
+          "std": 30.663912,
+          "min": 11.722844,
+          "max": 103.566976,
+          "ci95_low": 29.941232,
+          "ci95_high": 65.355296
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('rule_based', 'E', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 159.930441,
+          "median": 190.785802,
+          "std": 113.184333,
+          "min": 1.3,
+          "max": 330.635048,
+          "ci95_low": 93.925966,
+          "ci95_high": 224.177959
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'E', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 15.100345,
+          "median": 0.0,
+          "std": 47.751483,
+          "min": 0.0,
+          "max": 151.003447,
+          "ci95_low": 0.0,
+          "ci95_high": 45.301034
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 92.613729,
+          "median": 0.0,
+          "std": 191.199783,
+          "min": 0.0,
+          "max": 470.006208,
+          "ci95_low": 0.99,
+          "ci95_high": 226.369112
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'E', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 15.100345,
+          "median": 0.0,
+          "std": 47.751483,
+          "min": 0.0,
+          "max": 151.003447,
+          "ci95_low": 0.0,
+          "ci95_high": 45.301034
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 92.613729,
+          "median": 0.0,
+          "std": 191.199783,
+          "min": 0.0,
+          "max": 470.006208,
+          "ci95_low": 0.99,
+          "ci95_high": 226.369112
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'E', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 15.100345,
+          "median": 0.0,
+          "std": 47.751483,
+          "min": 0.0,
+          "max": 151.003447,
+          "ci95_low": 0.0,
+          "ci95_high": 45.301034
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 92.613729,
+          "median": 0.0,
+          "std": 191.199783,
+          "min": 0.0,
+          "max": 470.006208,
+          "ci95_low": 0.99,
+          "ci95_high": 226.369112
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'E', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 15.100345,
+          "median": 0.0,
+          "std": 47.751483,
+          "min": 0.0,
+          "max": 151.003447,
+          "ci95_low": 0.0,
+          "ci95_high": 45.301034
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 92.613729,
+          "median": 0.0,
+          "std": 191.199783,
+          "min": 0.0,
+          "max": 470.006208,
+          "ci95_low": 0.99,
+          "ci95_high": 226.369112
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'E', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 15.100345,
+          "median": 0.0,
+          "std": 47.751483,
+          "min": 0.0,
+          "max": 151.003447,
+          "ci95_low": 0.0,
+          "ci95_high": 45.301034
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 92.613729,
+          "median": 0.0,
+          "std": 191.199783,
+          "min": 0.0,
+          "max": 470.006208,
+          "ci95_low": 0.99,
+          "ci95_high": 226.369112
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'E', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'E', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'E', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'E', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'E', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.002869,
+          "median": 0.0,
+          "std": 0.009073,
+          "min": 0.0,
+          "max": 0.028691,
+          "ci95_low": 0.0,
+          "ci95_high": 0.008607
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('random', 'G', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 16.919221,
+          "median": 13.272415,
+          "std": 13.395964,
+          "min": 0.0,
+          "max": 39.564844,
+          "ci95_low": 9.559764,
+          "ci95_high": 25.219906
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('rule_based', 'G', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 200.234077,
+          "median": 200.256885,
+          "std": 0.440291,
+          "min": 199.603151,
+          "max": 200.83206,
+          "ci95_low": 199.969376,
+          "ci95_high": 200.486857
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'G', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 5.487349,
+          "median": 0.0,
+          "std": 12.272112,
+          "min": 0.0,
+          "max": 36.125891,
+          "ci95_low": 0.0,
+          "ci95_high": 14.450356
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 100.204237,
+          "median": 0.0,
+          "std": 180.121081,
+          "min": 0.0,
+          "max": 436.854222,
+          "ci95_low": 0.0,
+          "ci95_high": 216.502886
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'G', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 5.487349,
+          "median": 0.0,
+          "std": 12.272112,
+          "min": 0.0,
+          "max": 36.125891,
+          "ci95_low": 0.0,
+          "ci95_high": 14.450356
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 100.204237,
+          "median": 0.0,
+          "std": 180.121081,
+          "min": 0.0,
+          "max": 436.854222,
+          "ci95_low": 0.0,
+          "ci95_high": 216.502886
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'G', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 5.487349,
+          "median": 0.0,
+          "std": 12.272112,
+          "min": 0.0,
+          "max": 36.125891,
+          "ci95_low": 0.0,
+          "ci95_high": 14.450356
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 100.204237,
+          "median": 0.0,
+          "std": 180.121081,
+          "min": 0.0,
+          "max": 436.854222,
+          "ci95_low": 0.0,
+          "ci95_high": 216.502886
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'G', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 5.487349,
+          "median": 0.0,
+          "std": 12.272112,
+          "min": 0.0,
+          "max": 36.125891,
+          "ci95_low": 0.0,
+          "ci95_high": 14.450356
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 100.204237,
+          "median": 0.0,
+          "std": 180.121081,
+          "min": 0.0,
+          "max": 436.854222,
+          "ci95_low": 0.0,
+          "ci95_high": 216.502886
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'G', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 5.487349,
+          "median": 0.0,
+          "std": 12.272112,
+          "min": 0.0,
+          "max": 36.125891,
+          "ci95_low": 0.0,
+          "ci95_high": 14.450356
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 100.204237,
+          "median": 0.0,
+          "std": 180.121081,
+          "min": 0.0,
+          "max": 436.854222,
+          "ci95_low": 0.0,
+          "ci95_high": 216.502886
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'G', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.87476,
+          "median": 0.0,
+          "std": 5.928512,
+          "min": 0.0,
+          "max": 18.7476,
+          "ci95_low": 0.0,
+          "ci95_high": 5.62428
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'G', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.87476,
+          "median": 0.0,
+          "std": 5.928512,
+          "min": 0.0,
+          "max": 18.7476,
+          "ci95_low": 0.0,
+          "ci95_high": 5.62428
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'G', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.87476,
+          "median": 0.0,
+          "std": 5.928512,
+          "min": 0.0,
+          "max": 18.7476,
+          "ci95_low": 0.0,
+          "ci95_high": 5.62428
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'G', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.87476,
+          "median": 0.0,
+          "std": 5.928512,
+          "min": 0.0,
+          "max": 18.7476,
+          "ci95_low": 0.0,
+          "ci95_high": 5.62428
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'G', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.003439,
+          "median": 0.0,
+          "std": 0.010874,
+          "min": 0.0,
+          "max": 0.034387,
+          "ci95_low": 0.0,
+          "ci95_high": 0.010316
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.87476,
+          "median": 0.0,
+          "std": 5.928512,
+          "min": 0.0,
+          "max": 18.7476,
+          "ci95_low": 0.0,
+          "ci95_high": 5.62428
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('random', 'H', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 18.558979,
+          "median": 13.607701,
+          "std": 16.161886,
+          "min": 0.0,
+          "max": 49.507904,
+          "ci95_low": 9.889271,
+          "ci95_high": 28.767756
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('rule_based', 'H', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 150.497867,
+          "median": 179.892883,
+          "std": 104.729454,
+          "min": 1.3,
+          "max": 305.841135,
+          "ci95_low": 89.364445,
+          "ci95_high": 209.765058
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'H', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'H', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'H', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'H', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'H', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.4,
+          "median": 0.333333,
+          "std": 0.262937,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.266667,
+          "ci95_high": 0.566667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 1.535277,
+          "median": 0.0,
+          "std": 4.854972,
+          "min": 0.0,
+          "max": 15.352768,
+          "ci95_low": 0.0,
+          "ci95_high": 4.60583
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 102.240111,
+          "median": 0.0,
+          "std": 177.53848,
+          "min": 0.0,
+          "max": 437.295502,
+          "ci95_low": 0.0,
+          "ci95_high": 215.533051
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'H', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'H', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'H', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'H', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'H', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.366667,
+          "median": 0.333333,
+          "std": 0.291865,
+          "min": 0.0,
+          "max": 1.0,
+          "ci95_low": 0.2,
+          "ci95_high": 0.533333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('random', 'J', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.233333,
+          "median": 0.25,
+          "std": 0.094608,
+          "min": 0.083333,
+          "max": 0.416667,
+          "ci95_low": 0.183333,
+          "ci95_high": 0.291667
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 269.948483,
+          "median": 263.638627,
+          "std": 82.494529,
+          "min": 153.95876,
+          "max": 417.823962,
+          "ci95_low": 223.989546,
+          "ci95_high": 321.068878
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('rule_based', 'J', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 183.51166,
+          "median": 136.065169,
+          "std": 145.646625,
+          "min": 32.5,
+          "max": 513.051244,
+          "ci95_low": 106.956383,
+          "ci95_high": 278.413694
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'J', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.175,
+          "median": 0.166667,
+          "std": 0.12699,
+          "min": 0.0,
+          "max": 0.416667,
+          "ci95_low": 0.108333,
+          "ci95_high": 0.25
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 32.823256,
+          "median": 0.0,
+          "std": 96.951059,
+          "min": 0.0,
+          "max": 308.16649,
+          "ci95_low": 0.0,
+          "ci95_high": 94.456554
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 795.531109,
+          "median": 6.75161,
+          "std": 1238.618368,
+          "min": 0.0,
+          "max": 2782.400591,
+          "ci95_low": 63.687492,
+          "ci95_high": 1583.52801
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'J', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.175,
+          "median": 0.166667,
+          "std": 0.12699,
+          "min": 0.0,
+          "max": 0.416667,
+          "ci95_low": 0.108333,
+          "ci95_high": 0.25
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 32.537468,
+          "median": 0.0,
+          "std": 96.997044,
+          "min": 0.0,
+          "max": 308.16649,
+          "ci95_low": 0.0,
+          "ci95_high": 94.170766
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 795.49833,
+          "median": 6.751371,
+          "std": 1238.575683,
+          "min": 0.0,
+          "max": 2782.400591,
+          "ci95_low": 63.687492,
+          "ci95_high": 1583.495231
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'J', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.175,
+          "median": 0.166667,
+          "std": 0.12699,
+          "min": 0.0,
+          "max": 0.416667,
+          "ci95_low": 0.108333,
+          "ci95_high": 0.25
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 32.823256,
+          "median": 0.0,
+          "std": 96.951059,
+          "min": 0.0,
+          "max": 308.16649,
+          "ci95_low": 0.0,
+          "ci95_high": 94.456554
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 795.531109,
+          "median": 6.75161,
+          "std": 1238.618368,
+          "min": 0.0,
+          "max": 2782.400591,
+          "ci95_low": 63.687492,
+          "ci95_high": 1583.52801
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'J', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.175,
+          "median": 0.166667,
+          "std": 0.12699,
+          "min": 0.0,
+          "max": 0.416667,
+          "ci95_low": 0.108333,
+          "ci95_high": 0.25
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 32.823256,
+          "median": 0.0,
+          "std": 96.951059,
+          "min": 0.0,
+          "max": 308.16649,
+          "ci95_low": 0.0,
+          "ci95_high": 94.456554
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 795.531109,
+          "median": 6.75161,
+          "std": 1238.618368,
+          "min": 0.0,
+          "max": 2782.400591,
+          "ci95_low": 63.687492,
+          "ci95_high": 1583.52801
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('untrained_dqn', 'J', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.175,
+          "median": 0.166667,
+          "std": 0.12699,
+          "min": 0.0,
+          "max": 0.416667,
+          "ci95_low": 0.108333,
+          "ci95_high": 0.25
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 32.823256,
+          "median": 0.0,
+          "std": 96.951059,
+          "min": 0.0,
+          "max": 308.16649,
+          "ci95_low": 0.0,
+          "ci95_high": 94.456554
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 795.531109,
+          "median": 6.75161,
+          "std": 1238.618368,
+          "min": 0.0,
+          "max": 2782.400591,
+          "ci95_low": 63.687492,
+          "ci95_high": 1583.52801
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'J', 'full_stack')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 429.322631,
+          "median": 389.335423,
+          "std": 309.862233,
+          "min": 5.239904,
+          "max": 997.168122,
+          "ci95_low": 255.153686,
+          "ci95_high": 622.869375
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'J', 'no_lstm')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 429.322631,
+          "median": 389.335423,
+          "std": 309.862233,
+          "min": 5.239904,
+          "max": 997.168122,
+          "ci95_low": 255.153686,
+          "ci95_high": 622.869375
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'J', 'no_twin')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 429.322631,
+          "median": 389.335423,
+          "std": 309.862233,
+          "min": 5.239904,
+          "max": 997.168122,
+          "ci95_low": 255.153686,
+          "ci95_high": 622.869375
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'J', 'no_predictive')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 429.322631,
+          "median": 389.335423,
+          "std": 309.862233,
+          "min": 5.239904,
+          "max": 997.168122,
+          "ci95_low": 255.153686,
+          "ci95_high": 622.869375
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    },
+    "('trained_dqn', 'J', 'no_ems')": {
+      "n": 10,
+      "n_valid": 10,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fingerprint_consistent": true,
+      "metrics": {
+        "energy_not_served_mwh": {
+          "n": 10,
+          "mean": 2.907934,
+          "median": 1.983191,
+          "std": 3.280536,
+          "min": 0.0,
+          "max": 9.106346,
+          "ci95_low": 1.126037,
+          "ci95_high": 4.937889
+        },
+        "total_customer_minutes_interrupted": {
+          "n": 10,
+          "mean": 17.05,
+          "median": 14.916667,
+          "std": 17.304115,
+          "min": 0.0,
+          "max": 46.0,
+          "ci95_low": 7.35,
+          "ci95_high": 27.88375
+        },
+        "restoration_rate": {
+          "n": 10,
+          "mean": 0.141667,
+          "median": 0.166667,
+          "std": 0.079057,
+          "min": 0.0,
+          "max": 0.25,
+          "ci95_low": 0.091667,
+          "ci95_high": 0.183333
+        },
+        "avg_restoration_steps": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "critical_load_interruption_steps": {
+          "n": 10,
+          "mean": 102.3,
+          "median": 89.5,
+          "std": 103.824692,
+          "min": 0.0,
+          "max": 276.0,
+          "ci95_low": 44.1,
+          "ci95_high": 167.3025
+        },
+        "battery_discharged_total": {
+          "n": 10,
+          "mean": 429.322631,
+          "median": 389.335423,
+          "std": 309.862233,
+          "min": 5.239904,
+          "max": 997.168122,
+          "ci95_low": 255.153686,
+          "ci95_high": 622.869375
+        },
+        "supercap_discharged_total": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        },
+        "voltage_violation_count": {
+          "n": 10,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci95_low": 0.0,
+          "ci95_high": 0.0
+        }
+      }
+    }
+  }
+}

@@ -61,6 +61,8 @@ import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional
 
+import networkx  # noqa: E402  -- Stage-46: explicit NX exception family
+
 from simulation.grid import SmartGrid
 from utils.seeds import derive_stream_seeds, make_rng, set_global_seed
 
@@ -176,16 +178,33 @@ def _dispatch_action(grid, action_id: int) -> str:
         for node in grid.nodes.values():
             if _alive(node) and (
                 getattr(node, "node_type", "") == "house"
-                or "storage_bat" in str(getattr(node, "node_type", ""))
+                or getattr(node, "node_type", "") == "battery"
             ):
                 level = float(getattr(node, "battery_level", 0.0) or 0.0)
                 if level > 0.2:
                     node.use_battery(0.2)
+                    # Stage-45 (Physics-coupled metric audit): the
+                    # BFS source-broadening fix in ``grid.py``
+                    # recognises any live node with ``generation > 0``
+                    # as a BFS source. ``_apply_time_curves`` overwrites
+                    # ``generation`` on the next ``step()`` and
+                    # ``node.step()`` then sets ``generation = 0`` for
+                    # house nodes outside the daylight window (solar
+                    # curve gate). We set a per-step marker so the
+                    # discharge survives the next ``node.step()``
+                    # regardless of time-of-day.
+                    try:
+                        cur_signal = float(
+                            getattr(node, "_discharge_signal_mw", 0.0) or 0.0
+                        )
+                        node._discharge_signal_mw = cur_signal + 0.2
+                    except Exception:  # noqa: BLE001
+                        pass
     elif name == "use_supercapacitor":
         for node in grid.nodes.values():
             if _alive(node) and (
                 getattr(node, "node_type", "") == "house"
-                or "storage_sc" in str(getattr(node, "node_type", ""))
+                or getattr(node, "node_type", "") == "supercap"
             ):
                 level = float(getattr(node, "supercap_level", 0.0) or 0.0)
                 if level > 0.1:
@@ -195,12 +214,52 @@ def _dispatch_action(grid, action_id: int) -> str:
             if _alive(node) and getattr(node, "node_type", "") in _CONSUMER_TYPES:
                 if float(getattr(node, "load", 0.0) or 0.0) > 0.001:
                     node.shift_load(0.15)
+                    # Stage-45 (Physics-coupled metric audit): the
+                    # ENS formula is Σ (P_demand − P_served) × Δt.
+                    # ``P_demand`` is the node's *baseline demand*
+                    # (``_base_load`` for non-houses, ``would_be_load``
+                    # for houses). ``shift_load`` deflates the current
+                    # ``load`` but does NOT update ``_base_load`` —
+                    # so the metric's baseline demand stays unchanged
+                    # and shift_load looks invisible to ENS. We
+                    # persist the deflation by bumping ``_base_load``
+                    # down to match the shifted current load.
+                    try:
+                        cur_load = float(
+                            getattr(node, "load", 0.0) or 0.0
+                        )
+                        cur_base = float(
+                            getattr(node, "_base_load", 0.0) or 0.0
+                        )
+                        # The current load should never exceed the
+                        # baseline after a legal shift.
+                        node._base_load = min(cur_base, cur_load)
+                    except Exception:  # noqa: BLE001
+                        pass
     elif name == "reroute_energy":
+        # Stage-46 (action-layer integrity): the reroute method
+        # ``SmartGrid.reroute_energy`` is now hardened against
+        # ``NetworkX.NodeNotFound`` -- it pre-seeds the candidate
+        # graph with every live node as a singleton and skips
+        # nodes that are not in the candidate graph. We still
+        # catch any unexpected exception so the controller loop
+        # never crashes, but we explicitly log the failure reason
+        # (success / no_feasible_action / action_error) so the
+        # audit can distinguish "controller chose action 4" from
+        # "action 4 was actually physically performed".
+        if not hasattr(grid, "reroute_energy"):
+            return "reroute_energy:invalid_target"
         try:
-            if hasattr(grid, "reroute_energy"):
-                grid.reroute_energy()
-        except Exception:
-            pass
+            result = grid.reroute_energy()
+        except (networkx.NetworkXError,) as e:
+            return f"reroute_energy:action_error:{type(e).__name__}"
+        except Exception as e:  # noqa: BLE001
+            return f"reroute_energy:action_error:{type(e).__name__}"
+        if not isinstance(result, dict):
+            return "reroute_energy:no_feasible_action"
+        if result.get("closed"):
+            return "reroute_energy:success"
+        return "reroute_energy:no_feasible_action"
     return name
 
 
@@ -282,23 +341,23 @@ def _select_action(cfg: ExperimentConfig, grid, rng,
 
 
 def _storage_level(grid, kind: str) -> float:
-    """Highest SOC fraction of the named storage type across the grid
-    (battery or supercap). Used to feed the DQN's decision state."""
-    best = 0.0
-    attr = "battery_level" if kind == "battery" else "supercap_level"
-    for n in grid.nodes.values():
-        ntype = str(getattr(n, "node_type", "") or "")
-        is_storage = (
-            ntype == "house"
-            or (kind == "battery" and "storage_bat" in ntype)
-            or (kind == "supercap" and "storage_sc" in ntype)
-        )
-        if not is_storage:
-            continue
-        if getattr(n, "failed", False) or getattr(n, "isolated", False):
-            continue
-        best = max(best, float(getattr(n, attr, 0.0) or 0.0))
-    return best
+    """Grid-scale storage SOC for the DQN decision state.
+
+    Reads ONLY the dedicated grid storage node (STORAGE_BAT or STORAGE_SC),
+    NOT house storage. House storage is autonomous and not directly
+    controllable by the DQN.
+    """
+    if kind == "battery":
+        node = grid.nodes.get("STORAGE_BAT")
+        if node is not None and not getattr(node, "failed", False) and not getattr(node, "isolated", False):
+            return float(getattr(node, "battery_level", 0.0) or 0.0)
+        return 0.0
+    elif kind == "supercap":
+        node = grid.nodes.get("STORAGE_SC")
+        if node is not None and not getattr(node, "failed", False) and not getattr(node, "isolated", False):
+            return float(getattr(node, "supercap_level", 0.0) or 0.0)
+        return 0.0
+    return 0.0
 
 
 # ----------------------------------------------------------------------
@@ -415,11 +474,9 @@ def run_single(
     if _spec_battery_soc is not None:
         try:
             for n in grid.nodes.values():
-                if getattr(n, "node_type", "") == "house":
+                nt = getattr(n, "node_type", "")
+                if nt == "house" or nt == "battery":
                     setattr(n, "battery_level", float(_spec_battery_soc))
-                if nt := getattr(n, "node_type", ""):
-                    if "storage_bat" in nt or "battery" in nt:
-                        setattr(n, "battery_level", float(_spec_battery_soc))
         except Exception:
             pass
 

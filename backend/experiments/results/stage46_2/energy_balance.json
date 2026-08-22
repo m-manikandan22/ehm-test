@@ -1,0 +1,15 @@
+{
+  "scenario": "A",
+  "seed": 0,
+  "reference_step": 34,
+  "generation_mw": 49.425642,
+  "load_mw": 21.392277,
+  "received_power_mw": 221.114809,
+  "deficit_mw": 14.341706,
+  "excess_mw": 42.375071,
+  "dc_losses_mw": 0.9557,
+  "grid_import_proxy_mw": 0.0,
+  "grid_export_proxy_mw": 28.033365,
+  "generation_minus_load_minus_excess_minus_deficit": 0.0,
+  "accounting_model": "The simulator does NOT track a single closed energy balance. It tracks per-node generation/load, per-node excess/deficit (post auto-charge), BFS received_power, and DC line losses. Storage auto-charge in node.step() consumes surplus before excess_energy is computed; storage discharge appears as generation injection (battery) or node-local load offset (supercap). A closed-form conservation equation is NOT enforced; the closest identity is gen - load = excess - deficit after auto-charge."
+}

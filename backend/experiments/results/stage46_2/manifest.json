@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage46.2.manifest.1.0",
+  "experiment": "stage46_2_storage_audit",
+  "checkpoint": "C:\\Users\\ELCOT\\Music\\EHM-paper\\backend\\experiments\\checkpoints\\dqn_stage44.pt",
+  "checkpoint_sha256": "eb7bbed22a18f13dbe607b908caf7905ec0fd9b9c14f2a80a75c628bac594493",
+  "checkpoint_unchanged": true,
+  "git_sha": "8a3b1d23c604719e874b19480c9f6bbfaf85a45d",
+  "action_probes": 10,
+  "ems_probes": 2,
+  "observability_probes": 2,
+  "priority_scenarios": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "current_representation": {
+    "feature_73_battery": 1.0,
+    "feature_74_supercap": 1.0,
+    "formula": "max(house_SOC, grid_SOC)"
+  },
+  "hypothetical_direct": {
+    "feature_73_grid_battery": 0.55,
+    "feature_74_grid_supercap": 0.667,
+    "formula": "grid_SOC_only"
+  },
+  "difference": {
+    "battery": -0.44999999999999996,
+    "supercap": -0.33299999999999996
+  },
+  "note": "ANALYTICAL COMPARISON ONLY \u2014 not fed to DQN (checkpoint dimension mismatch would occur)"
+}

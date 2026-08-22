@@ -1,0 +1,3 @@
+Test,Feature,Only_Changed_Index,Q_range_max,Action_Changes,Level_2_Q_Sensitivity,Level_3_Action_Sensitivity
+Battery,73 (battery_soc),73,5.673096,NO,PASS,NOT DEMONSTRATED
+Supercap,74 (supercap_soc),74,0.223145,NO,PASS,NOT DEMONSTRATED

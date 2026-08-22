@@ -1,0 +1,82 @@
+[
+  {
+    "scenario": "A",
+    "characterization": {
+      "balance_mw": 33.180586,
+      "system_deficit_mw": 13.894188,
+      "system_excess_mw": 47.074774,
+      "battery_available_mwh": 112.5,
+      "supercap_available_mwh": 15.0,
+      "voltage_min": 0.95
+    },
+    "policy_action": 4,
+    "policy_action_name": "reroute_energy",
+    "battery_selected_when_deficit": false,
+    "supercap_selected_when_voltage_low": false,
+    "storage_ever_selected": false
+  },
+  {
+    "scenario": "B",
+    "characterization": {
+      "balance_mw": 30.475686,
+      "system_deficit_mw": 14.065305,
+      "system_excess_mw": 44.540991,
+      "battery_available_mwh": 112.5,
+      "supercap_available_mwh": 15.0,
+      "voltage_min": 0.95
+    },
+    "policy_action": 4,
+    "policy_action_name": "reroute_energy",
+    "battery_selected_when_deficit": false,
+    "supercap_selected_when_voltage_low": false,
+    "storage_ever_selected": false
+  },
+  {
+    "scenario": "C",
+    "characterization": {
+      "balance_mw": 10.653565,
+      "system_deficit_mw": 17.974489,
+      "system_excess_mw": 28.628055,
+      "battery_available_mwh": 112.5,
+      "supercap_available_mwh": 15.0,
+      "voltage_min": 0.95
+    },
+    "policy_action": 4,
+    "policy_action_name": "reroute_energy",
+    "battery_selected_when_deficit": false,
+    "supercap_selected_when_voltage_low": false,
+    "storage_ever_selected": false
+  },
+  {
+    "scenario": "D",
+    "characterization": {
+      "balance_mw": 33.180586,
+      "system_deficit_mw": 13.894188,
+      "system_excess_mw": 46.850643,
+      "battery_available_mwh": 15.0,
+      "supercap_available_mwh": 15.0,
+      "voltage_min": 0.95
+    },
+    "policy_action": 4,
+    "policy_action_name": "reroute_energy",
+    "battery_selected_when_deficit": false,
+    "supercap_selected_when_voltage_low": false,
+    "storage_ever_selected": false
+  },
+  {
+    "scenario": "E",
+    "characterization": {
+      "balance_mw": 7.948665,
+      "system_deficit_mw": 20.679389,
+      "system_excess_mw": 28.628055,
+      "battery_available_mwh": 112.5,
+      "supercap_available_mwh": 15.0,
+      "voltage_min": 0.95
+    },
+    "policy_action": 4,
+    "policy_action_name": "reroute_energy",
+    "battery_selected_when_deficit": false,
+    "supercap_selected_when_voltage_low": false,
+    "storage_ever_selected": false
+  }
+]
